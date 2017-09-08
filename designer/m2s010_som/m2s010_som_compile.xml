@@ -2,8 +2,8 @@
 <?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
 <doc>
 <title>Compile Report</title>
-<text>Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)</text>
-<text>Date: Fri Jul 28 14:13:38 2017
+<text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)</text>
+<text>Date: Fri Sep 08 12:07:08 2017
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,15 +76,15 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\synthesis\m2s010_som.edn</cell>
+ <cell>C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\synthesis\m2s010_som.edn</cell>
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\constraint\io\m2s010_som.io.pdc</cell>
+ <cell>C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\constraint\io\m2s010_som.io.pdc</cell>
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\constraint\fp\m2s010_som.fp.pdc</cell>
+ <cell>C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\constraint\fp\m2s010_som.fp.pdc</cell>
 </row>
 </table>
 <section><name>Options</name></section>

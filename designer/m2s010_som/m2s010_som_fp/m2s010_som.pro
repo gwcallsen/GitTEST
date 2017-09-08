@@ -1,6 +1,6 @@
 <project name="m2s010_som" version="1.1">
     <ProjectDirectory>
-        C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_5_Unified/designer/m2s010_som/m2s010_som_fp
+        C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_som_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,11 +9,19 @@
         M2S060T
     </LiberoTargetDevice>
     <LogFile>
-        C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_5_Unified/designer/m2s010_som/m2s010_som_fp/m2s010_som.log
+        C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_som_fp\m2s010_som.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
+    <programmer status="enable" type="FlashPro4" revision="UndefRev" connection="usb2.0">
+        <name>
+            93272
+        </name>
+        <id>
+            93272
+        </id>
+    </programmer>
     <configuration>
         <Hardware>
             <FlashPro>

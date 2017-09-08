@@ -1,9 +1,9 @@
 #--  Synopsys, Inc.
 #--  Version J-2015.03M-SP1-2
-#--  Project file C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\synthesis\AFE_RX_SM_syn.prj
+#--  Project file C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\synthesis\AFE_RX_SM_syn.prj
 
 #project files
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/AFE_RX_SM.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHub/FPGA_v1.5_w_Libero_v11.8/hdl/AFE_RX_SM.vhd"
 
 
 

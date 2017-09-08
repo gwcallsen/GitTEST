@@ -2,8 +2,8 @@
 <?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
 <doc>
 <title>Global Net Report</title>
-<text>Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)</text>
-<text>Date: Fri Jul 28 14:14:33 2017
+<text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)</text>
+<text>Date: Fri Sep 08 12:08:04 2017
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -149,7 +149,7 @@
 <row>
  <cell>1</cell>
  <cell>CommsFPGA_top_0/BIT_CLK:Q</cell>
- <cell>(653, 175)</cell>
+ <cell>(782, 160)</cell>
  <cell>GB[11] </cell>
  <cell>CommsFPGA_top_0/BIT_CLK_0</cell>
  <cell>ROUTED</cell>
@@ -158,7 +158,7 @@
 <row>
  <cell>2</cell>
  <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2:Y</cell>
- <cell>(708, 165)</cell>
+ <cell>(675, 165)</cell>
  <cell>GB[8] </cell>
  <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2</cell>
  <cell>ROUTED</cell>
@@ -167,7 +167,7 @@
 <row>
  <cell>3</cell>
  <cell>CommsFPGA_top_0/FIFOS_INST/irx_fifo_rst:Y</cell>
- <cell>(711, 174)</cell>
+ <cell>(697, 168)</cell>
  <cell>GB[7] </cell>
  <cell>CommsFPGA_top_0/FIFOS_INST/irx_fifo_rst</cell>
  <cell>ROUTED</cell>
@@ -176,7 +176,7 @@
 <row>
  <cell>4</cell>
  <cell>CommsFPGA_top_0/FIFOS_INST/itx_fifo_rst:Y</cell>
- <cell>(761, 177)</cell>
+ <cell>(738, 174)</cell>
  <cell>GB[14] </cell>
  <cell>CommsFPGA_top_0/FIFOS_INST/itx_fifo_rst</cell>
  <cell>ROUTED</cell>
@@ -185,7 +185,7 @@
 <row>
  <cell>5</cell>
  <cell>CommsFPGA_top_0/long_reset:Q</cell>
- <cell>(773, 187)</cell>
+ <cell>(613, 187)</cell>
  <cell>GB[9] </cell>
  <cell>CommsFPGA_top_0/long_reset_0</cell>
  <cell>ROUTED</cell>
@@ -212,7 +212,7 @@
 <row>
  <cell>8</cell>
  <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/control_reg_RNIS9SH1[1]:Y</cell>
- <cell>(756, 180)</cell>
+ <cell>(721, 168)</cell>
  <cell>GB[6] </cell>
  <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/control_reg_RNIS9SH1[1]</cell>
  <cell>ROUTED</cell>
@@ -230,7 +230,7 @@
 <row>
  <cell>10</cell>
  <cell>m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_clk_base:Q</cell>
- <cell>(787, 145)</cell>
+ <cell>(757, 181)</cell>
  <cell>GB[10] </cell>
  <cell>m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_clk_base_0</cell>
  <cell>ROUTED</cell>
@@ -239,7 +239,7 @@
 <row>
  <cell>11</cell>
  <cell>m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_rcosc:Q</cell>
- <cell>(781, 145)</cell>
+ <cell>(767, 181)</cell>
  <cell>GB[12] </cell>
  <cell>m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_rcosc_0</cell>
  <cell>ROUTED</cell>
@@ -248,7 +248,7 @@
 <row>
  <cell>12</cell>
  <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNIC0QJ:Y</cell>
- <cell>(757, 180)</cell>
+ <cell>(702, 168)</cell>
  <cell>GB[0] </cell>
  <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNIC0QJ</cell>
  <cell>ROUTED</cell>
@@ -257,7 +257,7 @@
 <row>
  <cell>13</cell>
  <cell>CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/rx_crc_reset:Y</cell>
- <cell>(701, 165)</cell>
+ <cell>(691, 162)</cell>
  <cell>GB[2] </cell>
  <cell>CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/rx_crc_reset</cell>
  <cell>ROUTED</cell>
@@ -340,8 +340,8 @@
  <cell>m2s010_som_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
  <cell>332</cell>
  <cell>1</cell>
- <cell>(662, 144)</cell>
- <cell>4</cell>
+ <cell>(663, 195)</cell>
+ <cell>10</cell>
 </row>
 <row>
  <cell> </cell>
@@ -350,6 +350,26 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
+ <cell>(664, 180)</cell>
+ <cell>51</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(664, 186)</cell>
+ <cell>30</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
  <cell>(664, 192)</cell>
  <cell>6</cell>
 </row>
@@ -359,9 +379,9 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>3</cell>
- <cell>(664, 201)</cell>
  <cell>5</cell>
+ <cell>(664, 201)</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell> </cell>
@@ -369,7 +389,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>4</cell>
+ <cell>6</cell>
  <cell>(664, 204)</cell>
  <cell>1</cell>
 </row>
@@ -379,29 +399,9 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>5</cell>
- <cell>(666, 165)</cell>
- <cell>9</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>6</cell>
- <cell>(666, 183)</cell>
- <cell>40</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
  <cell>7</cell>
- <cell>(666, 186)</cell>
- <cell>44</cell>
+ <cell>(665, 177)</cell>
+ <cell>48</cell>
 </row>
 <row>
  <cell> </cell>
@@ -410,8 +410,8 @@
  <cell></cell>
  <cell></cell>
  <cell>8</cell>
- <cell>(667, 168)</cell>
- <cell>12</cell>
+ <cell>(665, 183)</cell>
+ <cell>48</cell>
 </row>
 <row>
  <cell> </cell>
@@ -420,27 +420,7 @@
  <cell></cell>
  <cell></cell>
  <cell>9</cell>
- <cell>(667, 180)</cell>
- <cell>64</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>10</cell>
- <cell>(667, 189)</cell>
- <cell>25</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>11</cell>
- <cell>(668, 171)</cell>
+ <cell>(666, 162)</cell>
  <cell>24</cell>
 </row>
 <row>
@@ -449,9 +429,29 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
+ <cell>10</cell>
+ <cell>(666, 168)</cell>
+ <cell>11</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>11</cell>
+ <cell>(667, 165)</cell>
+ <cell>20</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
  <cell>12</cell>
- <cell>(668, 174)</cell>
- <cell>46</cell>
+ <cell>(667, 171)</cell>
+ <cell>11</cell>
 </row>
 <row>
  <cell> </cell>
@@ -460,8 +460,28 @@
  <cell></cell>
  <cell></cell>
  <cell>13</cell>
- <cell>(668, 177)</cell>
- <cell>52</cell>
+ <cell>(667, 174)</cell>
+ <cell>31</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>14</cell>
+ <cell>(667, 189)</cell>
+ <cell>30</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>15</cell>
+ <cell>(668, 159)</cell>
+ <cell>9</cell>
 </row>
 <row>
  <cell>2</cell>
@@ -470,16 +490,6 @@
  <cell>CommsFPGA_CCC_0/GL0_INST/U0_YWn_GEast</cell>
  <cell>314</cell>
  <cell>1</cell>
- <cell>(663, 159)</cell>
- <cell>12</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>2</cell>
  <cell>(663, 192)</cell>
  <cell>5</cell>
 </row>
@@ -489,9 +499,19 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
+ <cell>2</cell>
+ <cell>(664, 147)</cell>
+ <cell>34</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
  <cell>3</cell>
- <cell>(664, 183)</cell>
- <cell>8</cell>
+ <cell>(664, 153)</cell>
+ <cell>7</cell>
 </row>
 <row>
  <cell> </cell>
@@ -500,8 +520,8 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(665, 162)</cell>
- <cell>17</cell>
+ <cell>(664, 156)</cell>
+ <cell>28</cell>
 </row>
 <row>
  <cell> </cell>
@@ -510,8 +530,8 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(665, 165)</cell>
- <cell>49</cell>
+ <cell>(664, 162)</cell>
+ <cell>47</cell>
 </row>
 <row>
  <cell> </cell>
@@ -520,8 +540,8 @@
  <cell></cell>
  <cell></cell>
  <cell>6</cell>
- <cell>(665, 180)</cell>
- <cell>8</cell>
+ <cell>(664, 168)</cell>
+ <cell>9</cell>
 </row>
 <row>
  <cell> </cell>
@@ -530,8 +550,8 @@
  <cell></cell>
  <cell></cell>
  <cell>7</cell>
- <cell>(665, 189)</cell>
- <cell>13</cell>
+ <cell>(664, 177)</cell>
+ <cell>11</cell>
 </row>
 <row>
  <cell> </cell>
@@ -540,8 +560,8 @@
  <cell></cell>
  <cell></cell>
  <cell>8</cell>
- <cell>(666, 168)</cell>
- <cell>79</cell>
+ <cell>(664, 183)</cell>
+ <cell>23</cell>
 </row>
 <row>
  <cell> </cell>
@@ -550,8 +570,8 @@
  <cell></cell>
  <cell></cell>
  <cell>9</cell>
- <cell>(666, 177)</cell>
- <cell>30</cell>
+ <cell>(665, 150)</cell>
+ <cell>10</cell>
 </row>
 <row>
  <cell> </cell>
@@ -560,8 +580,8 @@
  <cell></cell>
  <cell></cell>
  <cell>10</cell>
- <cell>(667, 171)</cell>
- <cell>69</cell>
+ <cell>(665, 165)</cell>
+ <cell>16</cell>
 </row>
 <row>
  <cell> </cell>
@@ -570,8 +590,28 @@
  <cell></cell>
  <cell></cell>
  <cell>11</cell>
- <cell>(667, 174)</cell>
- <cell>24</cell>
+ <cell>(665, 171)</cell>
+ <cell>61</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>12</cell>
+ <cell>(665, 174)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>13</cell>
+ <cell>(666, 159)</cell>
+ <cell>61</cell>
 </row>
 <row>
  <cell>3</cell>
@@ -580,6 +620,16 @@
  <cell>CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2/U0_YWn_GEast</cell>
  <cell>258</cell>
  <cell>1</cell>
+ <cell>(662, 144)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
  <cell>(662, 192)</cell>
  <cell>1</cell>
 </row>
@@ -589,18 +639,8 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>2</cell>
- <cell>(663, 138)</cell>
- <cell>17</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
  <cell>3</cell>
- <cell>(663, 141)</cell>
+ <cell>(663, 90)</cell>
  <cell>17</cell>
 </row>
 <row>
@@ -610,7 +650,7 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(663, 147)</cell>
+ <cell>(663, 141)</cell>
  <cell>17</cell>
 </row>
 <row>
@@ -621,86 +661,6 @@
  <cell></cell>
  <cell>5</cell>
  <cell>(663, 153)</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>6</cell>
- <cell>(663, 183)</cell>
- <cell>39</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>7</cell>
- <cell>(664, 162)</cell>
- <cell>4</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>8</cell>
- <cell>(664, 180)</cell>
- <cell>11</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>9</cell>
- <cell>(664, 186)</cell>
- <cell>32</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>10</cell>
- <cell>(664, 189)</cell>
- <cell>18</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>11</cell>
- <cell>(665, 168)</cell>
- <cell>13</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>12</cell>
- <cell>(665, 171)</cell>
- <cell>23</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>13</cell>
- <cell>(665, 177)</cell>
  <cell>37</cell>
 </row>
 <row>
@@ -709,9 +669,89 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
+ <cell>6</cell>
+ <cell>(663, 162)</cell>
+ <cell>29</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7</cell>
+ <cell>(663, 168)</cell>
+ <cell>47</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>8</cell>
+ <cell>(663, 186)</cell>
+ <cell>5</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>9</cell>
+ <cell>(664, 150)</cell>
+ <cell>21</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>10</cell>
+ <cell>(664, 159)</cell>
+ <cell>15</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>11</cell>
+ <cell>(664, 165)</cell>
+ <cell>21</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>12</cell>
+ <cell>(664, 171)</cell>
+ <cell>19</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>13</cell>
+ <cell>(664, 174)</cell>
+ <cell>12</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
  <cell>14</cell>
- <cell>(666, 174)</cell>
- <cell>28</cell>
+ <cell>(664, 189)</cell>
+ <cell>15</cell>
 </row>
 <row>
  <cell>4</cell>
@@ -720,7 +760,7 @@
  <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNISH6E/U0_YWn_GEast</cell>
  <cell>228</cell>
  <cell>1</cell>
- <cell>(662, 138)</cell>
+ <cell>(662, 90)</cell>
  <cell>1</cell>
 </row>
 <row>
@@ -741,7 +781,7 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(662, 147)</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell> </cell>
@@ -750,8 +790,8 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(662, 153)</cell>
- <cell>1</cell>
+ <cell>(662, 150)</cell>
+ <cell>14</cell>
 </row>
 <row>
  <cell> </cell>
@@ -760,8 +800,8 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(662, 159)</cell>
- <cell>12</cell>
+ <cell>(662, 153)</cell>
+ <cell>28</cell>
 </row>
 <row>
  <cell> </cell>
@@ -770,8 +810,8 @@
  <cell></cell>
  <cell></cell>
  <cell>6</cell>
- <cell>(662, 162)</cell>
- <cell>3</cell>
+ <cell>(662, 156)</cell>
+ <cell>11</cell>
 </row>
 <row>
  <cell> </cell>
@@ -780,8 +820,8 @@
  <cell></cell>
  <cell></cell>
  <cell>7</cell>
- <cell>(662, 171)</cell>
- <cell>36</cell>
+ <cell>(662, 159)</cell>
+ <cell>62</cell>
 </row>
 <row>
  <cell> </cell>
@@ -790,8 +830,8 @@
  <cell></cell>
  <cell></cell>
  <cell>8</cell>
- <cell>(662, 174)</cell>
- <cell>22</cell>
+ <cell>(662, 162)</cell>
+ <cell>75</cell>
 </row>
 <row>
  <cell> </cell>
@@ -800,8 +840,8 @@
  <cell></cell>
  <cell></cell>
  <cell>9</cell>
- <cell>(662, 177)</cell>
- <cell>26</cell>
+ <cell>(662, 165)</cell>
+ <cell>5</cell>
 </row>
 <row>
  <cell> </cell>
@@ -810,8 +850,8 @@
  <cell></cell>
  <cell></cell>
  <cell>10</cell>
- <cell>(662, 180)</cell>
- <cell>6</cell>
+ <cell>(662, 168)</cell>
+ <cell>19</cell>
 </row>
 <row>
  <cell> </cell>
@@ -820,8 +860,8 @@
  <cell></cell>
  <cell></cell>
  <cell>11</cell>
- <cell>(662, 183)</cell>
- <cell>12</cell>
+ <cell>(662, 171)</cell>
+ <cell>5</cell>
 </row>
 <row>
  <cell> </cell>
@@ -830,7 +870,7 @@
  <cell></cell>
  <cell></cell>
  <cell>12</cell>
- <cell>(662, 186)</cell>
+ <cell>(662, 174)</cell>
  <cell>3</cell>
 </row>
 <row>
@@ -840,8 +880,8 @@
  <cell></cell>
  <cell></cell>
  <cell>13</cell>
- <cell>(662, 189)</cell>
- <cell>4</cell>
+ <cell>(662, 177)</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell> </cell>
@@ -850,18 +890,8 @@
  <cell></cell>
  <cell></cell>
  <cell>14</cell>
- <cell>(663, 165)</cell>
- <cell>17</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>15</cell>
- <cell>(663, 168)</cell>
- <cell>83</cell>
+ <cell>(662, 180)</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell>5</cell>
@@ -870,8 +900,8 @@
  <cell>CommsFPGA_top_0/FIFOS_INST/irx_fifo_rst_RNIS228/U0_YWn_GEast</cell>
  <cell>183</cell>
  <cell>1</cell>
- <cell>(663, 180)</cell>
- <cell>8</cell>
+ <cell>(663, 171)</cell>
+ <cell>51</cell>
 </row>
 <row>
  <cell> </cell>
@@ -880,8 +910,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(663, 186)</cell>
- <cell>12</cell>
+ <cell>(663, 174)</cell>
+ <cell>15</cell>
 </row>
 <row>
  <cell> </cell>
@@ -890,8 +920,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(663, 189)</cell>
- <cell>26</cell>
+ <cell>(663, 177)</cell>
+ <cell>38</cell>
 </row>
 <row>
  <cell> </cell>
@@ -900,7 +930,67 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(664, 171)</cell>
+ <cell>(663, 180)</cell>
+ <cell>24</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(663, 183)</cell>
+ <cell>45</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(663, 189)</cell>
+ <cell>10</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>GB[14] </cell>
+ <cell>(452, 108)</cell>
+ <cell>CommsFPGA_top_0/FIFOS_INST/itx_fifo_rst_RNIUMSA/U0_YWn_GEast</cell>
+ <cell>158</cell>
+ <cell>1</cell>
+ <cell>(662, 195)</cell>
+ <cell>10</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(663, 144)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(665, 162)</cell>
+ <cell>24</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(665, 168)</cell>
  <cell>46</cell>
 </row>
 <row>
@@ -910,8 +1000,8 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(664, 177)</cell>
- <cell>52</cell>
+ <cell>(665, 189)</cell>
+ <cell>12</cell>
 </row>
 <row>
  <cell> </cell>
@@ -920,18 +1010,8 @@
  <cell></cell>
  <cell></cell>
  <cell>6</cell>
- <cell>(665, 174)</cell>
- <cell>39</cell>
-</row>
-<row>
- <cell>6</cell>
- <cell>GB[14] </cell>
- <cell>(452, 108)</cell>
- <cell>CommsFPGA_top_0/FIFOS_INST/itx_fifo_rst_RNIUMSA/U0_YWn_GEast</cell>
- <cell>158</cell>
- <cell>1</cell>
- <cell>(665, 183)</cell>
- <cell>48</cell>
+ <cell>(666, 165)</cell>
+ <cell>24</cell>
 </row>
 <row>
  <cell> </cell>
@@ -939,9 +1019,9 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>2</cell>
- <cell>(665, 186)</cell>
- <cell>34</cell>
+ <cell>7</cell>
+ <cell>(666, 171)</cell>
+ <cell>19</cell>
 </row>
 <row>
  <cell> </cell>
@@ -949,9 +1029,9 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>3</cell>
- <cell>(666, 180)</cell>
- <cell>45</cell>
+ <cell>8</cell>
+ <cell>(666, 174)</cell>
+ <cell>12</cell>
 </row>
 <row>
  <cell> </cell>
@@ -959,19 +1039,9 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>4</cell>
- <cell>(666, 189)</cell>
- <cell>26</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>5</cell>
- <cell>(667, 177)</cell>
- <cell>5</cell>
+ <cell>9</cell>
+ <cell>(667, 159)</cell>
+ <cell>9</cell>
 </row>
 <row>
  <cell>7</cell>
@@ -980,8 +1050,8 @@
  <cell>CommsFPGA_top_0/long_reset_RNIUA27/U0_YWn_GEast</cell>
  <cell>103</cell>
  <cell>1</cell>
- <cell>(667, 183)</cell>
- <cell>20</cell>
+ <cell>(666, 177)</cell>
+ <cell>19</cell>
 </row>
 <row>
  <cell> </cell>
@@ -990,7 +1060,7 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(667, 186)</cell>
+ <cell>(666, 180)</cell>
  <cell>20</cell>
 </row>
 <row>
@@ -1000,8 +1070,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(668, 180)</cell>
- <cell>15</cell>
+ <cell>(666, 186)</cell>
+ <cell>22</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1010,8 +1080,8 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(669, 174)</cell>
- <cell>23</cell>
+ <cell>(667, 183)</cell>
+ <cell>18</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1020,8 +1090,18 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(669, 177)</cell>
- <cell>25</cell>
+ <cell>(668, 171)</cell>
+ <cell>11</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(668, 174)</cell>
+ <cell>13</cell>
 </row>
 <row>
  <cell>8</cell>
@@ -1030,8 +1110,8 @@
  <cell>m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST_RNI1CJ7/U0_YWn_GEast</cell>
  <cell>77</cell>
  <cell>1</cell>
- <cell>(663, 198)</cell>
- <cell>11</cell>
+ <cell>(663, 201)</cell>
+ <cell>74</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1040,8 +1120,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(663, 201)</cell>
- <cell>65</cell>
+ <cell>(663, 204)</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1050,8 +1130,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(663, 204)</cell>
- <cell>1</cell>
+ <cell>(666, 189)</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -1060,8 +1140,8 @@
  <cell>m2s010_som_sb_0/m2s010_som_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPG5/U0_YWn_GEast</cell>
  <cell>75</cell>
  <cell>1</cell>
- <cell>(662, 198)</cell>
- <cell>11</cell>
+ <cell>(662, 201)</cell>
+ <cell>74</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1070,16 +1150,6 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(662, 201)</cell>
- <cell>63</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>3</cell>
  <cell>(662, 204)</cell>
  <cell>1</cell>
 </row>
@@ -1090,8 +1160,8 @@
  <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/control_reg_RNIS9SH1_0[1]/U0_YWn_GEast</cell>
  <cell>49</cell>
  <cell>1</cell>
- <cell>(663, 162)</cell>
- <cell>4</cell>
+ <cell>(663, 147)</cell>
+ <cell>32</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1100,28 +1170,8 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(663, 171)</cell>
+ <cell>(663, 150)</cell>
  <cell>17</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>3</cell>
- <cell>(664, 165)</cell>
- <cell>20</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>4</cell>
- <cell>(664, 168)</cell>
- <cell>8</cell>
 </row>
 <row>
  <cell>11</cell>
@@ -1130,7 +1180,7 @@
  <cell>m2s010_som_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YWn_GEast</cell>
  <cell>20</cell>
  <cell>1</cell>
- <cell>(663, 144)</cell>
+ <cell>(665, 180)</cell>
  <cell>2</cell>
 </row>
 <row>
@@ -1140,8 +1190,18 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(667, 165)</cell>
- <cell>18</cell>
+ <cell>(665, 186)</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(666, 183)</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>12</cell>
@@ -1150,8 +1210,8 @@
  <cell>m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIEFM9/U0_YWn_GEast</cell>
  <cell>19</cell>
  <cell>1</cell>
- <cell>(662, 165)</cell>
- <cell>7</cell>
+ <cell>(662, 183)</cell>
+ <cell>3</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1160,7 +1220,17 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(662, 168)</cell>
+ <cell>(662, 186)</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(662, 189)</cell>
  <cell>12</cell>
 </row>
 <row>
@@ -1169,19 +1239,9 @@
  <cell>(450, 108)</cell>
  <cell>m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIKFSA/U0_YWn_GEast</cell>
  <cell>18</cell>
- <cell> </cell>
- <cell>(668, 165)</cell>
- <cell>18</cell>
-</row>
-<row>
- <cell>14</cell>
- <cell>GB[0] </cell>
- <cell>(434, 108)</cell>
- <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNIC0QJ_0/U0_YWn_GEast</cell>
- <cell>16</cell>
  <cell>1</cell>
- <cell>(663, 177)</cell>
- <cell>9</cell>
+ <cell>(667, 186)</cell>
+ <cell>16</cell>
 </row>
 <row>
  <cell> </cell>
@@ -1190,8 +1250,18 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(664, 174)</cell>
- <cell>7</cell>
+ <cell>(668, 183)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>GB[0] </cell>
+ <cell>(434, 108)</cell>
+ <cell>CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNIC0QJ_0/U0_YWn_GEast</cell>
+ <cell>16</cell>
+ <cell> </cell>
+ <cell>(663, 165)</cell>
+ <cell>16</cell>
 </row>
 <row>
  <cell>15</cell>
@@ -1199,9 +1269,19 @@
  <cell>(436, 108)</cell>
  <cell>CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/rx_crc_reset_RNI34TD/U0_YWn_GEast</cell>
  <cell>16</cell>
+ <cell>1</cell>
+ <cell>(663, 156)</cell>
+ <cell>12</cell>
+</row>
+<row>
  <cell> </cell>
- <cell>(666, 171)</cell>
- <cell>16</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(665, 159)</cell>
+ <cell>4</cell>
 </row>
 <row>
  <cell>16</cell>
@@ -1210,7 +1290,7 @@
  <cell>CommsFPGA_CCC_0/GL1_INST/U0_YWn_GEast</cell>
  <cell>2</cell>
  <cell> </cell>
- <cell>(663, 174)</cell>
+ <cell>(663, 159)</cell>
  <cell>2</cell>
 </row>
 </table>

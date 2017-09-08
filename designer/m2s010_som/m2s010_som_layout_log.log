@@ -14,10 +14,10 @@ Info:  I/O Bank and Globals Assigner identified bank 'Bank9' as being fixed at V
 Info:   I/O Bank and Globals Assigner detected (1) out of (10) I/O Bank(s) with locked I/O technologies.
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 1 seconds
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
-Placer V4.0 - 11.8.0 
-Design: m2s010_som                      Started: Fri Jul 28 14:13:56 2017
+Placer V4.0 - 11.8.1 
+Design: m2s010_som                      Started: Fri Sep 08 12:07:27 2017
 
 Initializing Timing-Driven Placement ...
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/un2_apb3_addr_12:Y.
@@ -30,79 +30,58 @@ Placement Runtime            : 10 seconds
 Placer completed successfully.
 
 Design: m2s010_som                      
-Finished: Fri Jul 28 14:14:32 2017
-Total CPU Time:     00:00:34            Total Elapsed Time: 00:00:36
-Total Memory Usage: 438.5 Mbytes
+Finished: Fri Sep 08 12:08:03 2017
+Total CPU Time:     00:00:35            Total Elapsed Time: 00:00:36
+Total Memory Usage: 450.8 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_somStarted: Fri Jul 28 14:14:38 2017
+Design: C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_somStarted: Fri Sep 08 12:08:08 2017
 
-Final stats: search run time 2.521567
+Final stats: search run time 2.804575
 
 Router completed successfully.
 
-Design: C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_som
-Finished: Fri Jul 28 14:15:00 2017
+Design: C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_som
+Finished: Fri Sep 08 12:08:30 2017
 Total CPU Time:     00:00:21            Total Elapsed Time: 00:00:22
-Total Memory Usage: 1852.5 Mbytes
+Total Memory Usage: 1852.7 Mbytes
                         o - o - o - o - o - o
 
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/un2_apb3_addr_12:Y.
 The timing models of these gates have been simplified for Static Timing Analysis.
 Info: Iteration 1:
-  Total violating paths eligible for improvement: 23
-  Worst minimum delay slack: -1.506 ns
+  Total violating paths eligible for improvement: 19
+  Worst minimum delay slack: -1.233 ns
 
 Router 
-Design: C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_somStarted: Fri Jul 28 14:15:22 2017
+Design: C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_somStarted: Fri Sep 08 12:08:51 2017
 
 Loading routing information for ECO mode...
-After loading previous routing information: Shorts = 0. Open nets = 60.
-Final stats: search run time 0.304665
+After loading previous routing information: Shorts = 0. Open nets = 49.
+Final stats: search run time 0.449410
 
 Router completed successfully.
 
-Design: C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_som
-Finished: Fri Jul 28 14:15:42 2017
-Total CPU Time:     00:00:19            Total Elapsed Time: 00:00:20
-Total Memory Usage: 1852.5 Mbytes
+Design: C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_som
+Finished: Fri Sep 08 12:09:10 2017
+Total CPU Time:     00:00:18            Total Elapsed Time: 00:00:19
+Total Memory Usage: 1852.9 Mbytes
                         o - o - o - o - o - o
 
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/un2_apb3_addr_12:Y.
 The timing models of these gates have been simplified for Static Timing Analysis.
 Info: Iteration 2:
-  Total violating paths eligible for improvement: 6
-  Worst minimum delay slack: -1.506 ns
-
-Router 
-Design: C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_somStarted: Fri Jul 28 14:16:04 2017
-
-Loading routing information for ECO mode...
-After loading previous routing information: Shorts = 0. Open nets = 10.
-Final stats: search run time 0.124172
-
-Router completed successfully.
-
-Design: C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_som
-Finished: Fri Jul 28 14:16:24 2017
-Total CPU Time:     00:00:19            Total Elapsed Time: 00:00:20
-Total Memory Usage: 1852.5 Mbytes
-                        o - o - o - o - o - o
-
-While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/un2_apb3_addr_12:Y.
-The timing models of these gates have been simplified for Static Timing Analysis.
-Info: Iteration 3:
-  Total violating paths eligible for improvement: 2
-  Worst minimum delay slack: -1.506 ns
+  Total violating paths eligible for improvement: 7
+  Worst minimum delay slack: -1.233 ns
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 1445 | 56520 | 2.56       |
+| 4LUT          | 1436 | 56520 | 2.54       |
 | DFF           | 1228 | 56520 | 2.17       |
 | I/O Register  | 0    | 594   | 0.00       |
-| Logic Element | 1638 | 56520 | 2.90       |
+| Logic Element | 1632 | 56520 | 2.89       |
 +---------------+------+-------+------------+
 

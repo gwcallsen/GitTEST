@@ -81,15 +81,15 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\synthesis\m2s010_som.edn"}
+    -value {"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\synthesis\m2s010_som.edn"}
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\constraint\io\m2s010_som.io.pdc"}
+    -value {"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\constraint\io\m2s010_som.io.pdc"}
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\constraint\fp\m2s010_som.fp.pdc"}
+    -value {"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\constraint\fp\m2s010_som.fp.pdc"}
 set_compile_info \
     -category {"Options"} \
     -name {"Merge User SDC file(s) with Existing Timing Constraints"} \
@@ -111,11 +111,11 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som} \
+    -desdir {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som} \
     -design m2s010_som \
     -fam SmartFusion2 \
     -die PA4M6000 \
     -pkg fcs325 \
-    -pdc_file {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\constraint\io\m2s010_som.io.pdc} \
-    -pdc_file {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\constraint\fp\m2s010_som.fp.pdc} \
+    -pdc_file {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\constraint\io\m2s010_som.io.pdc} \
+    -pdc_file {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\constraint\fp\m2s010_som.fp.pdc} \
     -merge_pdc 0

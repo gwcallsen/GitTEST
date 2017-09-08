@@ -1,4 +1,4 @@
-# Fri Jul 28 14:13:25 2017
+# Fri Sep 08 12:06:49 2017
 
 Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -12,7 +12,7 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
@@ -24,18 +24,18 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
 
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_sdif3_core because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.release_sdif2_core. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_sdif2_core because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.release_sdif1_core. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance aempty_r (in view: corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance aempty_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_sdif3_core because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.release_sdif2_core. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_sdif2_core because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.release_sdif1_core. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance aempty_r (in view: corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance aempty_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
 
 Available hyper_sources - for debug and ip models
 	None Found
@@ -43,13 +43,13 @@ Available hyper_sources - for debug and ip models
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
-@N: MO230 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\up_if.vhd":487:6:487:7|Found up-down counter in view:work.uP_if(behavioral) instance RX_packet_depth[7:0]  
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":910:6:910:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance memraddr_r[10:0] 
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":888:6:888:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance memwaddr_r[10:0] 
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":730:6:730:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance rptr[11:0] 
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":706:6:706:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance wptr[11:0] 
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":730:6:730:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance rptr[13:0] 
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":706:6:706:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance wptr[13:0] 
+@N: MO230 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\up_if.vhd":487:6:487:7|Found up-down counter in view:work.uP_if(behavioral) instance RX_packet_depth[7:0]  
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":910:6:910:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance memraddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":888:6:888:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance memwaddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":730:6:730:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance rptr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":706:6:706:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance wptr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":730:6:730:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance rptr[13:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":706:6:706:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance wptr[13:0] 
 Encoding state machine TX_STATE[0:8] (in view: work.TX_SM(behavioral))
 original code -> new code
    000000001 -> 000000001
@@ -61,11 +61,11 @@ original code -> new code
    001000000 -> 001000000
    010000000 -> 010000000
    100000000 -> 100000000
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\tx_sm.vhd":147:6:147:7|Found counter in view:work.TX_SM(behavioral) instance tx_byte_cntr[11:0] 
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\tx_sm.vhd":147:6:147:7|Found counter in view:work.TX_SM(behavioral) instance txen_early_cntr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\tx_sm.vhd":147:6:147:7|Found counter in view:work.TX_SM(behavioral) instance tx_byte_cntr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\tx_sm.vhd":147:6:147:7|Found counter in view:work.TX_SM(behavioral) instance txen_early_cntr[11:0] 
 @N: MF179 :|Found 12 by 12 bit equality operator ('==') TX_SM\.un26_tx_byte_cntr (in view: work.TX_SM(behavioral))
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\idlelinedetector.vhd":70:4:70:5|Found counter in view:work.IdleLineDetectorZ0(behavioral) instance idle_line_cntr[6:0] 
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\idlelinedetector.vhd":70:4:70:5|Found counter in view:work.IdleLineDetectorZ1(behavioral) instance idle_line_cntr[5:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\idlelinedetector.vhd":70:4:70:5|Found counter in view:work.IdleLineDetectorZ0(behavioral) instance idle_line_cntr[6:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\idlelinedetector.vhd":70:4:70:5|Found counter in view:work.IdleLineDetectorZ1(behavioral) instance idle_line_cntr[5:0] 
 Encoding state machine AFE_RX_STATE[0:4] (in view: work.AFE_RX_SM(behavioral))
 original code -> new code
    00001 -> 00001
@@ -85,49 +85,49 @@ original code -> new code
    00100000000 -> 0010000000
    01000000000 -> 0100000000
    10000000000 -> 1000000000
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\readfifo_write_sm.vhd":259:6:259:7|Found counter in view:work.ReadFIFO_Write_SM(behavioral) instance rx_byte_cntr[11:0] 
-@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\readfifo_write_sm.vhd":481:19:481:55|Found 16 by 16 bit equality operator ('==') ReadFIFO_WR_SM\.un1_sampler_clk1x_en (in view: work.ReadFIFO_Write_SM(behavioral))
-@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\readfifo_write_sm.vhd":400:22:400:57|Found 12 by 12 bit equality operator ('==') ReadFIFO_WR_SM\.un58_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
-@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\readfifo_write_sm.vhd":343:29:343:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un29_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
-@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\readfifo_write_sm.vhd":344:29:344:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un32_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
-@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\readfifo_write_sm.vhd":345:29:345:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un35_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
-@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\hdl\readfifo_write_sm.vhd":346:29:346:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un38_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\readfifo_write_sm.vhd":259:6:259:7|Found counter in view:work.ReadFIFO_Write_SM(behavioral) instance rx_byte_cntr[11:0] 
+@N: MF179 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\readfifo_write_sm.vhd":481:19:481:55|Found 16 by 16 bit equality operator ('==') ReadFIFO_WR_SM\.un1_sampler_clk1x_en (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\readfifo_write_sm.vhd":400:22:400:57|Found 12 by 12 bit equality operator ('==') ReadFIFO_WR_SM\.un58_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\readfifo_write_sm.vhd":343:29:343:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un29_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\readfifo_write_sm.vhd":344:29:344:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un32_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\readfifo_write_sm.vhd":345:29:345:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un35_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\hdl\readfifo_write_sm.vhd":346:29:346:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un38_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
 Encoding state machine state[0:2] (in view: work.CoreConfigP(rtl))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Register bit paddr[16] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[31] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[30] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[29] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[28] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[27] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[26] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[25] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[24] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[23] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[22] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[21] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[20] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[19] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Register bit paddr[16] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[31] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[30] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[29] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[28] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[27] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[26] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[25] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[24] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[23] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[22] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[21] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[20] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[19] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
 original code -> new code
    000 -> 0000001
@@ -137,7 +137,7 @@ original code -> new code
    100 -> 0010000
    101 -> 0100000
    110 -> 1000000
-@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found counter in view:work.CoreResetP(rtl) instance count_ddr[13:0] 
+@N: MO231 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found counter in view:work.CoreResetP(rtl) instance count_ddr[13:0] 
 
 Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
 
@@ -163,7 +163,7 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CP
 Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 157MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 160MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 160MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -175,10 +175,10 @@ Pass		 CPU time		Worst Slack		Luts / Registers
    5		0h:00m:02s		    -4.52ns		1195 /       978
 
 
-   6		0h:00m:03s		    -4.52ns		1196 /       978
-   7		0h:00m:03s		    -4.52ns		1198 /       978
-   8		0h:00m:03s		    -4.52ns		1198 /       978
-@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance m2s010_som_sb_0.CORECONFIGP_0.paddr[14] (in view: work.m2s010_som(rtl)) because it does not drive other instances.
+   6		0h:00m:02s		    -4.52ns		1196 /       978
+   7		0h:00m:02s		    -4.52ns		1198 /       978
+   8		0h:00m:02s		    -4.52ns		1198 /       978
+@N: BN362 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance m2s010_som_sb_0.CORECONFIGP_0.paddr[14] (in view: work.m2s010_som(rtl)) because it does not drive other instances.
 @N: FP130 |Promoting Net CommsFPGA_top_0.BIT_CLK on CLKINT  I_278 
 @N: FP130 |Promoting Net CommsFPGA_top_0.N_480 on CLKINT  I_279 
 @N: FP130 |Promoting Net CommsFPGA_top_0.FIFOS_INST.irx_fifo_rst_i on CLKINT  I_280 
@@ -255,12 +255,12 @@ Clock Tree ID     Driving Element                                               
 
 Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 125MB peak: 162MB)
 
-Writing Analyst data base C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\synthesis\synwork\m2s010_som_m.srm
+Writing Analyst data base C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\synthesis\synwork\m2s010_som_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 155MB peak: 162MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 162MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\synthesis\m2s010_som.edn
+@N: FX1056 |Writing EDF file: C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\synthesis\m2s010_som.edn
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 L-2016.09M-2
@@ -268,10 +268,10 @@ L-2016.09M-2
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 162MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 155MB peak: 162MB)
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 155MB peak: 162MB)
 
-@W: MT246 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\m2s010_som_sb\fabosc_0\m2s010_som_sb_fabosc_0_osc.vhd":66:4:66:11|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-@W: MT246 :"c:\users\gcallsen\documents\projects\fpga\ppi.irail.soc.fpga\component\work\m2s010_som_sb\ccc_0\m2s010_som_sb_ccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\m2s010_som_sb\fabosc_0\m2s010_som_sb_fabosc_0_osc.vhd":66:4:66:11|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\gcallsen\documents\github\fpga_v1.5_w_libero_v11.8\component\work\m2s010_som_sb\ccc_0\m2s010_som_sb_ccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT420 |Found inferred clock m2s010_som|MAC_MII_RX_CLK with period 10.00ns. Please declare a user-defined clock on object "p:MAC_MII_RX_CLK"
 @W: MT420 |Found inferred clock m2s010_som|MAC_MII_TX_CLK with period 10.00ns. Please declare a user-defined clock on object "p:MAC_MII_TX_CLK"
 @W: MT420 |Found inferred clock m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:m2s010_som_sb_0.m2s010_som_sb_MSS_0.FIC_2_APB_M_PCLK"
@@ -284,7 +284,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Fri Jul 28 14:13:30 2017
+# Timing Report written on Fri Sep 08 12:06:54 2017
 #
 
 
@@ -1056,10 +1056,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 155MB peak: 162MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 155MB peak: 162MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 155MB peak: 162MB)
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 155MB peak: 162MB)
 
 ---------------------------------------
 Resource Usage Report for m2s010_som 
@@ -1118,9 +1118,9 @@ Total number of LUTs after P&R:  1190 + 0 + 216 + 0 = 1406;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 34MB peak: 162MB)
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 34MB peak: 162MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:04s cputime
-# Fri Jul 28 14:13:30 2017
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Fri Sep 08 12:06:54 2017
 
 ###########################################################]

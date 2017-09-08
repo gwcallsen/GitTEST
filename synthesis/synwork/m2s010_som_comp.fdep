@@ -1,4 +1,4 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\synthesis\\synwork\\m2s010_som_comp.srs|-top|work.m2s010_som|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|work|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\synthesis\\synwork\\m2s010_som_comp.srs|-top|work.m2s010_som|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|work|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_vhdl.exe":1479996692
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\location.map":1478822388
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std.vhd":1487959786
@@ -10,124 +10,124 @@
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1487959786
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1487959786
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_doubleSync.vhd":1491486884
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_doubleSync.vhd":1504886640
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\misc.vhd":1487959786
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_grayToBinConv.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\DirectCore\\COREFIFO\\2.5.106\\rtl\\vhdl\\core\\fifo_pkg.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_fwft.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd":1491486884
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_grayToBinConv.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\DirectCore\\COREFIFO\\2.5.106\\rtl\\vhdl\\core\\fifo_pkg.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_fwft.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd":1504886640
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1487959628
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_doubleSync.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_grayToBinConv.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_fwft.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\AFE_RX_SM.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\IdleLineDetector.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\CRC16_Generator.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\TX_Collision_Detector.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\Debounce.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\Interrupts.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som\\CommsFPGA_CCC_0\\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som\\ID_RES_0\\m2s010_som_ID_RES_0_IO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\DirectCore\\CoreConfigP\\7.0.105\\rtl\\vhdl\\core\\coreconfigp.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\CAM_SPI_1_CLK\\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\CAM_SPI_1_SS0\\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\CCC_0\\m2s010_som_sb_CCC_0_FCCC.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\SgCore\\OSC\\1.0.105\\osc_comps.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\GPIO_1\\m2s010_som_sb_GPIO_1_IO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\GPIO_6\\m2s010_som_sb_GPIO_6_IO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\GPIO_7\\m2s010_som_sb_GPIO_7_IO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb_MSS\\m2s010_som_sb_MSS_syn.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\OTH_SPI_1_SS0\\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_async.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_sync.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_sync_scntr.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\COREFIFO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_async.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_sync.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_sync_scntr.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\COREFIFO.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\FIFOs.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\ManchesDecoder_Adapter.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\ReadFIFO_Write_SM.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\ManchesDecoder.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\TX_SM.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\ManchesEncoder.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\TriDebounce.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\uP_if.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\hdl\\CommsFPGA_top.vhd":1490122720
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vhdl\\core\\coreresetp.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\FABOSC_0\\m2s010_som_sb_FABOSC_0_OSC.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb_MSS\\m2s010_som_sb_MSS.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som_sb\\m2s010_som_sb.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1491486884
-#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\PPI.IRail.SoC.FPGA\\component\\work\\m2s010_som\\m2s010_som.vhd":1491486884
-0			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd" vhdl
-1			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd" vhdl
-2			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\DirectCore\COREFIFO\2.5.106\rtl\vhdl\core\fifo_pkg.vhd" vhdl
-3			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd" vhdl
-4			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_fwft.vhd" vhdl
-5			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync.vhd" vhdl
-6			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync_scntr.vhd" vhdl
-7			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd" vhdl
-8			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd" vhdl
-9			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd" vhdl
-10			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd" vhdl
-11			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd" vhdl
-12			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd" vhdl
-13			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd" vhdl
-14			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_fwft.vhd" vhdl
-15			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync.vhd" vhdl
-16			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync_scntr.vhd" vhdl
-17			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd" vhdl
-18			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd" vhdl
-19			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd" vhdl
-20			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd" vhdl
-21			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\FIFOs.vhd" vhdl
-22			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd" vhdl
-23			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\IdleLineDetector.vhd" vhdl
-24			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\ManchesDecoder_Adapter.vhd" vhdl
-25			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\CRC16_Generator.vhd" vhdl
-26			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\ReadFIFO_Write_SM.vhd" vhdl
-27			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\ManchesDecoder.vhd" vhdl
-28			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\TX_Collision_Detector.vhd" vhdl
-29			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\TX_SM.vhd" vhdl
-30			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\ManchesEncoder.vhd" vhdl
-31			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\Debounce.vhd" vhdl
-32			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\TriDebounce.vhd" vhdl
-33			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\Interrupts.vhd" vhdl
-34			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\uP_if.vhd" vhdl
-35			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\hdl\CommsFPGA_top.vhd" vhdl
-36			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd" vhdl
-37			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd" vhdl
-38			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd" vhdl
-39			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
-40			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd" vhdl
-41			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd" vhdl
-42			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd" vhdl
-43			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd" vhdl
-44			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd" vhdl
-45			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd" vhdl
-46			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd" vhdl
-47			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd" vhdl
-48			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\GPIO_7\m2s010_som_sb_GPIO_7_IO.vhd" vhdl
-49			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd" vhdl
-50			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd" vhdl
-51			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd" vhdl
-52			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som_sb\m2s010_som_sb.vhd" vhdl
-53			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
-54			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
-55			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
-56			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
-57			"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\component\work\m2s010_som\m2s010_som.vhd" vhdl
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_doubleSync.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_grayToBinConv.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_fwft.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\AFE_RX_SM.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\IdleLineDetector.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\CRC16_Generator.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\TX_Collision_Detector.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\Debounce.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\Interrupts.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som\\CommsFPGA_CCC_0\\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som\\ID_RES_0\\m2s010_som_ID_RES_0_IO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\DirectCore\\CoreConfigP\\7.0.105\\rtl\\vhdl\\core\\coreconfigp.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\CAM_SPI_1_CLK\\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\CAM_SPI_1_SS0\\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\CCC_0\\m2s010_som_sb_CCC_0_FCCC.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\SgCore\\OSC\\1.0.105\\osc_comps.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\GPIO_1\\m2s010_som_sb_GPIO_1_IO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\GPIO_6\\m2s010_som_sb_GPIO_6_IO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\GPIO_7\\m2s010_som_sb_GPIO_7_IO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb_MSS\\m2s010_som_sb_MSS_syn.vhd":1504886641
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\OTH_SPI_1_SS0\\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_async.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_sync.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_sync_scntr.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\COREFIFO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_async.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_sync.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_sync_scntr.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\COREFIFO.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\FIFOs.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\ManchesDecoder_Adapter.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\ReadFIFO_Write_SM.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\ManchesDecoder.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\TX_SM.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\ManchesEncoder.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\TriDebounce.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\uP_if.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\hdl\\CommsFPGA_top.vhd":1504886642
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vhdl\\core\\coreresetp.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\FABOSC_0\\m2s010_som_sb_FABOSC_0_OSC.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb_MSS\\m2s010_som_sb_MSS.vhd":1504886641
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som_sb\\m2s010_som_sb.vhd":1504886641
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1504886640
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHub\\FPGA_v1.5_w_Libero_v11.8\\component\\work\\m2s010_som\\m2s010_som.vhd":1504886640
+0			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd" vhdl
+1			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd" vhdl
+2			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\DirectCore\COREFIFO\2.5.106\rtl\vhdl\core\fifo_pkg.vhd" vhdl
+3			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd" vhdl
+4			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_fwft.vhd" vhdl
+5			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync.vhd" vhdl
+6			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync_scntr.vhd" vhdl
+7			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd" vhdl
+8			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd" vhdl
+9			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd" vhdl
+10			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd" vhdl
+11			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd" vhdl
+12			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd" vhdl
+13			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd" vhdl
+14			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_fwft.vhd" vhdl
+15			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync.vhd" vhdl
+16			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync_scntr.vhd" vhdl
+17			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd" vhdl
+18			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd" vhdl
+19			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd" vhdl
+20			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd" vhdl
+21			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\FIFOs.vhd" vhdl
+22			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\AFE_RX_SM.vhd" vhdl
+23			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\IdleLineDetector.vhd" vhdl
+24			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\ManchesDecoder_Adapter.vhd" vhdl
+25			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\CRC16_Generator.vhd" vhdl
+26			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\ReadFIFO_Write_SM.vhd" vhdl
+27			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\ManchesDecoder.vhd" vhdl
+28			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\TX_Collision_Detector.vhd" vhdl
+29			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\TX_SM.vhd" vhdl
+30			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\ManchesEncoder.vhd" vhdl
+31			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\Debounce.vhd" vhdl
+32			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\TriDebounce.vhd" vhdl
+33			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\Interrupts.vhd" vhdl
+34			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\uP_if.vhd" vhdl
+35			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\hdl\CommsFPGA_top.vhd" vhdl
+36			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd" vhdl
+37			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd" vhdl
+38			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd" vhdl
+39			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+40			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd" vhdl
+41			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd" vhdl
+42			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd" vhdl
+43			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd" vhdl
+44			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd" vhdl
+45			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd" vhdl
+46			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd" vhdl
+47			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd" vhdl
+48			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\GPIO_7\m2s010_som_sb_GPIO_7_IO.vhd" vhdl
+49			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd" vhdl
+50			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd" vhdl
+51			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd" vhdl
+52			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som_sb\m2s010_som_sb.vhd" vhdl
+53			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+54			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+55			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+56			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+57			"C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\component\work\m2s010_som\m2s010_som.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 1 -1

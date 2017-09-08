@@ -5,11 +5,11 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\synthesis\synlog\report\m2s010_som_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\synthesis\synlog\report\m2s010_som_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <report_link name="Hierarchical Area report">
-<data>C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\synthesis\synlog\report\m2s010_som_fpga_mapper_hier_area_report.xml</data>
+<data>C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\synthesis\synlog\report\m2s010_som_fpga_mapper_hier_area_report.xml</data>
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tooltip="Total Carry Cells used" name="Carry Cells">

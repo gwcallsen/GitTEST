@@ -1,6 +1,6 @@
 # Microsemi Physical design constraints file
 
-# Version: v11.8 11.8.0.26
+# Version: v11.8 SP1 11.8.1.12
 
 # Design Name:  
 
@@ -8,7 +8,7 @@
 
 # Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA , Speed grade: STD 
 
-# Date generated: Fri Jul 28 14:13:38 2017 
+# Date generated: Fri Sep 08 12:07:08 2017 
 
 
 #

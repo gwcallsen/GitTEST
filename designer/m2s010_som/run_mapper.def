@@ -1,5 +1,5 @@
 DESIGN=m2s010_som
-DESDIR=C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som
+DESDIR=C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som
 FAM=SmartFusion2
 DIE=PA4M6000
 PACKAGE=fcs325

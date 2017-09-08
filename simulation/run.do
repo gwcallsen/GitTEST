@@ -1,5 +1,5 @@
 quietly set ACTELLIBNAME SmartFusion2
-quietly set PROJECT_DIR "C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA"
+quietly set PROJECT_DIR "C:/Users/gcallsen/Documents/GitHub/FPGA_v1.5_w_Libero_v11.8"
 source "${PROJECT_DIR}/simulation/CM3_compile_bfm.tcl";source "${PROJECT_DIR}/simulation/bfmtovec_compile.tcl";
 
 if {[file exists presynth/_info]} {

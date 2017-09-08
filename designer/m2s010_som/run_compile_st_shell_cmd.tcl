@@ -116,12 +116,12 @@ if { [string length $inst] != 0 } \
 
 
 save
-set has_violations {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_som_pre_layout_has_violations}
+set has_violations {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_som_pre_layout_has_violations}
 set fp [open $has_violations w]
 puts $fp [has_violations -short]
 close $fp
-report -type combinational_loops -format xml {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_som_combinational_loops.xml}
-if { [catch "file delete -force -- {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\pinslacks.txt}"] } {
+report -type combinational_loops -format xml {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_som_combinational_loops.xml}
+if { [catch "file delete -force -- {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\pinslacks.txt}"] } {
    ;
 }
-report -type slack {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\pinslacks.txt}
+report -type slack {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\pinslacks.txt}

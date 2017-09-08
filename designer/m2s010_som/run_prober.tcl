@@ -1,5 +1,5 @@
 probe \
-    -desdir {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som} \
+    -desdir {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som} \
     -design m2s010_som \
     -fam SmartFusion2 \
     -die PA4M6000 \

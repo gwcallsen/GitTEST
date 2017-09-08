@@ -14,6 +14,6 @@ set_def {VCCI_3.3_VOLTR} {COM}
 set_def USE_TCGEN 1
 set_def NETLIST_TYPE EDIF
 set_name m2s010_som
-set_workdir {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som}
-set_log     {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_som_sdc.log}
+set_workdir {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som}
+set_log     {C:\Users\gcallsen\Documents\GitHub\FPGA_v1.5_w_Libero_v11.8\designer\m2s010_som\m2s010_som_sdc.log}
 set_design_state pre_layout
