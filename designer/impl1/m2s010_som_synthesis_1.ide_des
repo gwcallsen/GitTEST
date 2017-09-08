@@ -1,0 +1,12 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1a\designer\impl1\m2s010_som_synthesis_1.adb"
+LIST SOURCE_FILES
+VALUE "C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1a\synthesis\synthesis_1\m2s010_som.edn;edn"
+VALUE "C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1a\constraint\io\m2s010_som.io.pdc;pdc"
+VALUE "C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1a\constraint\fp\m2s010_som.fp.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1a\synthesis\synthesis_1\m2s010_som_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

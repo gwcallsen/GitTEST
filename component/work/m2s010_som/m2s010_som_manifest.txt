@@ -1,0 +1,20 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)
+
+Date      :  Thu Mar 02 16:37:20 2017
+Project   :  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_xCommon
+Component :  m2s010_som
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som/ID_RES_0/m2s010_som_ID_RES_0_IO.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som/m2s010_som.vhd
+
+Stimulus files for all Simulation tools:
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som/subsystem.bfm
+

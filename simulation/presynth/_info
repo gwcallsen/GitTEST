@@ -1,0 +1,1830 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a/simulation
+Eafe_rx_sm
+Z0 w1490122720
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/simulation
+Z6 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/AFE_RX_SM.vhd
+Z7 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/AFE_RX_SM.vhd
+l0
+L34
+VOCf0[9M4>?=FDDP=ad2<<0
+!s100 T??467TQgz74LSIYoSzB_1
+Z8 OW;C;10.5c;63
+33
+Z9 !s110 1504794358
+!i10b 1
+Z10 !s108 1504794358.000000
+Z11 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/AFE_RX_SM.vhd|
+Z12 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/AFE_RX_SM.vhd|
+!i113 1
+Z13 o-2008 -explicit -work presynth -O0
+Z14 tCvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+Z15 DEx4 work 9 afe_rx_sm 0 22 OCf0[9M4>?=FDDP=ad2<<0
+l79
+L58
+VH=J6<aZOjoa;54:4m:R`e1
+!s100 e<Ke;PGhG?@CKIoYbRF753
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eclk_gen
+Z16 w1491486884
+R2
+R3
+R4
+R5
+Z17 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.vhd
+Z18 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.vhd
+l0
+L5
+VZlR8oL^BRl0Rm=:LN7zz^3
+!s100 TV:NWKJRE3m4P0WUjKKgN1
+R8
+33
+Z19 !s110 1504794361
+!i10b 1
+Z20 !s108 1504794361.000000
+Z21 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.vhd|
+Z22 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.vhd|
+!i113 1
+R13
+R14
+Abehave
+R2
+R3
+R4
+DEx4 work 7 clk_gen 0 22 ZlR8oL^BRl0Rm=:LN7zz^3
+l14
+L11
+V6k=:;7j2A?;;dQ>lE=YIE3
+!s100 T@OO_dfA07HeV5=cETY0d2
+R8
+33
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
+vCLK_GEN
+Z23 !s110 1472670390
+!i10b 1
+!s100 [dUW6HR^gzgWjTm?CcT8`0
+IGoToa9>kEh]B[2TEKo[NM0
+Z24 V`JN@9S9cnhjKRR_L]QIcM3
+Z25 dC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/simulation
+w1469368654
+8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+L0 2
+Z26 OW;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1472670390.913000
+!s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v|
+!s90 -reportprogress|300|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/FULL_TB|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v|
+!s101 -O0
+!i113 1
+Z27 o-work presynth -O0
+Z28 !s92 +incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/CLK_GEN/1.0.1 +incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/RESET_GEN/1.0.1 +incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/FULL_TB -work presynth -O0
+n@c@l@k_@g@e@n
+Ecommsfpga_top
+R0
+R1
+R2
+R3
+R4
+R5
+Z29 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CommsFPGA_top.vhd
+Z30 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CommsFPGA_top.vhd
+l0
+L75
+Vn<9CRQ2@6FKaIT1<O5Y:?3
+!s100 hMoH;Pfajo]=YiOFZGI0<2
+R8
+33
+Z31 !s110 1504794359
+!i10b 1
+Z32 !s108 1504794359.000000
+Z33 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CommsFPGA_top.vhd|
+Z34 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CommsFPGA_top.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+Z35 DEx4 work 14 manchesdecoder 0 22 0E?ka^<NMZIo@4OFj[SSi0
+Z36 DEx4 work 14 manchesencoder 0 22 LUi7IG1HgcdBTc<XR<UX82
+Z37 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z38 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z39 DEx4 work 5 fifos 0 22 >8L4_LbI[L5`KSd:2lT[U2
+Z40 DEx4 work 5 up_if 0 22 Ya:WGPRa00>kY6iQk]zEO3
+Z41 DEx4 work 11 tridebounce 0 22 [Zk3`LHjd:2@SZS3TH:VP2
+R1
+R2
+R3
+R4
+Z42 DEx4 work 13 commsfpga_top 0 22 n<9CRQ2@6FKaIT1<O5Y:?3
+l177
+L111
+VbL9O0Tei69W@m<gW3Uzoh0
+!s100 03:mXjmJ^9b>;mjXYd>^=3
+R8
+33
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R13
+R14
+Ecoreconfigp
+R16
+Z43 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R5
+Z44 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd
+Z45 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd
+l0
+L26
+V97]4FhVdjkGVHBcC0_N7h1
+!s100 aljXWaWaTg<??iiX2WKZ=1
+R8
+33
+Z46 !s110 1504794360
+!i10b 1
+Z47 !s108 1504794360.000000
+Z48 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd|
+Z49 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd|
+!i113 1
+R13
+R14
+Artl
+R43
+R3
+R4
+DEx4 work 11 coreconfigp 0 22 97]4FhVdjkGVHBcC0_N7h1
+l257
+L173
+V<6T`L@fg79eKMXDMP^;b=3
+!s100 c[TgVZkMSg]HcQjJ==2@T2
+R8
+33
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R13
+R14
+vCoreConfigP
+!s110 1472670388
+!i10b 1
+!s100 bXXKDg[LOIel?XPEgJ`M53
+IJzFec0fMAFSZB_RjMe7nH2
+R24
+R25
+Z50 w1469896664
+8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vlog/core/coreconfigp.v
+FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vlog/core/coreconfigp.v
+L0 22
+R26
+r1
+!s85 0
+31
+!s108 1472670388.854000
+!s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vlog/core/coreconfigp.v|
+!s90 -reportprogress|300|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vlog/core/coreconfigp.v|
+!s101 -O0
+!i113 1
+R27
+n@core@config@p
+Ecoreresetp
+R16
+R43
+R3
+R4
+R5
+Z51 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd
+Z52 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd
+l0
+L27
+VIgc:WlM:`ebDzMT]LZzK]3
+!s100 YLjeP@<^Y3b;=bmggndLD0
+R8
+33
+R46
+!i10b 1
+R47
+Z53 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd|
+Z54 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd|
+!i113 1
+R13
+R14
+Artl
+R43
+R3
+R4
+DEx4 work 10 coreresetp 0 22 Igc:WlM:`ebDzMT]LZzK]3
+l470
+L195
+Vc0Mj^5h36OK0Yi2Hd77eb1
+!s100 [T8^0JV<MYVmgglWm8L>O1
+R8
+33
+R46
+!i10b 1
+R47
+R53
+R54
+!i113 1
+R13
+R14
+vCoreResetP
+Z55 !s110 1472670389
+!i10b 1
+!s100 OD5Fn3EVhTWEeGkUMzYHQ0
+Iz3m@G^?XDz?4YBWNHm[WI2
+R24
+R25
+R50
+8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v
+FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v
+L0 23
+R26
+r1
+!s85 0
+31
+!s108 1472670389.416000
+!s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v|
+!s90 -reportprogress|300|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v|
+!s101 -O0
+!i113 1
+R27
+n@core@reset@p
+Ecoreresetp_pcie_hotreset
+R16
+R43
+R3
+R4
+R5
+Z56 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+Z57 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+l0
+L35
+V5nR81a8XPodLl5SAGFULh3
+!s100 XF0Tgl^VT9oYCFQ<V77WM0
+R8
+33
+R46
+!i10b 1
+R47
+Z58 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd|
+Z59 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd|
+!i113 1
+R13
+R14
+Artl
+R43
+R3
+R4
+DEx4 work 24 coreresetp_pcie_hotreset 0 22 5nR81a8XPodLl5SAGFULh3
+l91
+L47
+Vi[KWUJgmUi3X<94]m3SM>2
+!s100 `VhK9LD<d^d41F`l1z7eG3
+R8
+33
+R46
+!i10b 1
+R47
+R58
+R59
+!i113 1
+R13
+R14
+Ecrc16_generator
+R0
+R3
+R4
+R5
+Z60 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CRC16_Generator.vhd
+Z61 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CRC16_Generator.vhd
+l0
+L43
+VFMl_nL603@^F<S6<DGmAn3
+!s100 c1VG3?jm`^B[a2;L8L:LF3
+R8
+33
+R31
+!i10b 1
+R32
+Z62 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CRC16_Generator.vhd|
+Z63 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CRC16_Generator.vhd|
+!i113 1
+R13
+R14
+Aimp_crc
+R3
+R4
+Z64 DEx4 work 15 crc16_generator 0 22 FMl_nL603@^F<S6<DGmAn3
+l57
+L54
+VEi7^KPYVM]1lcKUC>=54K1
+!s100 gb@;GcoB[:od_UB44GZPO0
+R8
+33
+R31
+!i10b 1
+R32
+R62
+R63
+!i113 1
+R13
+R14
+Edebounce
+R0
+R1
+R2
+R3
+R4
+R5
+Z65 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Debounce.vhd
+Z66 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Debounce.vhd
+l0
+L22
+VKBZomF^ChB`S?ge4[fSgf0
+!s100 WaCR3VFV?>o_;8a`^MQ950
+R8
+33
+R31
+!i10b 1
+R32
+Z67 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Debounce.vhd|
+Z68 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Debounce.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+Z69 DEx4 work 8 debounce 0 22 KBZomF^ChB`S?ge4[fSgf0
+l42
+L32
+Vn_F3aiD<<zN<Lh;:`g>BD1
+!s100 1lXRdT2WR:R12]KRGhzNN1
+R8
+33
+R31
+!i10b 1
+R32
+R67
+R68
+!i113 1
+R13
+R14
+Efifo_2kx8
+R16
+R3
+R4
+R5
+Z70 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8.vhd
+Z71 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8.vhd
+l0
+L19
+Vabk5[VdHAUDno8Dl7gJTO0
+!s100 FQOJC=FgB0f8:i:VUXVoo1
+R8
+33
+Z72 !s110 1504794357
+!i10b 1
+Z73 !s108 1504794357.000000
+Z74 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8.vhd|
+Z75 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+Z76 DEx4 work 9 fifo_2kx8 0 22 abk5[VdHAUDno8Dl7gJTO0
+l133
+L42
+VZ9G8eU=VVcJcQ>=1`@CHQ2
+!s100 7jXf`i6lRB^Qz11m`Th7_3
+R8
+33
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 1
+R13
+R14
+Efifo_8kx9
+R16
+R3
+R4
+R5
+Z77 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9.vhd
+Z78 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9.vhd
+l0
+L19
+VkbiiA6O9jO907Jl[M;Cki3
+!s100 O^4=:VE9f5I42P^6Y1YSM0
+R8
+33
+R9
+!i10b 1
+R10
+Z79 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9.vhd|
+Z80 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+Z81 DEx4 work 9 fifo_8kx9 0 22 kbiiA6O9jO907Jl[M;Cki3
+l133
+L42
+VY5iS>];jfkme=V[I7V@Xk0
+!s100 zm]g1ZHmn49SAbjmT9;Si0
+R8
+33
+R9
+!i10b 1
+R10
+R79
+R80
+!i113 1
+R13
+R14
+Efifos
+R0
+R37
+R38
+R1
+R2
+R3
+R4
+R5
+Z82 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/FIFOs.vhd
+Z83 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/FIFOs.vhd
+l0
+L48
+V>8L4_LbI[L5`KSd:2lT[U2
+!s100 6_Im^?;bD7:OKc[TLN9hn2
+R8
+33
+R9
+!i10b 1
+R10
+Z84 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/FIFOs.vhd|
+Z85 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/FIFOs.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R81
+R76
+R37
+R38
+R1
+R2
+R3
+R4
+R39
+l90
+L78
+VQUkI08Bf=g>WV^_aoDc:R3
+!s100 Rgka_0PBC>`RdPYfWHcLf2
+R8
+33
+R9
+!i10b 1
+R10
+R84
+R85
+!i113 1
+R13
+R14
+Efull_tb
+Z86 w1472994990
+R3
+R4
+Z87 dC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_c/simulation
+Z88 8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_c/component/work/FULL_TB/FULL_TB.vhd
+Z89 FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_c/component/work/FULL_TB/FULL_TB.vhd
+l0
+L17
+VI6gCiB3MFOn5?mOIz83[@1
+!s100 S^Y=5l4E?2A3OYGjC<l@:0
+Z90 OW;C;10.3c;59
+31
+Z91 !s110 1473013771
+!i10b 1
+Z92 !s108 1473013771.492000
+Z93 !s90 -reportprogress|300|-93|-explicit|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_c/component/work/FULL_TB/FULL_TB.vhd|
+Z94 !s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_c/component/work/FULL_TB/FULL_TB.vhd|
+!i113 1
+Z95 o-93 -explicit -work presynth -O0
+Artl
+R3
+R4
+DEx4 work 7 full_tb 0 22 I6gCiB3MFOn5?mOIz83[@1
+l161
+L33
+VQJkd?OL8`7G0YobnB<VaH1
+!s100 G0^3boSV`Ve[g=ohMUzgD2
+R90
+31
+R91
+!i10b 1
+R92
+R93
+R94
+!i113 1
+R95
+vFULL_TB
+Z96 !s110 1472670391
+!i10b 1
+!s100 0?G`d:2o<ZbVU3z@F>ic00
+I[aAWEf5HG;HTVOUM0i8]E0
+R24
+R25
+w1472670217
+8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/FULL_TB/FULL_TB.v
+FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/FULL_TB/FULL_TB.v
+L0 9
+R26
+r1
+!s85 0
+31
+!s108 1472670391.397000
+!s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/FULL_TB/FULL_TB.v|
+!s90 -reportprogress|300|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/FULL_TB|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/FULL_TB/FULL_TB.v|
+!s101 -O0
+!i113 1
+R27
+R28
+n@f@u@l@l_@t@b
+Eidlelinedetector
+R0
+R1
+R2
+R3
+R4
+R5
+Z97 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/IdleLineDetector.vhd
+Z98 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/IdleLineDetector.vhd
+l0
+L39
+VF3DOem=j]H9f=VDl=R[cL1
+!s100 8I?b3<0[AZS6M1cDb4NJ`0
+R8
+33
+R9
+!i10b 1
+R10
+Z99 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/IdleLineDetector.vhd|
+Z100 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/IdleLineDetector.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+Z101 DEx4 work 16 idlelinedetector 0 22 F3DOem=j]H9f=VDl=R[cL1
+l60
+L52
+Vm87MO69H<39l=O=OD5WZa3
+!s100 WKm6j<GjYflcVk[0Md=ZU3
+R8
+33
+R9
+!i10b 1
+R10
+R99
+R100
+!i113 1
+R13
+R14
+Einterrupts
+R0
+R37
+R38
+R1
+R2
+R3
+R4
+R5
+Z102 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Interrupts.vhd
+Z103 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Interrupts.vhd
+l0
+L50
+VjJ:W@UMB`TcRZBz]EGEOQ1
+!s100 X<R>K_zHX>f<LVf^7WJVA0
+R8
+33
+R31
+!i10b 1
+R32
+Z104 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Interrupts.vhd|
+Z105 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Interrupts.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R37
+R38
+R1
+R2
+R3
+R4
+Z106 DEx4 work 10 interrupts 0 22 jJ:W@UMB`TcRZBz]EGEOQ1
+l91
+L73
+V4c]GGP7hThMm_Kl9I5h;90
+!s100 oM3>K:Y?BkdjYc=?>E<JX1
+R8
+33
+R31
+!i10b 1
+R32
+R104
+R105
+!i113 1
+R13
+R14
+Em2s010_som
+R16
+Z107 DPx12 coreapb3_lib 10 components 0 22 6XQdn^E]^IOnRfgRRBHVY3
+R3
+R4
+R5
+Z108 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/m2s010_som.vhd
+Z109 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/m2s010_som.vhd
+l0
+L20
+VX1EGhC@z50Dn1]2kEcP=73
+!s100 W3Wd0jo]zEE9eX:L;0?022
+R8
+33
+R19
+!i10b 1
+R20
+Z110 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/m2s010_som.vhd|
+Z111 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/m2s010_som.vhd|
+!i113 1
+R13
+R14
+Artl
+R43
+DEx12 coreapb3_lib 8 coreapb3 0 22 amPF_`f[kKjGCGOV?Yh_K3
+R1
+R2
+R42
+Z112 DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
+Z113 DEx12 smartfusion2 6 XTLOSC 0 22 Dg1SIo80bB@j0V0VzS_@n1
+R107
+R3
+R4
+DEx4 work 10 m2s010_som 0 22 X1EGhC@z50Dn1]2kEcP=73
+l391
+L112
+VUe3J9?k3MzVmJOC5@ienI3
+!s100 Gl7ckCDzRPgzJ[EDRYnNX3
+R8
+33
+R19
+!i10b 1
+R20
+R110
+R111
+!i113 1
+R13
+R14
+Em2s010_som_commsfpga_ccc_0_fccc
+R16
+R3
+R4
+R5
+Z114 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
+Z115 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
+l0
+L8
+V>0m;[nJ?1_M4^YPnEWi0z2
+!s100 W_YS36290Xd>1za:zRdLg3
+R8
+33
+R31
+!i10b 1
+R32
+Z116 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd|
+Z117 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+Z118 DEx12 smartfusion2 10 RCOSC_1MHZ 0 22 Dg1SIo80bB@j0V0VzS_@n1
+R112
+Z119 DEx12 smartfusion2 14 RCOSC_25_50MHZ 0 22 Dg1SIo80bB@j0V0VzS_@n1
+R3
+R4
+DEx4 work 31 m2s010_som_commsfpga_ccc_0_fccc 0 22 >0m;[nJ?1_M4^YPnEWi0z2
+l95
+L18
+V5Ka5LNdEK?Xn<QFY2k6TY3
+!s100 V8ImhAR:NDoRkT9gISgR@2
+R8
+33
+R46
+!i10b 1
+R32
+R116
+R117
+!i113 1
+R13
+R14
+Em2s010_som_id_res_0_io
+R16
+R3
+R4
+R5
+Z120 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/ID_RES_0/m2s010_som_ID_RES_0_IO.vhd
+Z121 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/ID_RES_0/m2s010_som_ID_RES_0_IO.vhd
+l0
+L8
+VoNE:JXQ<Hhe@JNJb<U>cf1
+!s100 ^X4[fleblVn=9<iYXC<BV3
+R8
+33
+R46
+!i10b 1
+R47
+Z122 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/ID_RES_0/m2s010_som_ID_RES_0_IO.vhd|
+Z123 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/ID_RES_0/m2s010_som_ID_RES_0_IO.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R3
+R4
+DEx4 work 22 m2s010_som_id_res_0_io 0 22 oNE:JXQ<Hhe@JNJb<U>cf1
+l27
+L16
+V>jCEAC?^@ajZHEgYC]o@X0
+!s100 JYO5ERJE@WJFAQAMGc14k2
+R8
+33
+R46
+!i10b 1
+R47
+R122
+R123
+!i113 1
+R13
+R14
+Em2s010_som_sb
+R16
+R3
+R4
+R5
+Z124 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/m2s010_som_sb.vhd
+Z125 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/m2s010_som_sb.vhd
+l0
+L17
+Vmm^Omod_ElKNMCbjdzOhW0
+!s100 :8Y8M[QZSg9Do5IzkKQb^0
+R8
+33
+R19
+!i10b 1
+R20
+Z126 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/m2s010_som_sb.vhd|
+Z127 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/m2s010_som_sb.vhd|
+!i113 1
+R13
+R14
+Artl
+R119
+R112
+R113
+R3
+R4
+DEx4 work 13 m2s010_som_sb 0 22 mm^Omod_ElKNMCbjdzOhW0
+l775
+L118
+V17Of<igm:gfXF@Gg?[o=l3
+!s100 Gzm`LViBc?4RBcWdO4a=K0
+R8
+33
+R19
+!i10b 1
+R20
+R126
+R127
+!i113 1
+R13
+R14
+Em2s010_som_sb_cam_spi_1_clk_io
+R16
+R3
+R4
+R5
+Z128 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_CLK/m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd
+Z129 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_CLK/m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd
+l0
+L8
+VkWSKJ;R=5lSMm?9`nGif00
+!s100 QS66Qm>Si3BR]dE2=EIo]2
+R8
+33
+R46
+!i10b 1
+R47
+Z130 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_CLK/m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd|
+Z131 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_CLK/m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R3
+R4
+DEx4 work 30 m2s010_som_sb_cam_spi_1_clk_io 0 22 kWSKJ;R=5lSMm?9`nGif00
+l31
+L18
+V2XnYOXo509g;:]HUA;aG62
+!s100 >O1ZQI@^>eZicm;`LGdB@2
+R8
+33
+R46
+!i10b 1
+R47
+R130
+R131
+!i113 1
+R13
+R14
+Em2s010_som_sb_cam_spi_1_ss0_io
+R16
+R3
+R4
+R5
+Z132 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_SS0/m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd
+Z133 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_SS0/m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd
+l0
+L8
+Vc<?nC8k<bahD7Ui8[fFXn0
+!s100 S2<^W5K]5[GZc=1<mRJIW0
+R8
+33
+R46
+!i10b 1
+R47
+Z134 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_SS0/m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd|
+Z135 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_SS0/m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R3
+R4
+DEx4 work 30 m2s010_som_sb_cam_spi_1_ss0_io 0 22 c<?nC8k<bahD7Ui8[fFXn0
+l31
+L18
+V0YZilXmWTb37@`A:V;fDI0
+!s100 UNzkRhIVj2QC8L>aLJ1;30
+R8
+33
+R46
+!i10b 1
+R47
+R134
+R135
+!i113 1
+R13
+R14
+vm2s010_som_sb_CCC_0_FCCC
+R55
+!i10b 1
+!s100 L6nn1jQ4hCPLDGT^G2<:h2
+IT43iHO]]7NCoIQlY2fm[B1
+R24
+R25
+w1472670192
+8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.v
+FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.v
+L0 5
+R26
+r1
+!s85 0
+31
+!s108 1472670389.650000
+!s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.v|
+!s90 -reportprogress|300|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.v|
+!s101 -O0
+!i113 1
+R27
+nm2s010_som_sb_@c@c@c_0_@f@c@c@c
+Em2s010_som_sb_ccc_0_fccc
+R16
+R3
+R4
+R5
+Z136 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd
+Z137 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd
+l0
+L8
+VYD<Okbj?>6G:FT]c44dID0
+!s100 a::<cPXKEO4YcXa@:8ZRg1
+R8
+33
+R46
+!i10b 1
+R47
+Z138 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd|
+Z139 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R118
+R112
+R119
+R3
+R4
+DEx4 work 24 m2s010_som_sb_ccc_0_fccc 0 22 YD<Okbj?>6G:FT]c44dID0
+l94
+L17
+VLnM4kobf?aK3jVLXhDZn>2
+!s100 6nV7d1UJaXJJh[UKS5ljI1
+R8
+33
+R46
+!i10b 1
+R47
+R138
+R139
+!i113 1
+R13
+R14
+Em2s010_som_sb_fabosc_0_osc
+R16
+R3
+R4
+R5
+Z140 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd
+Z141 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd
+l0
+L8
+V_bLQCX]8T341I@Y;K61hY1
+!s100 MXVVQL<m]fOP2;b?B_e<m1
+R8
+33
+R46
+!i10b 1
+R47
+Z142 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd|
+Z143 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R3
+R4
+DEx4 work 26 m2s010_som_sb_fabosc_0_osc 0 22 _bLQCX]8T341I@Y;K61hY1
+l54
+L21
+VQgje=@>Zd3:aB;]e>L0UV0
+!s100 Rn`a_;ZHP@`KLT9DUbPhf0
+R8
+33
+R46
+!i10b 1
+R47
+R142
+R143
+!i113 1
+R13
+R14
+vm2s010_som_sb_FABOSC_0_OSC
+R55
+!i10b 1
+!s100 3M98CG20aRVBJ9`Q^;>ci2
+IDChK9Vg>DOCD=7GM:MFnc2
+R24
+R25
+w1472670195
+8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.v
+FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.v
+L0 5
+R26
+r1
+!s85 0
+31
+!s108 1472670389.837000
+!s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.v|
+!s90 -reportprogress|300|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.v|
+!s101 -O0
+!i113 1
+R27
+nm2s010_som_sb_@f@a@b@o@s@c_0_@o@s@c
+Em2s010_som_sb_gpio_1_io
+R16
+R3
+R4
+R5
+Z144 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_1/m2s010_som_sb_GPIO_1_IO.vhd
+Z145 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_1/m2s010_som_sb_GPIO_1_IO.vhd
+l0
+L8
+VK`OUWI>5lgo8ebAdHmm9c0
+!s100 1SmkfR9:4;K5nmgbf@_8E3
+R8
+33
+R46
+!i10b 1
+R47
+Z146 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_1/m2s010_som_sb_GPIO_1_IO.vhd|
+Z147 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_1/m2s010_som_sb_GPIO_1_IO.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R3
+R4
+DEx4 work 23 m2s010_som_sb_gpio_1_io 0 22 K`OUWI>5lgo8ebAdHmm9c0
+l31
+L18
+VCB^zLel_GiE5]jMf7RD103
+!s100 Eiz0iJDY:kzOfNM0kge1[3
+R8
+33
+R46
+!i10b 1
+R47
+R146
+R147
+!i113 1
+R13
+R14
+Em2s010_som_sb_gpio_6_io
+R16
+R3
+R4
+R5
+Z148 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_6/m2s010_som_sb_GPIO_6_IO.vhd
+Z149 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_6/m2s010_som_sb_GPIO_6_IO.vhd
+l0
+L8
+Vg@QLS6RK[8i2@O1RKLV0f0
+!s100 TPS4d]CjfS[o<eN1eSTIV1
+R8
+33
+R46
+!i10b 1
+R47
+Z150 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_6/m2s010_som_sb_GPIO_6_IO.vhd|
+Z151 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_6/m2s010_som_sb_GPIO_6_IO.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R3
+R4
+DEx4 work 23 m2s010_som_sb_gpio_6_io 0 22 g@QLS6RK[8i2@O1RKLV0f0
+l31
+L18
+V^n94NoYenZYahQ8IF;KBC1
+!s100 RIMWiKzgjahe_OT]j=nd^3
+R8
+33
+R46
+!i10b 1
+R47
+R150
+R151
+!i113 1
+R13
+R14
+Em2s010_som_sb_gpio_7_io
+R16
+R3
+R4
+R5
+Z152 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_7/m2s010_som_sb_GPIO_7_IO.vhd
+Z153 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_7/m2s010_som_sb_GPIO_7_IO.vhd
+l0
+L8
+VVPjXdRl]7lgKKY`2gFcDz3
+!s100 0VH?i?3^W4;LU7W@`Ec;:2
+R8
+33
+R46
+!i10b 1
+R47
+Z154 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_7/m2s010_som_sb_GPIO_7_IO.vhd|
+Z155 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_7/m2s010_som_sb_GPIO_7_IO.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R3
+R4
+DEx4 work 23 m2s010_som_sb_gpio_7_io 0 22 VPjXdRl]7lgKKY`2gFcDz3
+l31
+L18
+VoJX;koOj`9>lDccR=[lQm1
+!s100 Az7]1WJX<`87d8YR][o=G0
+R8
+33
+R46
+!i10b 1
+R47
+R154
+R155
+!i113 1
+R13
+R14
+Em2s010_som_sb_io_0_io
+Z156 w1485710040
+R3
+R4
+Z157 dC:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_3/simulation
+Z158 8C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_3/component/work/m2s010_som_sb/IO_0/m2s010_som_sb_IO_0_IO.vhd
+Z159 FC:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_3/component/work/m2s010_som_sb/IO_0/m2s010_som_sb_IO_0_IO.vhd
+l0
+L8
+Volg8WS9Y15<M^7ZoH5]lV3
+!s100 a=SUURih7LC2=DAEhOOS51
+R90
+31
+Z160 !s110 1486224485
+!i10b 1
+Z161 !s108 1486224485.486000
+Z162 !s90 -reportprogress|300|-93|-explicit|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_3/component/work/m2s010_som_sb/IO_0/m2s010_som_sb_IO_0_IO.vhd|
+Z163 !s107 C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_3/component/work/m2s010_som_sb/IO_0/m2s010_som_sb_IO_0_IO.vhd|
+!i113 1
+R95
+Adef_arch
+R3
+R4
+DEx4 work 21 m2s010_som_sb_io_0_io 0 22 olg8WS9Y15<M^7ZoH5]lV3
+l31
+L18
+VPU[z9;KV9nVk:E>1CW[W41
+!s100 4F_B62lQJE`M4<obeG9S@1
+R90
+31
+R160
+!i10b 1
+R161
+R162
+R163
+!i113 1
+R95
+vm2s010_som_sb_MSS
+R23
+!i10b 1
+!s100 SBClI48]HIPNfUI8Z44RD0
+IQYDj8a>GMBGWA618PZ?VQ2
+R24
+R25
+w1472670176
+8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.v
+FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.v
+L0 9
+R26
+r1
+!s85 0
+31
+!s108 1472670390.055000
+!s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.v|
+!s90 -reportprogress|300|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.v|
+!s101 -O0
+!i113 1
+R27
+nm2s010_som_sb_@m@s@s
+Em2s010_som_sb_mss
+R16
+R3
+R4
+R5
+Z164 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd
+Z165 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd
+l0
+L17
+VJD5Z`;VlKMC8HI[dN35_J3
+!s100 G1EmVCdM7@8]WN=<1inEk2
+R8
+33
+R19
+!i10b 1
+R20
+Z166 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd|
+Z167 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+DEx4 work 17 m2s010_som_sb_mss 0 22 JD5Z`;VlKMC8HI[dN35_J3
+l1208
+L146
+VMYB^]?T3a[9]_f?KI<VEd1
+!s100 gOeF>9`29kzX3_O14J2UQ1
+R8
+33
+R19
+!i10b 1
+R20
+R166
+R167
+!i113 1
+R13
+R14
+Em2s010_som_sb_oth_spi_1_ss0_io
+R16
+R3
+R4
+R5
+Z168 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/OTH_SPI_1_SS0/m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd
+Z169 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/OTH_SPI_1_SS0/m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd
+l0
+L8
+VijmffoLWm8XHVQ^oD?nij2
+!s100 N6CBa?eMRA]8^Y?SJAedL2
+R8
+33
+R19
+!i10b 1
+R20
+Z170 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/OTH_SPI_1_SS0/m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd|
+Z171 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/OTH_SPI_1_SS0/m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R3
+R4
+DEx4 work 30 m2s010_som_sb_oth_spi_1_ss0_io 0 22 ijmffoLWm8XHVQ^oD?nij2
+l31
+L18
+VVJi]PZ9EHL9MnUC[l_B`j2
+!s100 SP1BPJMTE;L0TAXUIaZgk1
+R8
+33
+R19
+!i10b 1
+R20
+R170
+R171
+!i113 1
+R13
+R14
+Emanchesdecoder
+R0
+R1
+R2
+R3
+R4
+R5
+Z172 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder.vhd
+Z173 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder.vhd
+l0
+L41
+V0E?ka^<NMZIo@4OFj[SSi0
+!s100 Of]0M@Z4XVMG;M@j^9ZPN2
+R8
+33
+R31
+!i10b 1
+R32
+Z174 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder.vhd|
+Z175 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder.vhd|
+!i113 1
+R13
+R14
+Av1
+Z176 DEx4 work 17 readfifo_write_sm 0 22 g;`VD@3HZ0;^`LT3ZPN7J1
+R15
+Z177 DEx4 work 22 manchesdecoder_adapter 0 22 7]lPH;eE89]bU:Yfd7J2N1
+R1
+R2
+R3
+R4
+R35
+l93
+L73
+Vh^IoIFkGY[DGn9VGRZXAk0
+!s100 PbJFDI?U<IjOJ^OUKY8R90
+R8
+33
+R31
+!i10b 1
+R32
+R174
+R175
+!i113 1
+R13
+R14
+Emanchesdecoder_adapter
+R0
+R1
+R2
+R3
+R4
+R5
+Z178 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder_Adapter.vhd
+Z179 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder_Adapter.vhd
+l0
+L42
+V7]lPH;eE89]bU:Yfd7J2N1
+!s100 ?Bgm<6VO32j^;EH3oXD3e0
+R8
+33
+R9
+!i10b 1
+R10
+Z180 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder_Adapter.vhd|
+Z181 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder_Adapter.vhd|
+!i113 1
+R13
+R14
+Av1
+R101
+R1
+R2
+R3
+R4
+R177
+l85
+L62
+VLXJoU69h>B9Q0M:e]D9F^1
+!s100 OmfBQfTZh;5O?o3^Jk_o32
+R8
+33
+R9
+!i10b 1
+R10
+R180
+R181
+!i113 1
+R13
+R14
+Emanchesencoder
+R0
+R37
+R38
+R1
+R2
+R3
+R4
+R5
+Z182 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesEncoder.vhd
+Z183 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesEncoder.vhd
+l0
+L40
+VLUi7IG1HgcdBTc<XR<UX82
+!s100 3FX`07_K3lj>9P9Rb?=2V0
+R8
+33
+R31
+!i10b 1
+R32
+Z184 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesEncoder.vhd|
+Z185 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesEncoder.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R64
+Z186 DEx4 work 5 tx_sm 0 22 Z9aR>6@EEjJ_TOJocdb<f3
+Z187 DEx4 work 21 tx_collision_detector 0 22 FVPonnggI^fa2kUlUM`YC0
+R37
+R38
+R1
+R2
+R3
+R4
+R36
+l95
+L72
+Vm@5AJcTk[T^YiXW`]VLXP1
+!s100 _QmZYK@hC?M:DiPTTLoLQ3
+R8
+33
+R31
+!i10b 1
+R32
+R184
+R185
+!i113 1
+R13
+R14
+Ereadfifo_write_sm
+R0
+R1
+R2
+R3
+R4
+R5
+Z188 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd
+Z189 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd
+l0
+L49
+Vg;`VD@3HZ0;^`LT3ZPN7J1
+!s100 jYNl8_2B[1RRN?6A;hJKh1
+R8
+33
+R31
+!i10b 1
+R32
+Z190 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd|
+Z191 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R64
+R1
+R2
+R3
+R4
+R176
+l117
+L77
+VA3<eRoU;ocQ:QGa<E^O]I0
+!s100 en:GG7KDXe2_CHXmkh7;i0
+R8
+33
+R31
+!i10b 1
+R32
+R190
+R191
+!i113 1
+R13
+R14
+vRESET_GEN
+R96
+!i10b 1
+!s100 Hdh1ZB1Zm>`0ICEDC_naK1
+IcDaE:SXMaCEOSlaJQc[j92
+R24
+R25
+w1469370139
+8C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+FC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+L0 3
+R26
+r1
+!s85 0
+31
+!s108 1472670391.178000
+!s107 C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s90 -reportprogress|300|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/work/FULL_TB|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_a/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s101 -O0
+!i113 1
+R27
+R28
+n@r@e@s@e@t_@g@e@n
+Ereset_gen
+R16
+R2
+R3
+R4
+R5
+Z192 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd
+Z193 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd
+l0
+L6
+VW>AUoBjPWAfPIU2UaJBG90
+!s100 0jRfW2VYR_aXV?WNA0W3E0
+R8
+33
+R19
+!i10b 1
+R20
+Z194 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd|
+Z195 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R2
+R3
+R4
+DEx4 work 9 reset_gen 0 22 W>AUoBjPWAfPIU2UaJBG90
+l15
+L13
+Vdnl2E_]ZJzfV4fTlA`QM;3
+!s100 @N`d4IjGGGkBd7`@DPi6j1
+R8
+33
+R19
+!i10b 1
+R20
+R194
+R195
+!i113 1
+R13
+R14
+Erx_data_checker
+Z196 w1472665898
+R37
+R38
+R1
+R2
+R3
+R4
+Z197 dC:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1a/simulation
+Z198 8C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1a/hdl/Rx_Data_Checker.vhd
+Z199 FC:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1a/hdl/Rx_Data_Checker.vhd
+l0
+L19
+V;N>Poj:_JOzC8kI93nN>52
+!s100 7KDLcV@eReBWPz]^5m_i]2
+R90
+31
+Z200 !s110 1479391307
+!i10b 1
+Z201 !s108 1479391307.179000
+Z202 !s90 -reportprogress|300|-93|-explicit|-work|presynth|C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1a/hdl/Rx_Data_Checker.vhd|
+Z203 !s107 C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1a/hdl/Rx_Data_Checker.vhd|
+!i113 1
+R95
+Abehavioral
+R37
+R38
+R1
+R2
+R3
+R4
+DEx4 work 15 rx_data_checker 0 22 ;N>Poj:_JOzC8kI93nN>52
+l49
+L34
+Vk<ENVYj?VET?fB1I`1E^i3
+!s100 ]lmlN[lgRcVQ`XMz6;70?0
+R90
+31
+R200
+!i10b 1
+R201
+R202
+R203
+!i113 1
+R95
+Etb_irail
+R16
+R3
+R4
+R5
+Z204 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/TB_iRail/TB_iRail.vhd
+Z205 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/TB_iRail/TB_iRail.vhd
+l0
+L17
+Vk1a2:Qa7LNTz:WSgn`Bn33
+!s100 G_gSD@oV_3L1>=<EbNCDK0
+R8
+33
+R19
+!i10b 1
+R20
+Z206 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/TB_iRail/TB_iRail.vhd|
+Z207 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/TB_iRail/TB_iRail.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R4
+Z208 DEx4 work 8 tb_irail 0 22 k1a2:Qa7LNTz:WSgn`Bn33
+l189
+L42
+Z209 V80P45nmd_dS>noVQ6W?KM3
+Z210 !s100 o7NJ]OOM39lTjXO`OJ5o:3
+R8
+33
+R19
+!i10b 1
+R20
+R206
+R207
+!i113 1
+R13
+R14
+Etridebounce
+R0
+R1
+R2
+R3
+R4
+R5
+Z211 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TriDebounce.vhd
+Z212 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TriDebounce.vhd
+l0
+L22
+V[Zk3`LHjd:2@SZS3TH:VP2
+!s100 :4V?SliJZ^_<6bSC[Rc?k0
+R8
+33
+R31
+!i10b 1
+R32
+Z213 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TriDebounce.vhd|
+Z214 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TriDebounce.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R69
+R1
+R2
+R3
+R4
+R41
+l40
+L32
+VF]<VkF[MLOJ^h6NSJ3>I;2
+!s100 n2aoW6_ViKg?Wk1hcO`7W1
+R8
+33
+R31
+!i10b 1
+R32
+R213
+R214
+!i113 1
+R13
+R14
+Etx_collision_detector
+R0
+R1
+R2
+R3
+R4
+R5
+Z215 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_Collision_Detector.vhd
+Z216 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_Collision_Detector.vhd
+l0
+L41
+VFVPonnggI^fa2kUlUM`YC0
+!s100 HUVfiPNK^74C1hzR@JVlI0
+R8
+33
+R31
+!i10b 1
+R32
+Z217 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_Collision_Detector.vhd|
+Z218 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_Collision_Detector.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+R187
+l77
+L61
+VBZ`3>2m>McM_`nTWMJ`MH2
+!s100 ?W1KcDS:DJJj^h?HYbLF>1
+R8
+33
+R31
+!i10b 1
+R32
+R217
+R218
+!i113 1
+R13
+R14
+Etx_sm
+R0
+R1
+R2
+R3
+R4
+R5
+Z219 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_SM.vhd
+Z220 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_SM.vhd
+l0
+L48
+VZ9aR>6@EEjJ_TOJocdb<f3
+!s100 ]FROQEk0G_67ZY<Bl]_dD0
+R8
+33
+R31
+!i10b 1
+R32
+Z221 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_SM.vhd|
+Z222 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_SM.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R101
+R1
+R2
+R3
+R4
+R186
+l109
+L78
+Vc<99QHOA<KCH]zAKFZW5=1
+!s100 UCPKGWVLgGYndYjH<<S`z3
+R8
+33
+R31
+!i10b 1
+R32
+R221
+R222
+!i113 1
+R13
+R14
+Eup_if
+R0
+R1
+R2
+R3
+R4
+R5
+Z223 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/uP_if.vhd
+Z224 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/uP_if.vhd
+l0
+L56
+VYa:WGPRa00>kY6iQk]zEO3
+!s100 PU_DbO[FIen62=iGK5c]53
+R8
+33
+R31
+!i10b 1
+R32
+Z225 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/uP_if.vhd|
+Z226 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/uP_if.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R37
+R38
+R106
+R1
+R2
+R3
+R4
+R40
+l160
+L99
+VK=a3bfVUYQK77@WCY_ohJ2
+!s100 2XC;e2n8@WjJbOm7KKBP?3
+R8
+33
+R31
+!i10b 1
+R32
+R225
+R226
+!i113 1
+R13
+R14

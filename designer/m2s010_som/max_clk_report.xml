@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<section>
+<name> Clock Details Summary  </name>
+<table>
+<header>
+<cell>Clock Domain</cell>
+<cell>Period (ns)</cell>
+<cell>Frequency (MHz)</cell>
+<cell>Required Period (ns)</cell>
+<cell>Required Frequency (MHz)</cell>
+<cell>External Setup (ns)</cell>
+<cell>External Hold (ns)</cell>
+<cell>Min Clock-To-Out (ns)</cell>
+<cell>Max Clock-To-Out (ns)</cell>
+</header>
+<row>
+<cell>GL0_163MHz</cell><cell>5.996</cell><cell>166.778</cell><cell>6.061</cell><cell>164.989</cell><cell>3.011</cell><cell>-1.220</cell><cell>3.981</cell><cell>8.283</cell></row>
+</table>
+</section>
+</doc>

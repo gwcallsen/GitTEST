@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\work\IRail\PPI.IRail.SoC.FPGA\designer\impl2\AFE_RX_SM.adb"
+LIST SOURCE_FILES
+VALUE "C:\work\IRail\PPI.IRail.SoC.FPGA\constraint\io\m2s010_som.io.pdc;pdc"
+VALUE "C:\work\IRail\PPI.IRail.SoC.FPGA\constraint\fp\m2s010_som.fp.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\work\IRail\PPI.IRail.SoC.FPGA\synthesis\AFE_RX_SM_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

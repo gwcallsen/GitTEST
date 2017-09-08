@@ -1,0 +1,2069 @@
+# Reading C:/Microsemi/Libero_SoC_v11.8/ModelsimPro/tcl/vsim/pref.tcl
+# do run.do
+# --- Using Windows Actel DirectCore AMBA BFM compiler
+# --- Compiling Actel DirectCore AMBA BFM source files ...
+# 
+# AMBA BFM Compiler (BETA Version 2.1.107 04Feb09) 
+#   Reading
+#    Processing ./coreapb3_usertb_master.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    31 Global  localconstants Defined
+#    42 Global  localvariables Defined
+#   Writing Vectors ./coreapb3_usertb_master.vec
+#    Commands Generated 201
+#    Vectors Generated 666
+#    Vector CheckSum cd447d4c
+# 
+# BFM Compiler Completed Okay
+# --- Done Compiling Actel DirectCore AMBA BFM source files.
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap SmartFusion2 C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# INFO: Simulation library COREFIFO_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap COREFIFO_LIB COREFIFO_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library COREAPB3_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap COREAPB3_LIB COREAPB3_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:56 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_doubleSync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync
+# -- Compiling architecture translated of FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync
+# End time: 10:25:56 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:56 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv
+# -- Compiling architecture translated of FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv
+# End time: 10:25:56 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:56 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vhdl/core/fifo_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package fifo_pkg
+# -- Compiling package body fifo_pkg
+# -- Loading package fifo_pkg
+# End time: 10:25:56 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:56 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_async.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package fifo_pkg
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async
+# -- Compiling architecture translated of FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async
+# End time: 10:25:56 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:56 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_fwft.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_corefifo_fwft
+# -- Compiling architecture translated of FIFO_2Kx8_FIFO_2Kx8_0_corefifo_fwft
+# End time: 10:25:56 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:56 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package fifo_pkg
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_corefifo_sync
+# -- Compiling architecture translated of FIFO_2Kx8_FIFO_2Kx8_0_corefifo_sync
+# End time: 10:25:56 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:56 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync_scntr.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package fifo_pkg
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_corefifo_sync_scntr
+# -- Compiling architecture translated of FIFO_2Kx8_FIFO_2Kx8_0_corefifo_sync_scntr
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top
+# -- Compiling architecture DEF_ARCH of FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper
+# -- Compiling architecture generated of FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/COREFIFO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package fifo_pkg
+# -- Compiling entity FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO
+# -- Compiling architecture translated of FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FIFO_2Kx8
+# -- Compiling architecture RTL of FIFO_2Kx8
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_doubleSync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync
+# -- Compiling architecture translated of FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv
+# -- Compiling architecture translated of FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_async.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package fifo_pkg
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async
+# -- Compiling architecture translated of FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_fwft.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_corefifo_fwft
+# -- Compiling architecture translated of FIFO_8Kx9_FIFO_8Kx9_0_corefifo_fwft
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package fifo_pkg
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_corefifo_sync
+# -- Compiling architecture translated of FIFO_8Kx9_FIFO_8Kx9_0_corefifo_sync
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync_scntr.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package fifo_pkg
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_corefifo_sync_scntr
+# -- Compiling architecture translated of FIFO_8Kx9_FIFO_8Kx9_0_corefifo_sync_scntr
+# End time: 10:25:57 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:57 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top
+# -- Compiling architecture DEF_ARCH of FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top
+# End time: 10:25:58 on Sep 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:58 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper
+# -- Compiling architecture generated of FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper
+# End time: 10:25:58 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:58 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREFIFO_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/COREFIFO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package fifo_pkg
+# -- Compiling entity FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO
+# -- Compiling architecture translated of FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO
+# End time: 10:25:58 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:58 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FIFO_8Kx9
+# -- Compiling architecture RTL of FIFO_8Kx9
+# End time: 10:25:58 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:58 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/FIFOs.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity FIFOs
+# -- Compiling architecture Behavioral of FIFOs
+# -- Loading entity FIFO_2Kx8
+# -- Loading entity FIFO_8Kx9
+# End time: 10:25:58 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:58 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/AFE_RX_SM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity AFE_RX_SM
+# -- Compiling architecture Behavioral of AFE_RX_SM
+# End time: 10:25:58 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:58 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/IdleLineDetector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity IdleLineDetector
+# -- Compiling architecture Behavioral of IdleLineDetector
+# End time: 10:25:58 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:58 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder_Adapter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ManchesDecoder_Adapter
+# -- Compiling architecture v1 of ManchesDecoder_Adapter
+# -- Loading entity IdleLineDetector
+# End time: 10:25:58 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CRC16_Generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CRC16_Generator
+# -- Compiling architecture imp_crc of CRC16_Generator
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ReadFIFO_Write_SM
+# -- Compiling architecture Behavioral of ReadFIFO_Write_SM
+# ** Warning: C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd(168): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd(173): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd(176): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd(190): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd(195): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ReadFIFO_Write_SM.vhd(198): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity CRC16_Generator
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesDecoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ManchesDecoder
+# -- Compiling architecture v1 of ManchesDecoder
+# -- Loading entity ManchesDecoder_Adapter
+# -- Loading entity AFE_RX_SM
+# -- Loading entity ReadFIFO_Write_SM
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_Collision_Detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity TX_Collision_Detector
+# -- Compiling architecture Behavioral of TX_Collision_Detector
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TX_SM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity TX_SM
+# -- Compiling architecture Behavioral of TX_SM
+# -- Loading entity IdleLineDetector
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/ManchesEncoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ManchesEncoder
+# -- Compiling architecture Behavioral of ManchesEncoder
+# -- Loading entity TX_Collision_Detector
+# -- Loading entity TX_SM
+# -- Loading entity CRC16_Generator
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Debounce.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Debounce
+# -- Compiling architecture Behavioral of Debounce
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/TriDebounce.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity TriDebounce
+# -- Compiling architecture Behavioral of TriDebounce
+# -- Loading entity Debounce
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/Interrupts.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity Interrupts
+# -- Compiling architecture Behavioral of Interrupts
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/uP_if.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity uP_if
+# -- Compiling architecture Behavioral of uP_if
+# ** Warning: C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/uP_if.vhd(180): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading entity Interrupts
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/hdl/CommsFPGA_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity CommsFPGA_top
+# -- Compiling architecture Behavioral of CommsFPGA_top
+# -- Loading entity TriDebounce
+# -- Loading entity uP_if
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading entity FIFOs
+# -- Loading entity ManchesEncoder
+# -- Loading entity ManchesDecoder
+# End time: 10:25:59 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:25:59 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_CommsFPGA_CCC_0_FCCC
+# -- Compiling architecture DEF_ARCH of m2s010_som_CommsFPGA_CCC_0_FCCC
+# -- Loading package vl_types
+# -- Loading entity RCOSC_25_50MHZ
+# -- Loading entity RCOSC_1MHZ
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/ID_RES_0/m2s010_som_ID_RES_0_IO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_ID_RES_0_IO
+# -- Compiling architecture DEF_ARCH of m2s010_som_ID_RES_0_IO
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CoreConfigP
+# -- Compiling architecture rtl of CoreConfigP
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity coreresetp_pcie_hotreset
+# -- Compiling architecture rtl of coreresetp_pcie_hotreset
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CoreResetP
+# -- Compiling architecture rtl of CoreResetP
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_CLK/m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_CAM_SPI_1_CLK_IO
+# -- Compiling architecture DEF_ARCH of m2s010_som_sb_CAM_SPI_1_CLK_IO
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CAM_SPI_1_SS0/m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_CAM_SPI_1_SS0_IO
+# -- Compiling architecture DEF_ARCH of m2s010_som_sb_CAM_SPI_1_SS0_IO
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_CCC_0_FCCC
+# -- Compiling architecture DEF_ARCH of m2s010_som_sb_CCC_0_FCCC
+# -- Loading package vl_types
+# -- Loading entity RCOSC_25_50MHZ
+# -- Loading entity RCOSC_1MHZ
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_FABOSC_0_OSC
+# -- Compiling architecture DEF_ARCH of m2s010_som_sb_FABOSC_0_OSC
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_1/m2s010_som_sb_GPIO_1_IO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_GPIO_1_IO
+# -- Compiling architecture DEF_ARCH of m2s010_som_sb_GPIO_1_IO
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_6/m2s010_som_sb_GPIO_6_IO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_GPIO_6_IO
+# -- Compiling architecture DEF_ARCH of m2s010_som_sb_GPIO_6_IO
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:00 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/GPIO_7/m2s010_som_sb_GPIO_7_IO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_GPIO_7_IO
+# -- Compiling architecture DEF_ARCH of m2s010_som_sb_GPIO_7_IO
+# End time: 10:26:00 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_MSS
+# -- Compiling architecture RTL of m2s010_som_sb_MSS
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/OTH_SPI_1_SS0/m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb_OTH_SPI_1_SS0_IO
+# -- Compiling architecture DEF_ARCH of m2s010_som_sb_OTH_SPI_1_SS0_IO
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som_sb/m2s010_som_sb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity m2s010_som_sb
+# -- Compiling architecture RTL of m2s010_som_sb
+# -- Loading package vl_types
+# -- Loading entity XTLOSC
+# -- Loading entity RCOSC_25_50MHZ
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREAPB3_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity COREAPB3_MUXPTOB3
+# -- Compiling architecture COREAPB3_MUXPTOB3_arch of COREAPB3_MUXPTOB3
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREAPB3_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity coreapb3_iaddr_reg
+# -- Compiling architecture rtl of coreapb3_iaddr_reg
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREAPB3_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CoreAPB3
+# -- Compiling architecture CoreAPB3_arch of CoreAPB3
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work COREAPB3_LIB C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package components
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/m2s010_som/m2s010_som.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package components
+# -- Compiling entity m2s010_som
+# -- Compiling architecture RTL of m2s010_som
+# -- Loading package vl_types
+# -- Loading entity XTLOSC
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity CommsFPGA_top
+# -- Loading package NUMERIC_STD
+# -- Loading entity CoreAPB3
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity CLK_GEN
+# -- Compiling architecture behave of CLK_GEN
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity RESET_GEN
+# -- Compiling architecture behavior of RESET_GEN
+# End time: 10:26:01 on Sep 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 10:26:01 on Sep 07,2017
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/TB_iRail/TB_iRail.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TB_iRail
+# -- Compiling architecture RTL of TB_iRail
+# End time: 10:26:02 on Sep 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L presynth -L COREFIFO_LIB -L COREAPB3_LIB -t 1fs presynth.TB_iRail 
+# Start time: 10:26:02 on Sep 07,2017
+# //  ModelSim Microsemi Pro 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi Pro and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.tb_irail(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading presynth.clk_gen(behave)
+# Loading COREAPB3_LIB.components
+# Loading verilog.vl_types(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading presynth.m2s010_som(rtl)
+# Loading presynth.m2s010_som_commsfpga_ccc_0_fccc(def_arch)
+# Loading SmartFusion2.CLKINT
+# Loading SmartFusion2.VCC
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.CCC
+# Loading SmartFusion2.CCC_PLL
+# Loading SmartFusion2.ABISCB82
+# Loading SmartFusion2.ABI_PLL_FRONT
+# Loading SmartFusion2.Divide_2
+# Loading SmartFusion2.ABI_PHASE
+# Loading SmartFusion2.CCC_FB_DELAY
+# Loading SmartFusion2.CCC_DELAY
+# Loading SmartFusion2.CCC_RF_DELAY
+# Loading SmartFusion2.CCC_RF_DIV
+# Loading SmartFusion2.Freq_Divider
+# Loading SmartFusion2.Even_Divider
+# Loading SmartFusion2.Odd_Divider
+# Loading SmartFusion2.CCC_FB_DIV
+# Loading SmartFusion2.CCC_RF_MUX
+# Loading SmartFusion2.CCC_FB_MUX
+# Loading SmartFusion2.CCC_GPD0
+# Loading SmartFusion2.CCC_GPD
+# Loading SmartFusion2.CCC_GPD1
+# Loading SmartFusion2.CCC_GPD2
+# Loading SmartFusion2.CCC_GPD3
+# Loading SmartFusion2.CCC_SYNCB_GEN
+# Loading SmartFusion2.RSTN_SYNC
+# Loading SmartFusion2.SYNCGEN_CNT14
+# Loading SmartFusion2.CCC_GPD_MUX0
+# Loading SmartFusion2.CCC_GPD_MUX
+# Loading SmartFusion2.CCC_GPD_MUX1
+# Loading SmartFusion2.CCC_GPD_MUX2
+# Loading SmartFusion2.CCC_GPD_MUX3
+# Loading SmartFusion2.CCC_NGMUX0
+# Loading SmartFusion2.CCC_NGMUX
+# Loading SmartFusion2.CCC_NGPREMUX
+# Loading SmartFusion2.CCC_NGMUX1
+# Loading SmartFusion2.CCC_NGMUX2
+# Loading SmartFusion2.CCC_NGMUX3
+# Loading SmartFusion2.CCC_CONFIG
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading presynth.commsfpga_top(behavioral)
+# Loading presynth.tridebounce(behavioral)
+# Loading presynth.debounce(behavioral)
+# Loading presynth.up_if(behavioral)
+# Loading presynth.interrupts(behavioral)
+# Loading presynth.fifos(behavioral)
+# Loading presynth.fifo_2kx8(rtl)
+# Loading COREFIFO_LIB.fifo_pkg(body)
+# Loading COREFIFO_LIB.fifo_2kx8_fifo_2kx8_0_corefifo(translated)
+# Loading COREFIFO_LIB.fifo_2kx8_fifo_2kx8_0_corefifo_async(translated)
+# Loading COREFIFO_LIB.fifo_2kx8_fifo_2kx8_0_corefifo_doublesync(translated)
+# Loading COREFIFO_LIB.fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv(translated)
+# Loading COREFIFO_LIB.fifo_2kx8_fifo_2kx8_0_ram_wrapper(generated)
+# Loading COREFIFO_LIB.fifo_2kx8_fifo_2kx8_0_lsram_top(def_arch)
+# Loading SmartFusion2.RAM1K18
+# Loading SmartFusion2.RAM_DLY
+# Loading SmartFusion2.SLE_Prim
+# Loading presynth.fifo_8kx9(rtl)
+# Loading COREFIFO_LIB.fifo_8kx9_fifo_8kx9_0_corefifo(translated)
+# Loading COREFIFO_LIB.fifo_8kx9_fifo_8kx9_0_corefifo_async(translated)
+# Loading COREFIFO_LIB.fifo_8kx9_fifo_8kx9_0_corefifo_doublesync(translated)
+# Loading COREFIFO_LIB.fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv(translated)
+# Loading COREFIFO_LIB.fifo_8kx9_fifo_8kx9_0_ram_wrapper(generated)
+# Loading COREFIFO_LIB.fifo_8kx9_fifo_8kx9_0_lsram_top(def_arch)
+# Loading presynth.manchesencoder(behavioral)
+# Loading presynth.tx_collision_detector(behavioral)
+# Loading presynth.tx_sm(behavioral)
+# Loading presynth.idlelinedetector(behavioral)
+# Loading presynth.crc16_generator(imp_crc)
+# Loading presynth.manchesdecoder(v1)
+# Loading presynth.manchesdecoder_adapter(v1)
+# Loading presynth.afe_rx_sm(behavioral)
+# Loading presynth.readfifo_write_sm(behavioral)
+# Loading COREAPB3_LIB.coreapb3(coreapb3_arch)
+# Loading COREAPB3_LIB.coreapb3_muxptob3(coreapb3_muxptob3_arch)
+# Loading presynth.m2s010_som_id_res_0_io(def_arch)
+# Loading SmartFusion2.INBUF
+# Loading presynth.m2s010_som_sb(rtl)
+# Loading SmartFusion2.BIBUF
+# Loading presynth.m2s010_som_sb_cam_spi_1_clk_io(def_arch)
+# Loading presynth.m2s010_som_sb_cam_spi_1_ss0_io(def_arch)
+# Loading presynth.m2s010_som_sb_ccc_0_fccc(def_arch)
+# Loading presynth.coreconfigp(rtl)
+# Loading presynth.coreresetp(rtl)
+# Loading presynth.m2s010_som_sb_fabosc_0_osc(def_arch)
+# Loading SmartFusion2.RCOSC_25_50MHZ_FAB
+# Loading SmartFusion2.RCOSC_25_50MHZ
+# Loading SmartFusion2.XTLOSC
+# Loading presynth.m2s010_som_sb_gpio_1_io(def_arch)
+# Loading presynth.m2s010_som_sb_gpio_6_io(def_arch)
+# Loading presynth.m2s010_som_sb_gpio_7_io(def_arch)
+# Loading presynth.m2s010_som_sb_mss(rtl)
+# Loading SmartFusion2.OUTBUF
+# Loading SmartFusion2.OUTBUF_DIFF
+# Loading SmartFusion2.TRIBUFF
+# Loading SmartFusion2.MSS_060
+# Loading SmartFusion2.MSS_060_IP
+# Loading SmartFusion2.MSS_075_MAIN
+# Loading SmartFusion2.MSS_IOMUX
+# Loading SmartFusion2.M3_BFM
+# Loading SmartFusion2.BFM_MAIN
+# Loading SmartFusion2.MSS_APBSLAVES_120
+# Loading SmartFusion2.MSS_PCLK_DIVISOR
+# Loading SmartFusion2.MSS_MMUART
+# Loading SmartFusion2.MSS_SPI
+# Loading SmartFusion2.MSS_I2C
+# Loading SmartFusion2.MSS_RTC
+# Loading SmartFusion2.MSS_COMBLK
+# Loading SmartFusion2.MSS_COMBLK_FIFO
+# Loading SmartFusion2.MSS_SIIMASTER
+# Loading SmartFusion2.G4M_GPIO_120
+# Loading SmartFusion2.G4M_PDMA
+# Loading SmartFusion2.PDMARegs
+# Loading SmartFusion2.PDMAReg
+# Loading SmartFusion2.chanArb
+# Loading SmartFusion2.writeAdjust
+# Loading SmartFusion2.DMAExec
+# Loading SmartFusion2.MSS_H2FINTCTRL
+# Loading SmartFusion2.MSS_AHBTOAPB_120
+# Loading SmartFusion2.G4M_AHBTOAPB
+# Loading SmartFusion2.AhbToApbSM
+# Loading SmartFusion2.PenableScheduler
+# Loading SmartFusion2.PreadyMarshal
+# Loading SmartFusion2.ApbAddrData
+# Loading SmartFusion2.G4M_FABRICIF
+# Loading SmartFusion2.FABRICIF_HM
+# Loading SmartFusion2.AhbWrapper_HM
+# Loading SmartFusion2.ClientAddrData_HM
+# Loading SmartFusion2.AhbClient_HM
+# Loading SmartFusion2.ApbClient_HM
+# Loading SmartFusion2.FABRICIF_FM
+# Loading SmartFusion2.Client_FM
+# Loading SmartFusion2.ClientAddrData_FM
+# Loading SmartFusion2.AhbWrapper_FM
+# Loading SmartFusion2.ApbWrapper_FM
+# Loading SmartFusion2.MSS_CCC
+# Loading SmartFusion2.MSS_FACC
+# Loading SmartFusion2.MSS_RESETSYNC
+# Loading SmartFusion2.MSS_SYNCHRONISER
+# Loading SmartFusion2.div2
+# Loading SmartFusion2.mss_facc_divider
+# Loading SmartFusion2.prog_delay_line
+# Loading SmartFusion2.buffcell
+# Loading SmartFusion2.real_clockmux
+# Loading SmartFusion2.MSS_ResetController
+# Loading SmartFusion2.MSS_SYSREG_075
+# Loading SmartFusion2.MSS_AHB2X
+# Loading SmartFusion2.MSS_RWP
+# Loading SmartFusion2.MSS_RWP_SF
+# Loading SmartFusion2.MSS_SWC
+# Loading SmartFusion2.MSS_W1P
+# Loading SmartFusion2.MSS_SWITCH_120
+# Loading SmartFusion2.G4M_SWITCH_120
+# Loading SmartFusion2.SW_Matrix9x7_120
+# Loading SmartFusion2.SWMaster0Stage_120
+# Loading SmartFusion2.AddrDecM0_120
+# Loading SmartFusion2.DefaultSlaveSM_120
+# Loading SmartFusion2.SWMaster2Stage_120
+# Loading SmartFusion2.AddrDecM2_120
+# Loading SmartFusion2.SWMaster3Stage_120
+# Loading SmartFusion2.AddrDecM3_120
+# Loading SmartFusion2.SWMaster4Stage_120
+# Loading SmartFusion2.AddrDecM4_120
+# Loading SmartFusion2.SWMaster6Stage_120
+# Loading SmartFusion2.AddrDecM6_120
+# Loading SmartFusion2.SWMaster7Stage_120
+# Loading SmartFusion2.AddrDecM7_120
+# Loading SmartFusion2.SWMaster9Stage_120
+# Loading SmartFusion2.AddrDecM9_120
+# Loading SmartFusion2.SWSlaveStageM9_ESRAM_120
+# Loading SmartFusion2.SlaveArbiterM9_ESRAM_120
+# Loading SmartFusion2.SWSlaveStageM9_120
+# Loading SmartFusion2.SlaveArbiterM9_120
+# Loading SmartFusion2.SW_A2ABridge_120
+# Loading SmartFusion2.SW_A2Aaddrdec_120
+# Loading SmartFusion2.A2A_Matrix2x16_120
+# Loading SmartFusion2.A2A_Masterstage_120
+# Loading SmartFusion2.A2A_addrdec_120
+# Loading SmartFusion2.A2A_Slavestage_120
+# Loading SmartFusion2.G4M_HPDMA
+# Loading SmartFusion2.hpd_config_regs
+# Loading SmartFusion2.hpd_dma_controller
+# Loading SmartFusion2.fsm_hpd_dma_cntrl
+# Loading SmartFusion2.fsm_hpd_rnd_rbin
+# Loading SmartFusion2.hpd_write_bfrc
+# Loading SmartFusion2.hpd_read_bfrc
+# Loading SmartFusion2.hpd_data_buffer
+# Loading SmartFusion2.hpd_glu_logic_mux
+# Loading SmartFusion2.hpd_ahb_master
+# Loading SmartFusion2.MSS_CACHE_120
+# Loading SmartFusion2.G4M_CACHE_120
+# Loading SmartFusion2.g4m_cache_digital_120
+# Loading SmartFusion2.cc_cache_engine_120
+# Loading SmartFusion2.cc_ahbmstr_120
+# Loading SmartFusion2.ECCBLK_120
+# Loading SmartFusion2.cachematrix5x6_120
+# Loading SmartFusion2.cc_cm_master0stg_120
+# Loading SmartFusion2.cc_cm_addrdecm0_120
+# Loading SmartFusion2.cc_cm_defslavesm_120
+# Loading SmartFusion2.cc_cm_master1stg_120
+# Loading SmartFusion2.cc_cm_addrdecm1_120
+# Loading SmartFusion2.cc_cm_master2stg_120
+# Loading SmartFusion2.cc_cm_addrdecm2_120
+# Loading SmartFusion2.cc_cm_master4stg_120
+# Loading SmartFusion2.cc_cm_slave0stg_120
+# Loading SmartFusion2.cc_cm_slave1stg_120
+# Loading SmartFusion2.cc_cm_slave1arb_120
+# Loading SmartFusion2.cc_cm_slave2stg_120
+# Loading SmartFusion2.cc_cm_slave2arb_120
+# Loading SmartFusion2.cc_cm_slave3stg_120
+# Loading SmartFusion2.cc_cm_slave4stg_120
+# Loading SmartFusion2.cc_cm_slave5stg_120
+# Loading SmartFusion2.cc_cm_slave5arb_120
+# Loading SmartFusion2.cc_cm_slave6stg_120
+# Loading SmartFusion2.cc_sbus2mem_120
+# Loading SmartFusion2.tagmem64x21_120
+# Loading SmartFusion2.G4M_CACHERAM_120
+# Loading SmartFusion2.spmbist_mux_bypass_120
+# Loading SmartFusion2.MSS_BFM_AHBSLAVE
+# Loading SmartFusion2.MSS_BFM_AHBSLAVEEXT
+# Loading SmartFusion2.MSS_AHB_NVM
+# Loading SmartFusion2.ahb_nvm_bfm
+# Loading SmartFusion2.nvm_ram
+# Loading SmartFusion2.G4M_MDDR_SUBSYS_075
+# Loading SmartFusion2.synchroniser
+# Loading SmartFusion2.G4M_AXI_DDR_PHYWRP_075
+# Loading SmartFusion2.G4M_AXI_DDRINTF_120
+# Loading SmartFusion2.aximon_120
+# Loading SmartFusion2.ddrc_monitor_120
+# Loading SmartFusion2.ddrc_axi_wrp_120
+# Loading SmartFusion2.axi_exclusive_120
+# Loading SmartFusion2.reorder_block_120
+# Loading SmartFusion2.f_reorder_block_120
+# Loading SmartFusion2.f_axi_read_port_120
+# Loading SmartFusion2.axi_write_port_120
+# Loading SmartFusion2.trans_schd_120
+# Loading SmartFusion2.ddrc_apb_wrp_120
+# Loading SmartFusion2.ddrc_axi_dyn_reg_sync_120
+# Loading SmartFusion2.ddrc_apb_reg_sync_120
+# Loading SmartFusion2.ddrc_op_registers_120
+# Loading SmartFusion2.ddrc_wdata_ram_120
+# Loading SmartFusion2.ddrc_120
+# Loading SmartFusion2.bypass_120
+# Loading SmartFusion2.ih_120
+# Loading SmartFusion2.ih_core_in_if_120
+# Loading SmartFusion2.ingot_sync_fifo_flopout_rst_120
+# Loading SmartFusion2.ih_core_out_if_120
+# Loading SmartFusion2.ih_address_map_120
+# Loading SmartFusion2.ih_te_if_120
+# Loading SmartFusion2.ih_be_if_120
+# Loading SmartFusion2.ih_fifo_if_120
+# Loading SmartFusion2.ih_fifo_control_120
+# Loading SmartFusion2.mr_120
+# Loading SmartFusion2.mr_ram_rd_pipeline_120
+# Loading SmartFusion2.mr_data_steering_ecc_120
+# Loading SmartFusion2.mr_test_mode_120
+# Loading SmartFusion2.mr_ecc_encoder_120
+# Loading SmartFusion2.mr_secded_lane_120
+# Loading SmartFusion2.pi_120
+# Loading SmartFusion2.ra_ecc64_120
+# Loading SmartFusion2.rd_120
+# Loading SmartFusion2.rd_test_mode_120
+# Loading SmartFusion2.rd_ecc_decoder_120
+# Loading SmartFusion2.rd_secded_lane_120
+# Loading SmartFusion2.rt_120
+# Loading SmartFusion2.teengine_120
+# Loading SmartFusion2.te_rd_cam_120
+# Loading SmartFusion2.te_rd_replace_120
+# Loading SmartFusion2.selnet_120
+# Loading SmartFusion2.te_filter_120
+# Loading SmartFusion2.te_rd_nxt_120
+# Loading SmartFusion2.te_wr_cam_120
+# Loading SmartFusion2.te_wr_replace_120
+# Loading SmartFusion2.te_wr_nxt_120
+# Loading SmartFusion2.te_misc_120
+# Loading SmartFusion2.dti_120
+# Loading SmartFusion2.ts_120
+# Loading SmartFusion2.os_select_net_tags_120
+# Loading SmartFusion2.os_select_net_120
+# Loading SmartFusion2.os_glue_120
+# Loading SmartFusion2.gs_120
+# Loading SmartFusion2.gs_glue_120
+# Loading SmartFusion2.gs_dll_calib_120
+# Loading SmartFusion2.gs_global_constraints_120
+# Loading SmartFusion2.gs_next_xact_120
+# Loading SmartFusion2.gs_odt_120
+# Loading SmartFusion2.gs_rank_constraints_120
+# Loading SmartFusion2.gs_global_fsm_120
+# Loading SmartFusion2.gs_q_fsm_120
+# Loading SmartFusion2.gs_init_ddr_fsm_120
+# Loading SmartFusion2.gs_zq_calib_120
+# Loading SmartFusion2.gs_load_mr_120
+# Loading SmartFusion2.memc_wu_120
+# Loading SmartFusion2.memc_wu_wdata_if_120
+# Loading SmartFusion2.phy_apb_reg_sync_120
+# Loading SmartFusion2.phy_apb_wrp_120
+# Loading SmartFusion2.phy_op_registers_120
+# Loading SmartFusion2.phy_axi_dyn_reg_sync_120
+# Loading SmartFusion2.dfi_phy_core_075
+# Loading SmartFusion2.dll_075
+# Loading SmartFusion2.dll_ffwrap_075
+# Loading SmartFusion2.dll_mux21wrap_075
+# Loading SmartFusion2.dl_075
+# Loading SmartFusion2.dl_dec_075
+# Loading SmartFusion2.dl_scan_logic_075
+# Loading SmartFusion2.dl_balanced_mux2_075
+# Loading SmartFusion2.dl_nandwrap_075
+# Loading SmartFusion2.dl_invwrap_075
+# Loading SmartFusion2.dl_scan_ffwrap_075
+# Loading SmartFusion2.dl_cd_075
+# Loading SmartFusion2.dl_fd1_075
+# Loading SmartFusion2.dl_inv1wrap_075
+# Loading SmartFusion2.dl_orwrap_075
+# Loading SmartFusion2.dl_invwrap1_075
+# Loading SmartFusion2.dll_dc_fsm_075
+# Loading SmartFusion2.dl_0dly_075
+# Loading SmartFusion2.dll_dlywrap_075
+# Loading SmartFusion2.dll_pd_075
+# Loading SmartFusion2.dll_of_075
+# Loading SmartFusion2.dfi_rank_tracker_075
+# Loading SmartFusion2.dfi_upd_stat_if_075
+# Loading SmartFusion2.dfi_resp_gen_075
+# Loading SmartFusion2.ingot_acthigh_sync_075
+# Loading SmartFusion2.fifo_re_gen_dfi_075
+# Loading SmartFusion2.G4M_FIC64_120
+# Loading SmartFusion2.G4M_DDRBRIDGE_120
+# Loading SmartFusion2.ddrb_idc_rdcntrl_120
+# Loading SmartFusion2.ddrb_htrans_decode_120
+# Loading SmartFusion2.ddrb_idc_rdbuf_120
+# Loading SmartFusion2.ddrb_idc_rdbuf_cntrl_120
+# Loading SmartFusion2.ddrb_idc_arb_rd_if_120
+# Loading SmartFusion2.ddrb_wcb_120
+# Loading SmartFusion2.ddrb_wrcntrl_120
+# Loading SmartFusion2.ddrb_wrbuf_cntrl_120
+# Loading SmartFusion2.ddrb_wrbuf_120
+# Loading SmartFusion2.ddrb_flush_cntrl_120
+# Loading SmartFusion2.ddrb_arb_wr_if_120
+# Loading SmartFusion2.ddrb_rdcntrl_120
+# Loading SmartFusion2.ddrb_rdbuf_120
+# Loading SmartFusion2.ddrb_rdbuf_cntrl_120
+# Loading SmartFusion2.ddrb_arb_rd_if_120
+# Loading SmartFusion2.ddrb_ahb_slave_120
+# Loading SmartFusion2.ddrb_axi_arbiter_120
+# Loading SmartFusion2.ddrb_arb_wreq_gen_120
+# Loading SmartFusion2.ddrb_arb_rreq_gen_120
+# Loading SmartFusion2.ddrb_wr_arbiter_120
+# Loading SmartFusion2.ddrb_waddr_chctrl_120
+# Loading SmartFusion2.ddrb_wdata_chctrl_120
+# Loading SmartFusion2.ddrb_wresp_chctrl_120
+# Loading SmartFusion2.ddrb_rd_arbiter_120
+# Loading SmartFusion2.ddrb_raddr_chctrl_120
+# Loading SmartFusion2.ddrb_rdata_chctrl_120
+# Loading SmartFusion2.G4MAIN_AXISYNC_120
+# Loading SmartFusion2.fic64_confg_regs_120
+# Loading SmartFusion2.G4M_DDRIO_CALIB_120
+# Loading SmartFusion2.iocalib_fsm_120
+# Loading SmartFusion2.G4M_AHBTOAPB_CONFIG_120
+# Loading SmartFusion2.AhbWrapper_config_HM_120
+# Loading SmartFusion2.ClientAddrData_config_HM_120
+# Loading SmartFusion2.ApbClient_config_HM_120
+# Loading SmartFusion2.APB_CONFIG_MUX_120
+# Loading SmartFusion2.G4M_REVFIC
+# Loading SmartFusion2.G4MAIN_AXITOAHB_REVFIC
+# Loading SmartFusion2.MSSDDR_SDRMUX_120
+# Loading SmartFusion2.MSS_DDRBRIDGE
+# Loading SmartFusion2.G4M_DDRBRIDGE
+# Loading SmartFusion2.ddrb_idc_rdcntrl
+# Loading SmartFusion2.ddrb_htrans_decode
+# Loading SmartFusion2.ddrb_idc_rdbuf
+# Loading SmartFusion2.ddrb_idc_rdbuf_cntrl
+# Loading SmartFusion2.ddrb_idc_arb_rd_if
+# Loading SmartFusion2.ddrb_wcb
+# Loading SmartFusion2.ddrb_wrcntrl
+# Loading SmartFusion2.ddrb_wrbuf_cntrl
+# Loading SmartFusion2.ddrb_wrbuf
+# Loading SmartFusion2.ddrb_flush_cntrl
+# Loading SmartFusion2.ddrb_arb_wr_if
+# Loading SmartFusion2.ddrb_rdcntrl
+# Loading SmartFusion2.ddrb_rdbuf
+# Loading SmartFusion2.ddrb_rdbuf_cntrl
+# Loading SmartFusion2.ddrb_arb_rd_if
+# Loading SmartFusion2.ddrb_ahb_slave
+# Loading SmartFusion2.ddrb_axi_arbiter
+# Loading SmartFusion2.ddrb_arb_wreq_gen
+# Loading SmartFusion2.ddrb_arb_rreq_gen
+# Loading SmartFusion2.ddrb_wr_arbiter
+# Loading SmartFusion2.ddrb_waddr_chctrl
+# Loading SmartFusion2.ddrb_wdata_chctrl
+# Loading SmartFusion2.ddrb_wresp_chctrl
+# Loading SmartFusion2.ddrb_rd_arbiter
+# Loading SmartFusion2.ddrb_raddr_chctrl
+# Loading SmartFusion2.ddrb_rdata_chctrl
+# Loading SmartFusion2.IOMUX
+# Loading SmartFusion2.setresetenableflop
+# Loading SmartFusion2.ACTEL_ecc_120
+# Loading SmartFusion2.DW_ecc
+# Loading SmartFusion2.MG_Ecc
+# Loading SmartFusion2.RAMSP256X72_120
+# Loading SmartFusion2.SYKA65_256X72X1CM2_120
+# Loading SmartFusion2.b_axi_read_port_120
+# Loading SmartFusion2.priority_block_120
+# Loading SmartFusion2.te_rd_mux_120
+# Loading SmartFusion2.te_rd_entry
+# Loading SmartFusion2.select_block_l1_120
+# Loading SmartFusion2.select_block_l2plus_120
+# Loading SmartFusion2.te_wr_mux_120
+# Loading SmartFusion2.te_wr_entry
+# Loading SmartFusion2.select_block_l1_tags_120
+# Loading SmartFusion2.bsm_120
+# Loading SmartFusion2.dl_element_075
+# Loading SmartFusion2.phy_ctrl_slice_075
+# Loading SmartFusion2.dll_rl_075
+# Loading SmartFusion2.phy_ctrl_wrapper_075
+# Loading SmartFusion2.phy_ctrl_075
+# Loading SmartFusion2.phy_ctrl_clkbuf16_wrapper_075
+# Loading SmartFusion2.phy_ctrl_nor2_wrapper_075
+# Loading SmartFusion2.phy_ctrl_load_wrapper_075
+# Loading SmartFusion2.phy_ctrl_mux21_wrapper_075
+# Loading SmartFusion2.phy_ctrl_clkinv16_wrapper_075
+# Loading SmartFusion2.phy_data_slice_swapbits_075
+# Loading SmartFusion2.phy_wr_level_fsm_075
+# Loading SmartFusion2.dfi_multi_rank_ratio_logic_075
+# Loading SmartFusion2.phy_gate_level_fsm_075
+# Loading SmartFusion2.phy_rd_level_fsm_075
+# Loading SmartFusion2.phy_data_075
+# Loading SmartFusion2.phy_data_clkbuf16_wrapper_075
+# Loading SmartFusion2.phy_data_inv8_wrapper_075
+# Loading SmartFusion2.phy_data_clkbuf8_wrapper_075
+# Loading SmartFusion2.phy_data_mux21_wrapper_075
+# Loading SmartFusion2.phy_data_clkinv16_wrapper_075
+# Loading SmartFusion2.phy_data_posff_wrapper_075
+# Loading SmartFusion2.phy_data_and2_16_wrapper_075
+# Loading SmartFusion2.phy_data_wrdqsclk_load_wrapper_075
+# Loading SmartFusion2.phy_data_wrdataclk_load_wrapper_075
+# Loading SmartFusion2.phy_data_nor2_wrapper_075
+# Loading SmartFusion2.phy_data_clkbuf12_wrapper_075
+# Loading SmartFusion2.phy_data_wr_fifo_075
+# Loading SmartFusion2.phy_data_clk_dly_wrapper_075
+# Loading SmartFusion2.phy_data_out_bit_075
+# Loading SmartFusion2.phy_data_negff_wrapper_075
+# Loading SmartFusion2.phy_data_stoy_mux21_wrapper_075
+# Loading SmartFusion2.phy_data_buf1_wrapper_075
+# Loading SmartFusion2.phy_data_inv1_wrapper_075
+# Loading SmartFusion2.phy_data_posff_set_wrapper_075
+# Loading SmartFusion2.phy_data_dqs_out_075
+# Loading SmartFusion2.phy_data_local_odt_dqs_load_wrapper_075
+# Loading SmartFusion2.phy_data_fifo_we_out_075
+# Loading SmartFusion2.phy_data_and2_wrapper_075
+# Loading SmartFusion2.phy_data_fifoweout_load_wrapper_075
+# Loading SmartFusion2.phy_data_dqin_dly_075
+# Loading SmartFusion2.phy_data_in_bit_075
+# Loading SmartFusion2.phy_data_dqin_nor2_load_wrapper_075
+# Loading SmartFusion2.phy_data_dqin_load_wrapper_075
+# Loading SmartFusion2.phy_data_pos_captff_wrapper_075
+# Loading SmartFusion2.phy_data_rd_fifo_075
+# Loading SmartFusion2.phy_data_xor2_wrapper_075
+# Loading SmartFusion2.dfi_phy_bist_075
+# Loading SmartFusion2.dfi_prbs_075
+# Loading SmartFusion2.ingot_sync_fifo_rst_075
+# Loading SmartFusion2.phy_data_slice_075
+# Loading SmartFusion2.phy_ctrl_cmd_bit_075
+# Loading SmartFusion2.phy_ctrl_posff_wrapper_075
+# Loading SmartFusion2.phy_ctrl_cmd_bit_load_wrapper_075
+# Loading SmartFusion2.phy_ctrl_buf1_wrapper_075
+# Loading SmartFusion2.phy_ctrl_clkout_075
+# Loading SmartFusion2.phy_ctrl_inv1_wrapper_075
+# Loading SmartFusion2.phy_ctrl_negff_set_wrapper_075
+# Loading SmartFusion2.phy_ctrl_stoy_mux21_wrapper_075
+# Loading SmartFusion2.phy_ctrl_clkout_load_wrapper_075
+# Loading SmartFusion2.dfi_single_rank_ratio_logic_075
+# Loading presynth.m2s010_som_sb_oth_spi_1_ss0_io(def_arch)
+# Loading SmartFusion2.MX2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.SYSRESET
+# Loading presynth.reset_gen(behavior)
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_irail/m2s010_som_0/GPIO_1_BIDI(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0
+# ** Warning: (vsim-7) Failed to open readmem file "status.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : nofile(1366)
+#    Time: 0 fs  Iteration: 0  Instance: /tb_irail/m2s010_som_0/m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST/u_mss/u_mss/u_APBSLAVES/U_COMBLK
+# ** ENVM_init.mem.
+# **           0.
+# **       32768.
+# ** ENVM_init.mem.
+# **       32768.
+# **       65536.
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 1  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 2  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 2  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 2  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 2  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 2  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 2  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 2  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 2  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 8  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 9  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 26  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 27  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 27  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async/T3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/RECEIVE_FIFO/FIFO_8Kx9_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 28  Instance: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 fs  Iteration: 29  Region: /tb_irail/m2s010_som_0/CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31/U_corefifo_async/T3
+#  
+###########################################################################
+# AMBA BFM Model
+# Version 2.1 22Dec08
+#  
+# Opening BFM Script file test.vec
+# Read 3401 Vectors - Compiler Version 26.28
+# BFM:Filenames referenced in Vectors
+#   test.bfm
+#   user.bfm
+#   subsystem.bfm
+#   peripheral_init.bfm
+#   MDDR_init.bfm
+# BFM:23:call 722
+# BFM:16403:int 1
+# BFM:16404:int 1
+# BFM:16405:int 1
+# BFM:16407:set 3= 0x00000030 (48)
+# BFM:16408:set 4= 0x00000034 (52)
+# BFM:16413:timeout 25000000
+# BFM:16415:waitus 4  starting at 141811 ns
+# BFM:16416:waitns 500  starting at 145818 ns
+# BFM:16417:waitus 4  starting at 146325 ns
+# BFM:16418:waitus 4  starting at 150332 ns
+################################################################
+# BFM:Register Test
+# BFM:16424:call 816
+# BFM:16483:int 1
+# BFM:16484:int 1
+# BFM:16485:int 1
+# BFM:16486:int 1
+# BFM:16487:int 1
+# BFM:16488:int 1
+# BFM:16489:int 1
+# BFM:16490:int 1
+# BFM:16491:int 1
+# BFM:16492:int 1
+# BFM:16493:int 1
+# BFM:16494:int 1
+# BFM:16495:int 1
+# BFM:16496:int 1
+# BFM:16498:set 6= 0x00000000 (0)
+# BFM:16499:set 7= 0x00000004 (4)
+# BFM:16500:set 8= 0x00000010 (16)
+# BFM:16501:set 10= 0x00000014 (20)
+# BFM:16502:set 9= 0x00000018 (24)
+# BFM:16503:set 11= 0x0000001c (28)
+# BFM:16504:set 12= 0x00000030 (48)
+# BFM:16505:set 13= 0x00000034 (52)
+# BFM:16506:set 14= 0x00000038 (56)
+# BFM:16507:set 15= 0x0000003c (60)
+# BFM:16508:set 16= 0x00000040 (64)
+# BFM:16509:set 17= 0x00000044 (68)
+# BFM:16510:set 18= 0x00000048 (72)
+# BFM:16511:set 19= 0x0000004c (76)
+# BFM:16513:timeout 25000000
+################################################################
+# BFM:Read Revision Register
+# BFM:16516:readcheck w 50000000 00000015 at 154339 ns
+# BFM:16517:wait 4  starting at 154346 ns
+################################################################
+# BFM:Write Scratch Pad Register
+# BFM:16520:write w 50000004 00000055 at 154374 ns
+# BFM: Data Read 50000000 00000015 MASK:ffffffff at 154416.308131ns
+# BFM:16521:wait 4  starting at 154423 ns
+################################################################
+# BFM:Read Scratch Pad Register
+# BFM:16524:readcheck w 50000004 00000055 at 154452 ns
+# BFM: Data Write 50000004 00000055
+# BFM:16525:wait 4  starting at 154522 ns
+################################################################
+# BFM:Write Scratch Pad Register
+# BFM:16528:write w 50000004 000000aa at 154550 ns
+# BFM: Data Read 50000004 00000055 MASK:ffffffff at 154599.406735ns
+# BFM:16529:wait 4  starting at 154606 ns
+################################################################
+# BFM:Read Scratch Pad Register
+# BFM:16532:readcheck w 50000004 000000aa at 154635 ns
+# BFM: Data Write 50000004 000000aa
+# BFM:16533:wait 4  starting at 154705 ns
+################################################################
+# BFM:Write Scratch Pad Register
+# BFM:16536:write w 50000004 00000000 at 154733 ns
+# BFM: Data Read 50000004 000000aa MASK:ffffffff at 154782.505339ns
+# BFM:16537:wait 4  starting at 154790 ns
+################################################################
+# BFM:Write Control Register
+# BFM:16540:write w 50000010 00000055 at 154818 ns
+# BFM: Data Write 50000004 00000000
+# BFM:16541:wait 4  starting at 154888 ns
+################################################################
+# BFM:Read Control Register
+# BFM:16544:readcheck w 50000010 00000055 at 154916 ns
+# BFM: Data Write 50000010 00000055
+# BFM:16545:wait 4  starting at 154987 ns
+################################################################
+# BFM:Write Control Register
+# BFM:16548:write w 50000010 0000008a at 155015 ns
+# BFM: Data Read 50000010 00000055 MASK:ffffffff at 155064.195499ns
+# BFM:16549:wait 4  starting at 155071 ns
+################################################################
+# BFM:Read Control Register
+# BFM:16552:readcheck w 50000010 0000008a at 155099 ns
+# BFM: Data Write 50000010 0000008a
+# BFM:16553:wait 4  starting at 155170 ns
+################################################################
+# BFM:Write Control Register
+# BFM:16556:write w 50000010 00000000 at 155198 ns
+# BFM: Data Read 50000010 0000008a MASK:ffffffff at 155247.294103ns
+# BFM:16557:wait 4  starting at 155254 ns
+################################################################
+# BFM:Write Interrupt Mask Register
+# BFM:16560:write w 50000018 00000055 at 155283 ns
+# BFM: Data Write 50000010 00000000
+# BFM:16561:wait 4  starting at 155353 ns
+################################################################
+# BFM:Read Interrupt Mask Register
+# BFM:16564:readcheck w 50000018 00000055 at 155381 ns
+# BFM: Data Write 50000018 00000055
+# BFM:16565:wait 4  starting at 155452 ns
+################################################################
+# BFM:Write Interrupt Mask Register
+# BFM:16568:write w 50000018 000000aa at 155480 ns
+# BFM: Data Read 50000018 00000055 MASK:ffffffff at 155528.984263ns
+# BFM:16569:wait 4  starting at 155536 ns
+################################################################
+# BFM:Read Interrupt Mask Register
+# BFM:16572:readcheck w 50000018 000000aa at 155564 ns
+# BFM: Data Write 50000018 000000aa
+# BFM:16573:wait 4  starting at 155635 ns
+################################################################
+# BFM:Write Interrupt Mask Register
+# BFM:16576:write w 50000018 00000000 at 155663 ns
+# BFM: Data Read 50000018 000000aa MASK:ffffffff at 155712.082867ns
+# BFM:16577:wait 4  starting at 155719 ns
+################################################################
+# BFM:Read Interrupt Mask Register
+# BFM:16580:readcheck w 50000018 00000000 at 155747 ns
+# BFM: Data Write 50000018 00000000
+# BFM:16581:wait 4  starting at 155818 ns
+################################################################
+# BFM:Read Status Register
+# BFM:16584:readcheck w 5000001c 00000005 at 155846 ns
+# BFM: Data Read 50000018 00000000 MASK:ffffffff at 155895.181471ns
+# BFM:16585:wait 4  starting at 155902 ns
+################################################################
+# BFM:Write HIGH1 Address Register
+# BFM:16588:write w 50000030 00000011 at 155930 ns
+# BFM: Data Read 5000001c 00000005 MASK:ffffffff at 155979.688519ns
+# BFM:16589:wait 4  starting at 155987 ns
+################################################################
+# BFM:Write HIGH2 Address Register
+# BFM:16592:write w 50000038 00000022 at 156015 ns
+# BFM: Data Write 50000030 00000011
+# BFM:16593:wait 4  starting at 156085 ns
+################################################################
+# BFM:Write HIGH3 Address Register
+# BFM:16596:write w 50000040 00000033 at 156113 ns
+# BFM: Data Write 50000038 00000022
+# BFM:16597:wait 4  starting at 156184 ns
+################################################################
+# BFM:Write HIGH4 Address Register
+# BFM:16600:write w 50000048 00000044 at 156212 ns
+# BFM: Data Write 50000040 00000033
+# BFM:16601:wait 4  starting at 156283 ns
+################################################################
+# BFM:Read HIGH1 Address Register
+# BFM:16604:readcheck w 50000030 00000011 at 156311 ns
+# BFM: Data Write 50000048 00000044
+# BFM:16605:wait 4  starting at 156381 ns
+################################################################
+# BFM:Read HIGH2 Address Register
+# BFM:16608:readcheck w 50000038 00000022 at 156409 ns
+# BFM: Data Read 50000030 00000011 MASK:ffffffff at 156458.561791ns
+# BFM:16609:wait 4  starting at 156466 ns
+################################################################
+# BFM:Read HIGH3 Address Register
+# BFM:16612:readcheck w 50000040 00000033 at 156494 ns
+# BFM: Data Read 50000038 00000022 MASK:ffffffff at 156543.068839ns
+# BFM:16613:wait 4  starting at 156550 ns
+################################################################
+# BFM:Read HIGH4 Address Register
+# BFM:16616:readcheck w 50000048 00000044 at 156578 ns
+# BFM: Data Read 50000040 00000033 MASK:ffffffff at 156627.575887ns
+# BFM:16617:wait 4  starting at 156635 ns
+################################################################
+# BFM:Write LOW1 Address Register
+# BFM:16620:write w 50000034 00000011 at 156663 ns
+# BFM: Data Read 50000048 00000044 MASK:ffffffff at 156712.082935ns
+# BFM:16621:wait 4  starting at 156719 ns
+################################################################
+# BFM:Write LOW2 Address Register
+# BFM:16624:write w 5000003c 00000022 at 156747 ns
+# BFM: Data Write 50000034 00000011
+# BFM:16625:wait 4  starting at 156818 ns
+################################################################
+# BFM:Write LOW3 Address Register
+# BFM:16628:write w 50000044 00000033 at 156846 ns
+# BFM: Data Write 5000003c 00000022
+# BFM:16629:wait 4  starting at 156916 ns
+################################################################
+# BFM:Write LOW4 Address Register
+# BFM:16632:write w 5000004c 00000044 at 156944 ns
+# BFM: Data Write 50000044 00000033
+# BFM:16633:wait 4  starting at 157015 ns
+################################################################
+# BFM:Read LOW1 Address Register
+# BFM:16636:readcheck w 50000034 00000011 at 157043 ns
+# BFM: Data Write 5000004c 00000044
+# BFM:16637:wait 4  starting at 157113 ns
+################################################################
+# BFM:Read LOW2 Address Register
+# BFM:16640:readcheck w 5000003c 00000022 at 157142 ns
+# BFM: Data Read 50000034 00000011 MASK:ffffffff at 157190.956207ns
+# BFM:16641:wait 4  starting at 157198 ns
+################################################################
+# BFM:Read LOW3 Address Register
+# BFM:16644:readcheck w 50000044 00000033 at 157226 ns
+# BFM: Data Read 5000003c 00000022 MASK:ffffffff at 157275.463255ns
+# BFM:16645:wait 4  starting at 157283 ns
+################################################################
+# BFM:Read LOW4 Address Register
+# BFM:16648:readcheck w 5000004c 00000044 at 157311 ns
+# BFM: Data Read 50000044 00000033 MASK:ffffffff at 157359.970303ns
+# BFM:16649:wait 4  starting at 157367 ns
+################################################################
+# BFM:Write HIGH1 Address Register
+# BFM:16652:write w 50000030 00000055 at 157395 ns
+# BFM: Data Read 5000004c 00000044 MASK:ffffffff at 157444.477351ns
+# BFM:16653:wait 4  starting at 157452 ns
+################################################################
+# BFM:Read HIGH1 Address Register
+# BFM:16656:readcheck w 50000030 00000055 at 157480 ns
+# BFM: Data Write 50000030 00000055
+# BFM:16657:wait 4  starting at 157550 ns
+################################################################
+# BFM:Write HIGH1 Address Register
+# BFM:16660:write w 50000030 000000aa at 157578 ns
+# BFM: Data Read 50000030 00000055 MASK:ffffffff at 157627.575955ns
+# BFM:16661:wait 4  starting at 157635 ns
+################################################################
+# BFM:Read HIGH1 Address Register
+# BFM:16664:readcheck w 50000030 000000aa at 157663 ns
+# BFM: Data Write 50000030 000000aa
+# BFM:16665:wait 4  starting at 157733 ns
+################################################################
+# BFM:Write HIGH1 Address Register
+# BFM:16668:write w 50000030 00000000 at 157761 ns
+# BFM: Data Read 50000030 000000aa MASK:ffffffff at 157810.674559ns
+# BFM:16669:wait 4  starting at 157818 ns
+################################################################
+# BFM:Read HIGH1 Address Register
+# BFM:16672:readcheck w 50000030 00000000 at 157846 ns
+# BFM: Data Write 50000030 00000000
+# BFM:16673:wait 4  starting at 157916 ns
+################################################################
+# BFM:Write LOW1 Address Register
+# BFM:16676:write w 50000034 00000055 at 157944 ns
+# BFM: Data Read 50000030 00000000 MASK:ffffffff at 157993.773163ns
+# BFM:16677:wait 4  starting at 158001 ns
+################################################################
+# BFM:Read LOW1 Address Register
+# BFM:16680:readcheck w 50000034 00000055 at 158029 ns
+# BFM: Data Write 50000034 00000055
+# BFM:16681:wait 4  starting at 158099 ns
+################################################################
+# BFM:Write LOW1 Address Register
+# BFM:16684:write w 50000034 000000aa at 158128 ns
+# BFM: Data Read 50000034 00000055 MASK:ffffffff at 158176.871767ns
+# BFM:16685:wait 4  starting at 158184 ns
+################################################################
+# BFM:Read LOW1 Address Register
+# BFM:16688:readcheck w 50000034 000000aa at 158212 ns
+# BFM: Data Write 50000034 000000aa
+# BFM:16689:wait 4  starting at 158283 ns
+################################################################
+# BFM:Write LOW1 Address Register
+# BFM:16692:write w 50000034 00000000 at 158311 ns
+# BFM: Data Read 50000034 000000aa MASK:ffffffff at 158359.970371ns
+# BFM:16693:wait 4  starting at 158367 ns
+################################################################
+# BFM:Read LOW1 Address Register
+# BFM:16696:readcheck w 50000034 00000000 at 158395 ns
+# BFM: Data Write 50000034 00000000
+# BFM:16697:wait 4  starting at 158466 ns
+################################################################
+# BFM:Write HIGH1 Address Register
+# BFM:16699:write w 50000030 00000000 at 158494 ns
+# BFM: Data Read 50000034 00000000 MASK:ffffffff at 158543.068975ns
+# BFM:16700:wait 4  starting at 158550 ns
+################################################################
+# BFM:Write HIGH2 Address Register
+# BFM:16703:write w 50000038 00000000 at 158578 ns
+# BFM: Data Write 50000030 00000000
+# BFM:16704:wait 4  starting at 158649 ns
+################################################################
+# BFM:Write HIGH3 Address Register
+# BFM:16707:write w 50000040 00000000 at 158677 ns
+# BFM: Data Write 50000038 00000000
+# BFM:16708:wait 4  starting at 158747 ns
+################################################################
+# BFM:Write HIGH4 Address Register
+# BFM:16711:write w 50000048 00000000 at 158775 ns
+# BFM: Data Write 50000040 00000000
+# BFM:16712:wait 4  starting at 158846 ns
+################################################################
+# BFM:Write LOW1 Address Register
+# BFM:16715:write w 50000034 00000000 at 158874 ns
+# BFM: Data Write 50000048 00000000
+# BFM:16716:wait 4  starting at 158944 ns
+################################################################
+# BFM:Write LOW2 Address Register
+# BFM:16719:write w 5000003c 00000000 at 158973 ns
+# BFM: Data Write 50000034 00000000
+# BFM:16720:wait 4  starting at 159043 ns
+################################################################
+# BFM:Write LOW3 Address Register
+# BFM:16723:write w 50000044 00000000 at 159071 ns
+# BFM: Data Write 5000003c 00000000
+# BFM:16724:wait 4  starting at 159142 ns
+################################################################
+# BFM:Write LOW4 Address Register
+# BFM:16727:write w 5000004c 00000000 at 159170 ns
+# BFM: Data Write 50000044 00000000
+# BFM:16728:wait 4  starting at 159240 ns
+################################################################
+# BFM:Enable Loopback
+# BFM:16731:write w 50000010 00000010 at 159268 ns
+# BFM: Data Write 5000004c 00000000
+# BFM:16732:waitns 500  starting at 159339 ns
+# BFM: Data Write 50000010 00000010
+# BFM:16734:return
+################################################################
+# BFM:Set up Consumer Type Register
+# BFM:16427:write w 50000030 00000002 at 159846 ns
+# BFM:16428:wait 4  starting at 159853 ns
+# BFM:16429:write w 50000034 000000a9 at 159881 ns
+# BFM: Data Write 50000030 00000002
+# BFM:16430:waitus 4  starting at 159944 ns
+# BFM: Data Write 50000034 000000a9
+################################################################
+# BFM:Packet Varying Length Test
+# BFM:16460:loop 2 7 1023 1 
+# BFM:16464:call 1707 00000007 ...
+# BFM:16752:int 1
+# BFM:16753:int 1
+# BFM:16755:set 12= 0x00000010 (16)
+# BFM:16759:timeout 25000000
+################################################################
+# BFM:Packet Varying Length Test
+# BFM:16766:loop 13 7 23 1 
+# BFM:16768:call 2542 00000007 ...
+# BFM:17087:int 1
+# BFM:17088:int 1
+# BFM:17089:int 1
+# BFM:17090:int 1
+# BFM:17091:int 1
+# BFM:17092:int 1
+# BFM:17093:int 1
+# BFM:17094:int 1
+# BFM:17095:int 1
+# BFM:17096:int 1
+# BFM:17097:int 1
+# BFM:17098:int 1
+# BFM:17099:int 1
+# BFM:17100:int 1
+# BFM:17101:int 1
+# BFM:17102:int 1
+# BFM:17103:int 1
+# BFM:17104:int 1
+# BFM:17105:int 1
+# BFM:17106:int 1
+# BFM:17107:int 1
+# BFM:17108:int 1
+# BFM:17109:int 1
+# BFM:17110:int 1
+# BFM:17111:int 1
+# BFM:17112:int 1
+# BFM:17113:int 1
+# BFM:17114:int 1
+# BFM:17115:int 1
+# BFM:17116:int 1
+# BFM:17117:int 1
+# BFM:17118:int 1
+# BFM:17119:int 1
+# BFM:17120:int 1
+# BFM:17121:int 1
+# BFM:17122:int 1
+# BFM:17124:int 1
+# BFM:17125:int 1
+# BFM:17126:int 1
+# BFM:17127:int 1
+# BFM:17129:set 21= 0x00000010 (16)
+# BFM:17130:set 23= 0x00000008 (8)
+# BFM:17131:set 24= 0x0000000c (12)
+# BFM:17132:set 22= 0x00000014 (20)
+# BFM:17134:set 49= 0x00000030 (48)
+# BFM:17135:set 50= 0x00000034 (52)
+# BFM:17136:set 51= 0x00000038 (56)
+# BFM:17137:set 52= 0x0000003c (60)
+# BFM:17138:set 53= 0x00000040 (64)
+# BFM:17139:set 54= 0x00000044 (68)
+# BFM:17140:set 55= 0x00000048 (72)
+# BFM:17141:set 56= 0x0000004c (76)
+# BFM:17143:set 27= 0x00000003 (3)
+# BFM:17144:set 28= 0x00000001 (1)
+# BFM:17146:set 25= 0x00000000 (0)
+# BFM:17148:waitns 500  starting at 163952 ns
+# BFM:17150:timeout 25000000
+################################################################
+# BFM:Set up Consumer Type Register 1
+# BFM:17153:set 33= 0x00000000 (0)
+# BFM:17154:set 35= 0x00000000 (0)
+# BFM:17155:set 34= 0x00000003 (3)
+# BFM:17156:set 36= 0x00000003 (3)
+# BFM:17157:write w 50000030 00000000 at 164459 ns
+# BFM:17158:write w 50000034 00000003 at 164466 ns
+################################################################
+# BFM:Set up Consumer Type Register 2
+# BFM:17161:set 37= 0x00000000 (0)
+# BFM:17162:set 39= 0x00000000 (0)
+# BFM:17163:set 38= 0x00000000 (0)
+# BFM:17164:set 40= 0x00000000 (0)
+# BFM:17165:write w 50000038 00000000 at 164473 ns
+# BFM: Data Write 50000030 00000000
+# BFM:17166:write w 5000003c 00000000 at 164564 ns
+# BFM: Data Write 50000034 00000003
+################################################################
+# BFM:Set up Consumer Type Register 3
+# BFM:17169:set 41= 0x00000000 (0)
+# BFM:17170:set 43= 0x00000000 (0)
+# BFM:17171:set 42= 0x00000000 (0)
+# BFM:17172:set 44= 0x00000000 (0)
+# BFM:17173:write w 50000040 00000000 at 164649 ns
+# BFM: Data Write 50000038 00000000
+# BFM:17174:write w 50000044 00000000 at 164733 ns
+# BFM: Data Write 5000003c 00000000
+################################################################
+# BFM:Set up Consumer Type Register 4
+# BFM:17177:set 45= 0x00000000 (0)
+# BFM:17178:set 47= 0x00000000 (0)
+# BFM:17179:set 46= 0x00000000 (0)
+# BFM:17180:set 48= 0x00000000 (0)
+# BFM:17181:write w 50000048 00000000 at 164818 ns
+# BFM: Data Write 50000040 00000000
+# BFM:17182:write w 5000004c 00000000 at 164902 ns
+# BFM: Data Write 50000044 00000000
+################################################################
+# BFM:Set up Address included as part of packet header
+# BFM:17185:set 57= 0x000000aa (170)
+# BFM:17186:set 58= 0x000000aa (170)
+# BFM:17187:set 59= 0x0000aa40 (43584)
+# BFM:17188:set 60= 0x00000040 (64)
+################################################################
+# BFM:Write Upper Consumer to FIFO
+# BFM:17194:write w 50000008 000000aa at 164987 ns
+# BFM: Data Write 50000048 00000000
+################################################################
+# BFM:Write Lower Consumer to FIFO
+# BFM:17196:write w 50000008 00000040 at 165071 ns
+# BFM: Data Write 5000004c 00000000
+################################################################
+# BFM:Write MSB Packet Length to FIFO
+# BFM:17198:set 32= 0x00000000 (0)
+# BFM:17199:write w 50000008 00000000 at 165156 ns
+# BFM: Data Write 50000008 000000aa
+################################################################
+# BFM:Write LSB Packet Length to FIFO
+# BFM:17201:write w 50000008 00000007 at 165240 ns
+# BFM: Data Write 50000008 00000040
+################################################################
+# BFM:Write to FIFO
+# BFM:17204:loop 29 0 1 1 
+# BFM:17205:write w 50000008 00000000 at 165325 ns
+# BFM: Data Write 50000008 00000000
+# BFM:17206:endloop (Next Loop=1)
+# BFM:17205:write w 50000008 00000001 at 165409 ns
+# BFM: Data Write 50000008 00000007
+# BFM:17206:endloop (Finished)
+################################################################
+# BFM:Enable TX FIFO to Transmit
+# BFM:17211:write w 50000010 00000022 at 165494 ns
+# BFM: Data Write 50000008 00000000
+# BFM:17217:pollbit w 50000014 7 1 at 165578 ns
+# BFM: Data Write 50000008 00000001
+# BFM: Data Write 50000010 00000022
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 165810.675103ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 165895.182151ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 165979.689199ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166064.196247ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166148.703295ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166233.210343ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166317.717391ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166402.224439ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166486.731487ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166571.238535ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166655.745583ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166740.252631ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166824.759679ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166909.266727ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 166993.773775ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167078.280823ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167162.787871ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167247.294919ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167331.801967ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167416.309015ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167500.816063ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167585.323111ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167669.830159ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167754.337207ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167838.844255ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 167923.351303ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168007.858351ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168092.365399ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168176.872447ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168261.379495ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168345.886543ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168430.393591ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168514.900639ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168599.407687ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168683.914735ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168768.421783ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168852.928831ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 168937.435879ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169021.942927ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169106.449975ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169190.957023ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169275.464071ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169359.971119ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169444.478167ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169528.985215ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169613.492263ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169697.999311ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169782.506359ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169867.013407ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 169951.520455ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170036.027503ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170120.534551ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170205.041599ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170289.548647ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170374.055695ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170458.562743ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170543.069791ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170627.576839ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170712.083887ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170796.590935ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170881.097983ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 170965.605031ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171050.112079ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171134.619127ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171219.126175ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171303.633223ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171388.140271ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171472.647319ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171557.154367ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171641.661415ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171726.168463ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171810.675511ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171895.182559ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 171979.689607ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172064.196655ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172148.703703ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172233.210751ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172317.717799ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172402.224847ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172486.731895ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172571.238943ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172655.745991ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172740.253039ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172824.760087ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172909.267135ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 172993.774183ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173078.281231ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173162.788279ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173247.295327ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173331.802375ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173416.309423ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173500.816471ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173585.323519ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173669.830567ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173754.337615ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173838.844663ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 173923.351711ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 174007.858759ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 174092.365807ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 174176.872855ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 174261.379903ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 174345.886951ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 174430.393999ns
+# BFM: Data Read 50000014 00000000 MASK:00000080 at 174514.901047ns
+quit
+# End time: 10:26:49 on Sep 07,2017, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 91

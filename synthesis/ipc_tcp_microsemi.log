@@ -1,0 +1,30 @@
+1486394584 -10:23:04 -0 -Client create_ipc, start a new server process in mode B !
+1486394584 -10:23:04 -0 -Server started !?
+1486394584 -10:23:04 -0 -client create_ipc modus B, open client jtagapi_c::g_pmC !
+1486394584 -10:23:04 -0 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58015
+Logfile:   C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_3/synthesis/ipc_tcp_microsemi.log
+Reconnect: 0
+Use ipv6:  0
+
+1486394585 -10:23:05 -0 -Check for server mode B !
+1486394585 -10:23:05 -0 -check JTAG-clients (JTAG-server is in standalone mode): no JTAG-clients found !
+
+1486394585 -10:23:05 -0 -Use a new started server process, switch to mode B !
+1486394585 -10:23:05 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1486394585 -10:23:05 -0 -use a started server process in mode B !
+1486394733 -10:25:33 -0 -Check for server mode B !
+1486394733 -10:25:33 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
+---- JTAG-client 0 ------
+ JTAG handle: 0x0241c9a8, shared used: 1
+ has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
+ portnum is: 0, speed is: 0, portname is: usb
+ error if any: none.
+
+
+1486394733 -10:25:33 -0 -Use a new started server process, switch to mode B !
+1486394733 -10:25:33 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1486394733 -10:25:33 -0 -Client can use_ipc, use same running client & server (types) !
+1486397224 -11:07:04 -0 -Client jtagexit (server shutdown if last connection, running in mode B) !
+1486397224 -11:07:04 -0 -Client shutdown (jtagapi_c::g_pmC == NULL) !

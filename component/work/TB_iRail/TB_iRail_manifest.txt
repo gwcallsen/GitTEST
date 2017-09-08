@@ -1,0 +1,13 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)
+
+Date      :  Thu Mar 02 16:46:21 2017
+Project   :  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_xCommon
+Component :  TB_iRail
+Family    :  SmartFusion2
+
+
+Stimulus files for all Simulation tools:
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/TB_iRail/TB_iRail.vhd
+

@@ -1,0 +1,27 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.6 SP1 11.6.1.6
+
+# Design Name: m2s010_som 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA , Speed grade: STD 
+
+# Date generated: Thu Mar 02 16:52:18 2017 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+

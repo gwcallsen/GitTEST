@@ -1,0 +1,888 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_c/simulation
+Efifo_2kx8_fifo_2kx8_0_corefifo
+Z0 w1491486884
+Z1 DPx4 work 8 fifo_pkg 0 22 lh[Yz2f_NSjFhHlMZQaP?1
+Z2 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z3 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 dC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/simulation
+Z9 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/COREFIFO.vhd
+Z10 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/COREFIFO.vhd
+l0
+L34
+VPKTBcAOcM<JM=8hQi4@YU2
+!s100 D1=i:@ZK4BFVfe=L>0LhB3
+Z11 OW;C;10.5c;63
+33
+Z12 !s110 1504794357
+!i10b 1
+Z13 !s108 1504794357.000000
+Z14 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/COREFIFO.vhd|
+Z15 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/COREFIFO.vhd|
+!i113 1
+Z16 o-2008 -explicit -work COREFIFO_LIB -O0
+Z17 tCvgOpt 0
+Atranslated
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 30 fifo_2kx8_fifo_2kx8_0_corefifo 0 22 PKTBcAOcM<JM=8hQi4@YU2
+l534
+L114
+VGGzc8C;2XM]a@]de:GY=A3
+!s100 EV]a4LHRY1c@DOYF1i5Mb1
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Efifo_2kx8_fifo_2kx8_0_corefifo_async
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z18 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_async.vhd
+Z19 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_async.vhd
+l0
+L33
+V6=K;1lIi8fZUUPSm]e9MU0
+!s100 ;dj8a3_5AG3jlbbf?;YKj0
+R11
+33
+Z20 !s110 1504794356
+!i10b 1
+Z21 !s108 1504794356.000000
+Z22 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_async.vhd|
+Z23 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_async.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 36 fifo_2kx8_fifo_2kx8_0_corefifo_async 0 22 6=K;1lIi8fZUUPSm]e9MU0
+l309
+L102
+V8Ke08hL=mJlVgha1b=YmY3
+!s100 AT6zaEH^032:2Y[f:m[Xj0
+R11
+33
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R16
+R17
+Efifo_2kx8_fifo_2kx8_0_corefifo_doublesync
+R0
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z24 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_doubleSync.vhd
+Z25 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_doubleSync.vhd
+l0
+L31
+Vc5N__@FDQONY^;FV?j9bF3
+!s100 cYf]FB[NZnDoX2ak99;bZ2
+R11
+33
+R20
+!i10b 1
+R21
+Z26 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_doubleSync.vhd|
+Z27 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_doubleSync.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 41 fifo_2kx8_fifo_2kx8_0_corefifo_doublesync 0 22 c5N__@FDQONY^;FV?j9bF3
+l68
+L56
+VS_LAf0_3=Izo6UKzgaN=m3
+!s100 7KYo92lJ^O7BO;6b>X;2h3
+R11
+33
+R20
+!i10b 1
+R21
+R26
+R27
+!i113 1
+R16
+R17
+Efifo_2kx8_fifo_2kx8_0_corefifo_fwft
+R0
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z28 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_fwft.vhd
+Z29 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_fwft.vhd
+l0
+L31
+Vf6:BjU[hNQRjLI5?c2Dd61
+!s100 =U]SNG=7DHOU:WbiXGb@m2
+R11
+33
+R20
+!i10b 1
+R21
+Z30 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_fwft.vhd|
+Z31 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_fwft.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 35 fifo_2kx8_fifo_2kx8_0_corefifo_fwft 0 22 f6:BjU[hNQRjLI5?c2Dd61
+l193
+L82
+V`:96B[T>OBlkc5Z;JA2Pb1
+!s100 NIiUWWAVCZib_NYmzoBm=3
+R11
+33
+R20
+!i10b 1
+R21
+R30
+R31
+!i113 1
+R16
+R17
+Efifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv
+R0
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z32 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd
+Z33 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd
+l0
+L32
+VlY9mc=j7SWY8DMXoA@A_I3
+!s100 FeRREhWLh6ad[B_Tj?MeA0
+R11
+33
+R20
+!i10b 1
+R21
+Z34 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd|
+Z35 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 44 fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv 0 22 lY9mc=j7SWY8DMXoA@A_I3
+l62
+L54
+VU@Lzn0a]:b_6`Ab]2_T9?2
+!s100 HOQ=`43OohiYQ_Zk1=YGz1
+R11
+33
+R20
+!i10b 1
+R21
+R34
+R35
+!i113 1
+R16
+R17
+Efifo_2kx8_fifo_2kx8_0_corefifo_sync
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z36 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync.vhd
+Z37 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync.vhd
+l0
+L31
+V<^FQeMA?N3EVljU5aFzcB3
+!s100 TXXnkW2KUL0neaPAJ0iQf3
+R11
+33
+R20
+!i10b 1
+R21
+Z38 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync.vhd|
+Z39 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 35 fifo_2kx8_fifo_2kx8_0_corefifo_sync 0 22 <^FQeMA?N3EVljU5aFzcB3
+l274
+L97
+VHE81=:nngeaXVz^HoRd]b2
+!s100 ?0R90`mMAS^YIii?Cn2[32
+R11
+33
+R20
+!i10b 1
+R21
+R38
+R39
+!i113 1
+R16
+R17
+Efifo_2kx8_fifo_2kx8_0_corefifo_sync_scntr
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z40 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync_scntr.vhd
+Z41 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync_scntr.vhd
+l0
+L31
+VT=GQ8d3=M`V;T=[SU45572
+!s100 A9`@1:O>QaDJ[RYgDF7D=3
+R11
+33
+R20
+!i10b 1
+R21
+Z42 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync_scntr.vhd|
+Z43 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync_scntr.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 41 fifo_2kx8_fifo_2kx8_0_corefifo_sync_scntr 0 22 T=GQ8d3=M`V;T=[SU45572
+l276
+L97
+V3<W:Z0f3g[Xa<eKYB;<lm2
+!s100 U6<SLSgB?97ZN]_;lFj`B3
+R11
+33
+R12
+!i10b 1
+R21
+R42
+R43
+!i113 1
+R16
+R17
+Efifo_2kx8_fifo_2kx8_0_lsram_top
+R0
+R6
+R7
+R8
+Z44 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd
+Z45 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd
+l0
+L8
+VYgEfcD]nnS=16J<_61J:N0
+!s100 AYU:ZgV5Wo26YUPiM?lD^3
+R11
+33
+R12
+!i10b 1
+R13
+Z46 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd|
+Z47 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd|
+!i113 1
+R16
+R17
+Adef_arch
+R6
+R7
+DEx4 work 31 fifo_2kx8_fifo_2kx8_0_lsram_top 0 22 YgEfcD]nnS=16J<_61J:N0
+l78
+L22
+V]@6hFVeC^>a]Mb`cmoIg@3
+!s100 :MGil;6]Z1][TnU_:MJCI3
+R11
+33
+R12
+!i10b 1
+R13
+R46
+R47
+!i113 1
+R16
+R17
+Efifo_2kx8_fifo_2kx8_0_ram_wrapper
+R0
+Z48 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R6
+R7
+R8
+Z49 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd
+Z50 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd
+l0
+L8
+VPW?Hci5C_zOoc75YkUoiY1
+!s100 EGb2A1KDHRhe61KmFzQoo2
+R11
+33
+R12
+!i10b 1
+R13
+Z51 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd|
+Z52 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd|
+!i113 1
+R16
+R17
+Agenerated
+R48
+R6
+R7
+DEx4 work 33 fifo_2kx8_fifo_2kx8_0_ram_wrapper 0 22 PW?Hci5C_zOoc75YkUoiY1
+l49
+L34
+V1Q`15dVB`_iHCE5_VX5j[1
+!s100 VDfminzUz2c[?C;U93`bY3
+R11
+33
+R12
+!i10b 1
+R13
+R51
+R52
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_corefifo
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z53 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/COREFIFO.vhd
+Z54 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/COREFIFO.vhd
+l0
+L34
+VeQAFl[_W8hRbCz2abNZ<U1
+!s100 C:RnQ`VBZT^OS@CYDXNKK1
+R11
+33
+Z55 !s110 1504794358
+!i10b 1
+Z56 !s108 1504794358.000000
+Z57 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/COREFIFO.vhd|
+Z58 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/COREFIFO.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z59 DEx4 work 30 fifo_8kx9_fifo_8kx9_0_corefifo 0 22 eQAFl[_W8hRbCz2abNZ<U1
+l534
+L114
+Z60 V^Hck9G[]IZLFiFFFUoL[Y3
+Z61 !s100 =P1?]W:6U4^:NW>0JbEmG2
+R11
+33
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_corefifo_async
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z62 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_async.vhd
+Z63 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_async.vhd
+l0
+L33
+VcOJKHai1gOojYWVcG9fc>2
+!s100 _`cKDG>T>K_QMGWMQCcmV0
+R11
+33
+R12
+!i10b 1
+R13
+Z64 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_async.vhd|
+Z65 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_async.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 36 fifo_8kx9_fifo_8kx9_0_corefifo_async 0 22 cOJKHai1gOojYWVcG9fc>2
+l309
+L102
+VCLa?U7CMbc246@C4Y::k@2
+!s100 [0e2oUHd8SG3nf2e8Il>z2
+R11
+33
+R12
+!i10b 1
+R13
+R64
+R65
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_corefifo_doublesync
+R0
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z66 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_doubleSync.vhd
+Z67 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_doubleSync.vhd
+l0
+L31
+Va8UgEB=m]azh^OX?d??UY3
+!s100 b@VJIGk4`j9]FYLSGee7B2
+R11
+33
+R12
+!i10b 1
+R13
+Z68 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_doubleSync.vhd|
+Z69 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_doubleSync.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 41 fifo_8kx9_fifo_8kx9_0_corefifo_doublesync 0 22 a8UgEB=m]azh^OX?d??UY3
+l68
+L56
+V8HAoN_WK_o7MP`mIKWA?`1
+!s100 kJn<RLf]8CYDPf3[3kKd`3
+R11
+33
+R12
+!i10b 1
+R13
+R68
+R69
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_corefifo_fwft
+R0
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z70 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_fwft.vhd
+Z71 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_fwft.vhd
+l0
+L31
+V58@1mmHRHelf[aahg`T_@0
+!s100 F9?mn_GgD^7N@A0P@OR:F0
+R11
+33
+R12
+!i10b 1
+R13
+Z72 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_fwft.vhd|
+Z73 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_fwft.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 35 fifo_8kx9_fifo_8kx9_0_corefifo_fwft 0 22 58@1mmHRHelf[aahg`T_@0
+l193
+L82
+VM9]gK:9H_RQFcd2^G0[870
+!s100 cjDUk;oHDdQJaibh`[NkY3
+R11
+33
+R12
+!i10b 1
+R13
+R72
+R73
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv
+R0
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z74 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd
+Z75 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd
+l0
+L32
+VkoVUSzYmhC5JG_7@@eSAl1
+!s100 MHGC2Qk?KlS:ehECjH5Z83
+R11
+33
+R12
+!i10b 1
+R13
+Z76 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd|
+Z77 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 44 fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv 0 22 koVUSzYmhC5JG_7@@eSAl1
+l62
+L54
+V5ObE2;alm;?:bTOLFA`F?1
+!s100 1mTZgPE=n>5`ZdhEiU0PK3
+R11
+33
+R12
+!i10b 1
+R13
+R76
+R77
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_corefifo_sync
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z78 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync.vhd
+Z79 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync.vhd
+l0
+L31
+V?[N2[XMPFnTC8VFag8^0?3
+!s100 XB@o?E6Yf]aEdX8LQU`4;3
+R11
+33
+R12
+!i10b 1
+R13
+Z80 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync.vhd|
+Z81 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 35 fifo_8kx9_fifo_8kx9_0_corefifo_sync 0 22 ?[N2[XMPFnTC8VFag8^0?3
+l274
+L97
+V0gjO?>=j74mIQ8aFC6Q1L0
+!s100 ]fGS_g6VmRXU4K;i9N8KA1
+R11
+33
+R12
+!i10b 1
+R13
+R80
+R81
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_corefifo_sync_scntr
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z82 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync_scntr.vhd
+Z83 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync_scntr.vhd
+l0
+L31
+V`NHKM;9UEY1bY?mEFYlSK0
+!s100 2@zF@?@^T5>oGja>K2aT50
+R11
+33
+R12
+!i10b 1
+R13
+Z84 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync_scntr.vhd|
+Z85 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync_scntr.vhd|
+!i113 1
+R16
+R17
+Atranslated
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 41 fifo_8kx9_fifo_8kx9_0_corefifo_sync_scntr 0 22 `NHKM;9UEY1bY?mEFYlSK0
+l276
+L97
+V66;RnN<iLWi8_?UalC?=_3
+!s100 fXe9:R;U]S<XR4J1N@C<Y3
+R11
+33
+R12
+!i10b 1
+R13
+R84
+R85
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_lsram_top
+R0
+R6
+R7
+R8
+Z86 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd
+Z87 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd
+l0
+L8
+VbM;dm:zdU08STIEz_:l9Z1
+!s100 LFHHjJmS7;eWeUbk41Gj^0
+R11
+33
+R55
+!i10b 1
+R13
+Z88 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd|
+Z89 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd|
+!i113 1
+R16
+R17
+Adef_arch
+R6
+R7
+DEx4 work 31 fifo_8kx9_fifo_8kx9_0_lsram_top 0 22 bM;dm:zdU08STIEz_:l9Z1
+l94
+L22
+VkdBZVIgS0CZzjOMRSlNLH1
+!s100 O;O]W`O^MUdXL`D6YJFNj0
+R11
+33
+R55
+!i10b 1
+R13
+R88
+R89
+!i113 1
+R16
+R17
+Efifo_8kx9_fifo_8kx9_0_ram_wrapper
+R0
+R48
+R6
+R7
+R8
+Z90 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd
+Z91 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd
+l0
+L8
+Vo1QKo=kc`?DNh9d^be<=W3
+!s100 hXfYVYaKJ_Rk6cl=<QVE`0
+R11
+33
+R55
+!i10b 1
+R56
+Z92 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd|
+Z93 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd|
+!i113 1
+R16
+R17
+Agenerated
+R48
+R6
+R7
+DEx4 work 33 fifo_8kx9_fifo_8kx9_0_ram_wrapper 0 22 o1QKo=kc`?DNh9d^be<=W3
+l49
+L34
+VmmzZcY^6]>5UoDz1MN::71
+!s100 Jjd640P@9:26dZIQW3]Hz1
+R11
+33
+R55
+!i10b 1
+R56
+R92
+R93
+!i113 1
+R16
+R17
+Pfifo_pkg
+R4
+R5
+R6
+R7
+R0
+R8
+Z94 8C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vhdl/core/fifo_pkg.vhd
+Z95 FC:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vhdl/core/fifo_pkg.vhd
+l0
+L5
+Vlh[Yz2f_NSjFhHlMZQaP?1
+!s100 WMCQCc9E5aNdOP]DhKL9F3
+R11
+33
+b1
+R20
+!i10b 1
+R21
+Z96 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIFO_LIB|C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vhdl/core/fifo_pkg.vhd|
+Z97 !s107 C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vhdl/core/fifo_pkg.vhd|
+!i113 1
+R16
+R17
+Bbody
+R1
+R4
+R5
+R6
+R7
+l0
+L12
+VU7Db[0dKEh1n=5Jd6PCIl1
+!s100 OBnL6KB5ToGJXQoBX4kYd1
+R11
+33
+R20
+!i10b 1
+R21
+R96
+R97
+!i113 1
+R16
+R17

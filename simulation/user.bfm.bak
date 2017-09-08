@@ -1,0 +1,981 @@
+#===========================================================
+# Enter your BFM commands in this file. 
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+include "subsystem.bfm"
+
+procedure user_main;
+
+  int count;
+  int address_high1_reg_offset;
+  int address_low1_reg_offset;
+
+  set address_high1_reg_offset    0x30;
+  set address_low1_reg_offset     0x34;
+
+# perform subsystem initialization routine
+  #call subsystem_init; 
+  
+  timeout (50*50*10*10*10*10);
+  
+  waitus 4;
+  waitns 500;
+  waitus 4;
+  waitus 4;
+
+#################################################
+# Register Test
+#################################################
+  header "Register Test";
+    call reg_test;
+#
+  header "Set up Consumer Type Register";
+    write w CommsFPGA_top_0 address_high1_reg_offset 0x00000002;
+    wait 4;
+    write w CommsFPGA_top_0 address_low1_reg_offset 0x000000A9;
+    waitus 4;
+
+#################################################
+# Force Collision Test
+#################################################
+#  header "Force Collision Test";
+#    call data_xfr_lpbk_ForceCollision 16 0x000002A9;
+#    wait 4;
+
+
+#################################################
+# Force CRC Error Test
+#################################################
+#  header "Force CRC Error Test";
+#    call data_xfr_lpbk_ForceCRCerror 16 0x000002A9;
+#    wait 4;
+
+
+#################################################
+# Force Consumer Address Mismatch Test
+#################################################
+#  header "Force Consumer Address Mismatch Test"
+#                      #length address
+#     call data_xfr_lpbk_AddrMisMatch 7 0x000002A7;
+
+
+#################################################
+# Packet Varying Length Test
+#################################################
+  header "Packet Varying Length Test"
+    loop count 7 1023;
+#    loop count 1023 2047;
+                       #length tx_address rx_address1 rx_address2 rx_address3 rx_address4
+#      call data_xfr_lpbk count 0x000002A9 0x000002A9  0x00000000  0x00000000  0x00000000;
+      call data_xfr_lpbk count 0x000002A9 0x00000003  0x00000000  0x00000000  0x00000000;
+   endloop
+
+  header "END OF SIMULATION:  This is not a Failure";
+  stop 2;
+
+return
+
+
+
+###########################################################################
+# Register Test Procedure
+#
+# DESCRIPTION:  Tests all the registers.
+#
+###########################################################################
+
+procedure reg_test
+
+  int revision_reg_offset;
+  int scratch_pad_offset;
+  int control_reg_offset;
+  int int_mask_reg_offset;
+  int int_reg_offset;
+  int status_reg_offset;
+  int address_high1_reg_offset;
+  int address_low1_reg_offset;
+  int address_high2_reg_offset;
+  int address_low2_reg_offset;
+  int address_high3_reg_offset;
+  int address_low3_reg_offset;
+  int address_high4_reg_offset;
+  int address_low4_reg_offset;
+
+  set revision_reg_offset        0x00;
+  set scratch_pad_offset         0x04;
+  set control_reg_offset         0x10;
+  set int_reg_offset             0x14;
+  set int_mask_reg_offset        0x18;
+  set status_reg_offset          0x1C;
+  set address_high1_reg_offset   0x30;
+  set address_low1_reg_offset    0x34;
+  set address_high2_reg_offset   0x38;
+  set address_low2_reg_offset    0x3C;
+  set address_high3_reg_offset   0x40;
+  set address_low3_reg_offset    0x44;
+  set address_high4_reg_offset   0x48;
+  set address_low4_reg_offset    0x4c;
+
+  timeout (50*50*10*10*10*10);
+
+  header "Read Revision Register"
+  readcheck w CommsFPGA_top_0 revision_reg_offset 0x00000015;
+  wait 4;
+  
+  header "Write Scratch Pad Register"
+  write w CommsFPGA_top_0 scratch_pad_offset 0x00000055;
+  wait 4;
+  
+  header "Read Scratch Pad Register"
+  readcheck w CommsFPGA_top_0 scratch_pad_offset 0x00000055;
+  wait 4;
+  
+  header "Write Scratch Pad Register"
+  write w CommsFPGA_top_0 scratch_pad_offset 0x000000AA;
+  wait 4;
+  
+  header "Read Scratch Pad Register"
+  readcheck w CommsFPGA_top_0 scratch_pad_offset 0x000000AA;
+  wait 4;
+  
+  header "Write Scratch Pad Register"
+  write w CommsFPGA_top_0 scratch_pad_offset 0x00000000;
+  wait 4;
+  
+  header "Write Control Register"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000055;
+  wait 4;
+  
+  header "Read Control Register"
+  readcheck w CommsFPGA_top_0 control_reg_offset 0x00000055;
+  wait 4;
+  
+  header "Write Control Register"
+  write w CommsFPGA_top_0 control_reg_offset 0x0000008A;
+  wait 4;
+  
+  header "Read Control Register"
+  readcheck w CommsFPGA_top_0 control_reg_offset 0x0000008A;
+  wait 4;
+  
+  header "Write Control Register"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Write Interrupt Mask Register"
+  write w CommsFPGA_top_0 int_mask_reg_offset 0x00000055;
+  wait 4;
+  
+  header "Read Interrupt Mask Register"
+  readcheck w CommsFPGA_top_0 int_mask_reg_offset 0x00000055;
+  wait 4;
+  
+  header "Write Interrupt Mask Register"
+  write w CommsFPGA_top_0 int_mask_reg_offset 0x000000AA;
+  wait 4;
+  
+  header "Read Interrupt Mask Register"
+  readcheck w CommsFPGA_top_0 int_mask_reg_offset 0x000000AA;
+  wait 4;
+  
+  header "Write Interrupt Mask Register"
+  write w CommsFPGA_top_0 int_mask_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Read Interrupt Mask Register"
+  readcheck w CommsFPGA_top_0 int_mask_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Read Status Register"
+  readcheck w CommsFPGA_top_0 status_reg_offset 0x00000005;
+  wait 4;
+  
+  header "Write HIGH1 Address Register"
+  write w CommsFPGA_top_0 address_high1_reg_offset 0x00000011;
+  wait 4;
+  
+  header "Write HIGH2 Address Register"
+  write w CommsFPGA_top_0 address_high2_reg_offset 0x00000022;
+  wait 4;  
+
+  header "Write HIGH3 Address Register"
+  write w CommsFPGA_top_0 address_high3_reg_offset 0x00000033;
+  wait 4;  
+  
+  header "Write HIGH4 Address Register"
+  write w CommsFPGA_top_0 address_high4_reg_offset 0x00000044;
+  wait 4;
+  
+  header "Read HIGH1 Address Register"
+  readcheck w CommsFPGA_top_0 address_high1_reg_offset 0x00000011;
+  wait 4;
+  
+  header "Read HIGH2 Address Register"
+  readcheck w CommsFPGA_top_0 address_high2_reg_offset 0x00000022;
+  wait 4;
+
+  header "Read HIGH3 Address Register"
+  readcheck w CommsFPGA_top_0 address_high3_reg_offset 0x00000033;
+  wait 4;
+  
+  header "Read HIGH4 Address Register"
+  readcheck w CommsFPGA_top_0 address_high4_reg_offset 0x00000044;
+  wait 4;
+
+  header "Write LOW1 Address Register"
+  write w CommsFPGA_top_0 address_LOW1_reg_offset 0x00000011;
+  wait 4;
+  
+  header "Write LOW2 Address Register"
+  write w CommsFPGA_top_0 address_LOW2_reg_offset 0x00000022;
+  wait 4;  
+
+  header "Write LOW3 Address Register"
+  write w CommsFPGA_top_0 address_LOW3_reg_offset 0x00000033;
+  wait 4;  
+  
+  header "Write LOW4 Address Register"
+  write w CommsFPGA_top_0 address_LOW4_reg_offset 0x00000044;
+  wait 4;
+  
+  header "Read LOW1 Address Register"
+  readcheck w CommsFPGA_top_0 address_LOW1_reg_offset 0x00000011;
+  wait 4;
+  
+  header "Read LOW2 Address Register"
+  readcheck w CommsFPGA_top_0 address_LOW2_reg_offset 0x00000022;
+  wait 4;
+
+  header "Read LOW3 Address Register"
+  readcheck w CommsFPGA_top_0 address_LOW3_reg_offset 0x00000033;
+  wait 4;
+  
+  header "Read LOW4 Address Register"
+  readcheck w CommsFPGA_top_0 address_LOW4_reg_offset 0x00000044;
+  wait 4;
+
+  header "Write HIGH1 Address Register"
+  write w CommsFPGA_top_0 address_high1_reg_offset 0x00000055;
+  wait 4;
+  
+  header "Read HIGH1 Address Register"
+  readcheck w CommsFPGA_top_0 address_high1_reg_offset 0x00000055;
+  wait 4;
+  
+  header "Write HIGH1 Address Register"
+  write w CommsFPGA_top_0 address_high1_reg_offset 0x000000AA;
+  wait 4;
+  
+  header "Read HIGH1 Address Register"
+  readcheck w CommsFPGA_top_0 address_high1_reg_offset 0x000000AA;
+  wait 4;
+  
+  header "Write HIGH1 Address Register"
+  write w CommsFPGA_top_0 address_high1_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Read HIGH1 Address Register"
+  readcheck w CommsFPGA_top_0 address_high1_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Write LOW1 Address Register"
+  write w CommsFPGA_top_0 address_low1_reg_offset 0x00000055;
+  wait 4;
+  
+  header "Read LOW1 Address Register"
+  readcheck w CommsFPGA_top_0 address_low1_reg_offset 0x00000055;
+  wait 4;
+  
+  header "Write LOW1 Address Register"
+  write w CommsFPGA_top_0 address_low1_reg_offset 0x000000AA;
+  wait 4;
+  
+  header "Read LOW1 Address Register"
+  readcheck w CommsFPGA_top_0 address_low1_reg_offset 0x000000AA;
+  wait 4;
+  
+  header "Write LOW1 Address Register"
+  write w CommsFPGA_top_0 address_low1_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Read LOW1 Address Register"
+  readcheck w CommsFPGA_top_0 address_low1_reg_offset 0x00000000;
+  wait 4;
+  header "Write HIGH1 Address Register"
+  write w CommsFPGA_top_0 address_high1_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Write HIGH2 Address Register"
+  write w CommsFPGA_top_0 address_high2_reg_offset 0x00000000;
+  wait 4;  
+
+  header "Write HIGH3 Address Register"
+  write w CommsFPGA_top_0 address_high3_reg_offset 0x00000000;
+  wait 4;  
+  
+  header "Write HIGH4 Address Register"
+  write w CommsFPGA_top_0 address_high4_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Write LOW1 Address Register"
+  write w CommsFPGA_top_0 address_LOW1_reg_offset 0x00000000;
+  wait 4;
+  
+  header "Write LOW2 Address Register"
+  write w CommsFPGA_top_0 address_LOW2_reg_offset 0x00000000;
+  wait 4;  
+
+  header "Write LOW3 Address Register"
+  write w CommsFPGA_top_0 address_LOW3_reg_offset 0x00000000;
+  wait 4;  
+  
+  header "Write LOW4 Address Register"
+  write w CommsFPGA_top_0 address_LOW4_reg_offset 0x00000000;
+  wait 4;
+    
+  header "Enable Loopback"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000010;
+  waitns 500;
+
+return
+
+###########################################################################
+# PROCEDURE:    data_xfr_lpbk
+#
+# DESCRIPTION:  Packet Data Transfer Test for packet sizes from 6 to 1024
+#
+#
+# PARAMETER DEFINITIONS:
+# Length  = must be less then or equal to 1023.
+#
+# address = address of receiver.  Must match what is set in Address Registers
+# tx_address = addres of transmitter.  Is used to provide address in packet
+#
+###########################################################################
+
+procedure data_xfr_lpbk length tx_address address address2 address3 address4
+
+  int control_reg_offset;
+  int count;
+    
+  set control_reg_offset    0x10;
+  
+#  waitns 500;
+
+  timeout (50*50*10*10*10*10);
+
+
+  #################################################
+  # TRANSMIT Packets with Varying Lengths
+  #################################################
+  header "Packet Varying Length Test"
+    loop count 7 23;
+                          #length tx_address rx_address1 rx_address2 rx_address3 rx_address4
+      call TX_data_xfr_lpbk count tx_address address     address2    address3    address4 
+   endloop
+
+
+  #################################################
+  # RECEIVE Packets with Varying Lengths
+  #################################################
+    loop count 7 23;
+      call RX_data_receive  count tx_address address address2 address3 address4
+   endloop
+
+return
+
+###########################################################################
+# PROCEDURE:    data_xfr_lpbk_AddrMisMatch
+#
+# DESCRIPTION:  Packet Data Transfer Test for Address Mis-Match
+#               Must use address that is not a match with Consumer Address
+#               register.
+#
+# PARAMETER DEFINITIONS:
+# Length  = in hex and must be less then or equal to 0x00000007.  
+#
+# address = address of receiver.  Must match what is set in Address Registers
+#
+###########################################################################
+
+procedure data_xfr_lpbk_AddrMisMatch length address
+
+  int control_reg_offset;
+  int int_reg_offset;
+  int tx_FIFO_offset;
+  int rx_FIFO_offset;
+  int delay_loop;
+  int read_count;
+  int length_minus4;
+  int length_minus6;
+  int count;
+  int read_count_mask;
+  int length_mask;
+  int length_shift;
+  int address_high;
+  int address_low;
+  int address_high_mask;
+  int address_low_mask;
+
+  set control_reg_offset    0x10;
+  set tx_FIFO_offset        0x08;
+  set rx_FIFO_offset        0x0c;
+  set int_reg_offset        0x14;
+
+  set length_minus4 length - 4;
+  set length_minus6 length - 6;
+
+  header "Enable Loopback"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000010;
+  waitns 500;
+
+  timeout (50*50*10*10*10*10);
+
+  set address_high address >> 2;
+  set address_high_mask address_high and 0x000000FF;
+  set address_low  address << 6;
+  set address_low_mask address_low and 0x000000FF;
+
+  # Fill FIFO through APB Bus
+  header "Write Upper Consumer to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset address_high_mask
+  header "Write Lower Consumer to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset address_low_mask
+  header "Write MSB Packet Length to FIFO";
+  set length_shift length >> 8;
+  write w CommsFPGA_top_0 tx_FIFO_offset length_shift;
+  header "Write LSB Packet Length to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset length;
+  
+  header "Write to FIFO"
+  loop count 0 length_minus6 1
+    write w CommsFPGA_top_0 tx_FIFO_offset count; 
+  endloop 
+  
+  waitns 500;
+  header "Enable TX FIFO to Transmit"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000030;
+  waitus 10;
+    
+  header "Delay Loop"
+  loop delay_loop 0 length 1
+    waitus 2;
+  endloop 
+
+  waitus 1;
+  header "Read Interrupt Register"
+  read w CommsFPGA_top_0 int_reg_offset; 
+  waitus 8;
+
+return
+
+###########################################################################
+# PROCEDURE:    data_xfr_lpbk_ForceCRCerror
+#
+# DESCRIPTION:  forces a CRC Error
+#
+#
+# PARAMETER DEFINITIONS:
+# Length  = must be less then or equal to 1023.
+#
+# address = address of receiver.  Must match what is set in Address Registers
+#
+###########################################################################
+
+procedure data_xfr_lpbk_ForceCRCerror length address
+
+  int control_reg_offset;
+  int int_reg_offset;
+  int tx_FIFO_offset;
+  int rx_FIFO_offset;
+  int delay_loop;
+  int read_count;
+  int length_minus4;
+  int length_minus6;
+  int count;
+  int read_count_mask;
+  int length_mask;
+  int length_shift;
+  int address_high;
+  int address_low;
+  int address_high_mask;
+  int address_low_mask;
+
+  set control_reg_offset    0x10;
+  set tx_FIFO_offset        0x08;
+  set rx_FIFO_offset        0x0c;
+  set int_reg_offset        0x14;
+
+  set length_minus4 length - 4;
+  set length_minus6 length - 6;
+
+  header "Enable Loopback"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000010;
+  waitns 500;
+
+  timeout (50*50*10*10*10*10);
+
+  set address_high address >> 2;
+  set address_high_mask address_high and 0x000000FF;
+  set address_low  address << 6;
+  set address_low_mask address_low and 0x000000FF;
+
+  # Fill FIFO through APB Bus
+  header "Write Upper Consumer to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset address_high_mask
+  header "Write Lower Consumer to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset address_low_mask
+  header "Write MSB Packet Length to FIFO";
+  set length_shift length >> 8;
+  write w CommsFPGA_top_0 tx_FIFO_offset length_shift;
+  header "Write LSB Packet Length to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset length;
+  
+  header "Write to FIFO"
+  loop count 0 length_minus6 1
+    write w CommsFPGA_top_0 tx_FIFO_offset count; 
+  endloop 
+  
+  waitns 500;
+  header "Enable TX FIFO to Transmit"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000030;
+  waitus 21;
+
+    waitus 405;
+  
+  header "FORCE CRC Error"
+  waitns 40;
+  write w CommsFPGA_top_0 control_reg_offset 0x00000014;
+  waitns 160;
+  write w CommsFPGA_top_0 control_reg_offset 0x00000010;
+  
+  header "Delay Loop"
+  loop delay_loop 0 length 1
+    waitus 2;
+  endloop 
+  
+  header "Read 1st Byte to FIFO"
+  readcheck w CommsFPGA_top_0 rx_FIFO_offset address_high_mask;
+  header "Read 2nd Byte to FIFO"
+  readcheck w CommsFPGA_top_0 rx_FIFO_offset address_low_mask;
+  header "Read MSB Packet Length to FIFO"
+  readcheck w CommsFPGA_top_0 rx_FIFO_offset length_shift;
+  header "Read LSB Packet Length to FIFO"
+  set length_mask length and 0x000000FF;               # Must mask off upper bits since data bus is only 8-bits
+  readcheck w CommsFPGA_top_0 rx_FIFO_offset length_mask;
+  
+  header "Read From FIFO"
+    loop read_count 0 length_minus6 1
+      set read_count_mask read_count and 0x000000ff;
+      read w CommsFPGA_top_0 rx_FIFO_offset;
+      wait 4;
+    endloop
+
+  read w CommsFPGA_top_0 rx_FIFO_offset;  # read Upper CRC byte
+  read w CommsFPGA_top_0 rx_FIFO_offset;  # read Lower CRC byte
+
+  waitus 1;
+  header "Read Interrupt Register"
+  read w CommsFPGA_top_0 int_reg_offset; 
+  waitus 8;
+
+return
+
+###########################################################################
+# PROCEDURE:    data_xfr_lpbk_ForceCollision
+#
+# DESCRIPTION:  forces a Manchester Collision
+#
+#
+# PARAMETER DEFINITIONS:
+# Length  = must be less then or equal to 1023.
+#
+# address = address of receiver.  Must match what is set in Address Registers
+#
+###########################################################################
+
+procedure data_xfr_lpbk_ForceCollision length address
+
+  int control_reg_offset;
+  int int_reg_offset;
+  int tx_FIFO_offset;
+  int rx_FIFO_offset;
+  int delay_loop;
+  int read_count;
+  int length_minus4;
+  int length_minus6;
+  int count;
+  int read_count_mask;
+  int length_mask;
+  int length_shift;
+  int address_high;
+  int address_low;
+  int address_high_mask;
+  int address_low_mask;
+
+  set control_reg_offset    0x10;
+  set tx_FIFO_offset        0x08;
+  set rx_FIFO_offset        0x0c;
+  set int_reg_offset        0x14;
+
+  set length_minus4 length - 4;
+  set length_minus6 length - 6;
+
+  header "Enable Loopback"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000010;
+  waitns 500;
+
+  timeout (50*50*10*10*10*10);
+
+  set address_high address >> 2;
+  set address_high_mask address_high and 0x000000FF;
+  set address_low  address << 6;
+  set address_low_mask address_low and 0x000000FF;
+
+  # Fill FIFO through APB Bus
+  header "Write Upper Consumer to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset address_high_mask
+  header "Write Lower Consumer to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset address_low_mask
+  header "Write MSB Packet Length to FIFO";
+  set length_shift length >> 8;
+  write w CommsFPGA_top_0 tx_FIFO_offset length_shift;
+  header "Write LSB Packet Length to FIFO"
+  write w CommsFPGA_top_0 tx_FIFO_offset length;
+  
+  header "Write to FIFO"
+  loop count 0 length_minus6 1
+    write w CommsFPGA_top_0 tx_FIFO_offset count; 
+  endloop 
+  
+  waitns 500;
+  header "Enable TX FIFO to Transmit"
+  write w CommsFPGA_top_0 control_reg_offset 0x00000030;
+ # waitus 21;
+
+    waitus 430;
+  
+  header "FORCE Collision"
+  waitns 40;
+  write w CommsFPGA_top_0 control_reg_offset 0x00000018;
+  waitns 200;
+  write w CommsFPGA_top_0 control_reg_offset 0x00000010;
+  
+  header "Delay Loop"
+  loop delay_loop 0 length 1
+    waitus 1;
+  endloop 
+
+  waitus 2;
+  header "Read Interrupt Register"
+  read w CommsFPGA_top_0 int_reg_offset; 
+  waitus 8;
+
+return
+
+
+###########################################################################
+# PROCEDURE:    TX_data_xfr_lpbk
+#
+# DESCRIPTION:  Transfer of a single packet
+#
+#
+# PARAMETER DEFINITIONS:
+# Length  = must be less then or equal to 1023.
+#
+# address = address of receiver.  Must match what is set in Address Registers
+# tx_address = addres of transmitter.  Is used to provide address in packet
+#
+###########################################################################
+
+procedure TX_data_xfr_lpbk length tx_address address address2 address3 address4
+
+  int control_reg_offset;
+  int int_reg_offset;
+  int tx_FIFO_offset;
+  int rx_FIFO_offset;
+  int delay_loop;
+  int read_count;
+  int length_minus4;
+  int length_minus6;
+  int count;
+  int read_count_mask;
+  int length_mask;
+  int length_shift;
+  int address_high;
+  int address_low;
+  int address_high_mask;
+  int address_low_mask;
+  int address_high2;
+  int address_low2;
+  int address_high_mask2;
+  int address_low_mask2;
+  int address_high3;
+  int address_low3;
+  int address_high_mask3;
+  int address_low_mask3;
+  int address_high4;
+  int address_low4;
+  int address_high_mask4;
+  int address_low_mask4;
+  int address_high1_reg_offset;
+  int address_low1_reg_offset;
+  int address_high2_reg_offset;
+  int address_low2_reg_offset;
+  int address_high3_reg_offset;
+  int address_low3_reg_offset;
+  int address_high4_reg_offset;
+  int address_low4_reg_offset;
+  
+  int tx_address_high;
+  int tx_address_high_mask;
+  int tx_address_low;
+  int tx_address_low_mask;
+    
+  set control_reg_offset    0x10;
+  set tx_FIFO_offset        0x08;
+  set rx_FIFO_offset        0x0c;
+  set int_reg_offset        0x14;
+  
+  set address_high1_reg_offset   0x30;
+  set address_low1_reg_offset    0x34;
+  set address_high2_reg_offset   0x38;
+  set address_low2_reg_offset    0x3C;
+  set address_high3_reg_offset   0x40;
+  set address_low3_reg_offset    0x44;
+  set address_high4_reg_offset   0x48;
+  set address_low4_reg_offset    0x4c;
+
+  set length_minus4 length - 4;
+  set length_minus6 length - 6;
+  
+  set delay_loop            0x00;
+  
+  waitns 500;
+
+  timeout (50*50*10*10*10*10);
+
+  header "Set up Consumer Type Register 1";
+    set address_high address >> 8;
+    set address_high_mask address_high and 0x000000FF;
+    set address_low  address;
+    set address_low_mask address_low and 0x000000FF;
+    write w CommsFPGA_top_0 address_high1_reg_offset address_high_mask;
+    write w CommsFPGA_top_0 address_low1_reg_offset address_low_mask;
+    
+  header "Set up Consumer Type Register 2";
+    set address_high2 address2 >> 8;
+    set address_high_mask2 address_high2 and 0x000000FF;
+    set address_low2  address2;
+    set address_low_mask2 address_low2 and 0x000000FF;  
+    write w CommsFPGA_top_0 address_high2_reg_offset address_high_mask2;
+    write w CommsFPGA_top_0 address_low2_reg_offset address_low_mask2;
+    
+  header "Set up Consumer Type Register 3";
+    set address_high3 address3 >> 8;
+    set address_high_mask3 address_high3 and 0x000000FF;
+    set address_low3  address3;
+    set address_low_mask3 address_low3 and 0x000000FF;
+    write w CommsFPGA_top_0 address_high3_reg_offset address_high_mask3;
+    write w CommsFPGA_top_0 address_low3_reg_offset address_low_mask3;
+
+  header "Set up Consumer Type Register 4";
+    set address_high4 address4 >> 8;
+    set address_high_mask4 address_high4 and 0x000000FF;
+    set address_low4  address4;
+    set address_low_mask4 address_low4 and 0x000000FF;
+    write w CommsFPGA_top_0 address_high4_reg_offset address_high_mask4;
+    write w CommsFPGA_top_0 address_low4_reg_offset address_low_mask4;
+
+  header "Set up Address included as part of packet header";
+    set tx_address_high tx_address >> 2;
+    set tx_address_high_mask tx_address_high and 0x000000FF;
+    set tx_address_low  tx_address << 6;
+    set tx_address_low_mask tx_address_low and 0x000000FF;
+  
+  ###########################
+  # Fill FIFO through APB Bus
+  ###########################
+  header "Write Upper Consumer to FIFO"
+    write w CommsFPGA_top_0 tx_FIFO_offset tx_address_high_mask
+  header "Write Lower Consumer to FIFO"
+    write w CommsFPGA_top_0 tx_FIFO_offset tx_address_low_mask
+  header "Write MSB Packet Length to FIFO";
+    set length_shift length >> 8;
+    write w CommsFPGA_top_0 tx_FIFO_offset length_shift;
+  header "Write LSB Packet Length to FIFO"
+    write w CommsFPGA_top_0 tx_FIFO_offset length;
+  
+  header "Write to FIFO"
+  loop count 0 length_minus6 1
+    write w CommsFPGA_top_0 tx_FIFO_offset count; 
+  endloop 
+  
+#  waitns 500;
+  header "Enable TX FIFO to Transmit"
+  # write w CommsFPGA_top_0 control_reg_offset 0x00000030;  -- Internal Loopback
+  # write w CommsFPGA_top_0 control_reg_offset 0x00000022;   -- External Loopback
+  write w CommsFPGA_top_0 control_reg_offset 0x00000020;   -- NO Loopback
+  
+#  waitus 10;  # covers preamble (3 bytes), sync byte (1 byte) and postamble ((1 byte)
+
+  # Poll for transmit complete interrupt.
+  pollbit w CommsFPGA_top_0 int_reg_offset 7   1
+  
+  # Clear transmit complete interrupt.
+  write w CommsFPGA_top_0 int_reg_offset 0x80;
+  
+return
+
+###########################################################################
+# PROCEDURE:    RX_data_receive
+#
+# DESCRIPTION:  Packet Data Transfer Test for packet sizes from 6 to 1024
+#
+#
+# PARAMETER DEFINITIONS:
+# Length  = must be less then or equal to 1023.
+#
+# address = address of receiver.  Must match what is set in Address Registers
+# tx_address = addres of transmitter.  Is used to provide address in packet
+#
+###########################################################################
+
+procedure RX_data_receive length tx_address address address2 address3 address4
+
+  int control_reg_offset;
+  int status_reg_offset;
+  int int_reg_offset;
+  int tx_FIFO_offset;
+  int rx_FIFO_offset;
+  int delay_loop;
+  int read_count;
+  int length_minus4;
+  int length_minus6;
+  int count;
+  int read_count_mask;
+  int length_mask;
+  int length_shift;
+  int address_high;
+  int address_low;
+  int address_high_mask;
+  int address_low_mask;
+  int address_high2;
+  int address_low2;
+  int address_high_mask2;
+  int address_low_mask2;
+  int address_high3;
+  int address_low3;
+  int address_high_mask3;
+  int address_low_mask3;
+  int address_high4;
+  int address_low4;
+  int address_high_mask4;
+  int address_low_mask4;
+  int address_high1_reg_offset;
+  int address_low1_reg_offset;
+  int address_high2_reg_offset;
+  int address_low2_reg_offset;
+  int address_high3_reg_offset;
+  int address_low3_reg_offset;
+  int address_high4_reg_offset;
+  int address_low4_reg_offset;
+  
+  int tx_address_high;
+  int tx_address_high_mask;
+  int tx_address_low;
+  int tx_address_low_mask;
+    
+  set control_reg_offset    0x10;
+  set status_reg_offset     0x1C;
+  set tx_FIFO_offset        0x08;
+  set rx_FIFO_offset        0x0c;
+  set int_reg_offset        0x14;
+  
+  set address_high1_reg_offset   0x30;
+  set address_low1_reg_offset    0x34;
+  set address_high2_reg_offset   0x38;
+  set address_low2_reg_offset    0x3C;
+  set address_high3_reg_offset   0x40;
+  set address_low3_reg_offset    0x44;
+  set address_high4_reg_offset   0x48;
+  set address_low4_reg_offset    0x4c;
+
+  set length_minus4 length - 4;
+  set length_minus6 length - 6;
+  
+  set delay_loop            0x00;
+  
+  waitns 500;
+
+  timeout (50*50*10*10*10*10);
+
+  header "Set up Consumer Type Register 1";
+    set address_high address >> 8;
+    set address_high_mask address_high and 0x000000FF;
+    set address_low  address;
+    set address_low_mask address_low and 0x000000FF;
+    
+  header "Set up Consumer Type Register 2";
+    set address_high2 address2 >> 8;
+    set address_high_mask2 address_high2 and 0x000000FF;
+    set address_low2  address2;
+    set address_low_mask2 address_low2 and 0x000000FF;  
+    
+  header "Set up Consumer Type Register 3";
+    set address_high3 address3 >> 8;
+    set address_high_mask3 address_high3 and 0x000000FF;
+    set address_low3  address3;
+    set address_low_mask3 address_low3 and 0x000000FF;
+
+  header "Set up Consumer Type Register 4";
+    set address_high4 address4 >> 8;
+    set address_high_mask4 address_high4 and 0x000000FF;
+    set address_low4  address4;
+    set address_low_mask4 address_low4 and 0x000000FF;
+
+  header "Set up Address included as part of packet header";
+    set tx_address_high tx_address >> 2;
+    set tx_address_high_mask tx_address_high and 0x000000FF;
+    set tx_address_low  tx_address << 6;
+    set tx_address_low_mask tx_address_low and 0x000000FF;
+         
+         
+  # Poll for RX PACKET AVAILABLE
+  pollbit w CommsFPGA_top_0 status_reg_offset  4   1
+           
+
+  header "Read 1st Byte to FIFO"
+    readcheck w CommsFPGA_top_0 rx_FIFO_offset tx_address_high_mask;
+    
+  header "Read 2nd Byte to FIFO"
+    readcheck w CommsFPGA_top_0 rx_FIFO_offset tx_address_low_mask;
+    
+  header "Read MSB Packet Length to FIFO"
+    readcheck w CommsFPGA_top_0 rx_FIFO_offset length_shift;
+    
+  header "Read LSB Packet Length to FIFO"
+    set length_mask length and 0x000000FF;               # Must mask off upper bits since data bus is only 8-bits
+    readcheck w CommsFPGA_top_0 rx_FIFO_offset length_mask;
+  
+  header "Read From FIFO"
+    loop read_count 0 length_minus6 1
+      set read_count_mask read_count and 0x000000ff;
+      readcheck w CommsFPGA_top_0 rx_FIFO_offset read_count_mask;
+      wait 4;
+    endloop
+
+  read w CommsFPGA_top_0 rx_FIFO_offset;  # read Upper CRC byte
+  read w CommsFPGA_top_0 rx_FIFO_offset;  # read Lower CRC byte
+
+return

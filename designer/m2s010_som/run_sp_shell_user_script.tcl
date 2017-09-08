@@ -1,0 +1,1 @@
+smartpower_report_power -clock_breakdown "TRUE" -rail_breakdown "TRUE" -type_breakdown "TRUE" {C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\designer\m2s010_som\m2s010_som_power_report.xml}

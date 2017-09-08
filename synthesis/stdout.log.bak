@@ -1,0 +1,78 @@
+sourcing C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\message_override.tcl
+
+Starting:    C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3
+Hostname:    SCOTT-PC
+Date:        Mon Feb 06 11:45:03 2017
+Version:     J-2015.03M-3
+
+Arguments:   -product synplify_pro m2s010_som_syn.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+auto_infer_blackbox is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+log file: "C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\m2s010_som.srr"
+Running: synthesis_1 in foreground
+
+Running m2s010_som_syn|synthesis_1
+
+Running: compile (Compile) on m2s010_som_syn|synthesis_1
+
+Running: compile_flow (Compile Process) on m2s010_som_syn|synthesis_1
+
+Running: identify_db_generator (Identify Database Generator) on m2s010_som_syn|synthesis_1
+Copied C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\synlog\m2s010_som_identify_db_generator.srr to C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\identify.srr
+
+identify_db_generator Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Running: identify_compile (Identify Compile) on m2s010_som_syn|synthesis_1
+
+identify_compile Completed
+Return Code: 0
+Run Time:0h:00m:12s
+
+Running: compiler (Compile Input) on m2s010_som_syn|synthesis_1
+Copied C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\synwork\m2s010_som_comp.srs to C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\m2s010_som.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:05s
+
+Running: multi_srs_gen (Multi-srs Generator) on m2s010_som_syn|synthesis_1
+Copied C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\synwork\m2s010_som_comp.srs to C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\synwork\m2s010_som_s.srs
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+Copied C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\synwork\m2s010_som_mult.srs to C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\m2s010_som.srs
+Complete: Compile Process on m2s010_som_syn|synthesis_1
+
+Running: premap (Pre-mapping) on m2s010_som_syn|synthesis_1
+Copied C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\m2s010_som.sap to C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\synwork\m2s010_som_s.sap
+Copied C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\m2s010_som.fse to C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\synwork\m2s010_som_s.fse
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:14s
+Complete: Compile on m2s010_som_syn|synthesis_1
+
+Running: map (Map) on m2s010_som_syn|synthesis_1
+
+Running: fpga_mapper (Map & Optimize) on m2s010_som_syn|synthesis_1
+Copied C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\synwork\m2s010_som_m.srm to C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_3\synthesis\synthesis_1\m2s010_som.srm
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:16s
+Complete: Map on m2s010_som_syn|synthesis_1
+Complete: Logic Synthesis on m2s010_som_syn|synthesis_1
+exit status=0
+License checkin: synplifypro_actel

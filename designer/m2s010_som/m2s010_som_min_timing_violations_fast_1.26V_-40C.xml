@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Timing Violation Report Min Delay Analysis
+</title>
+<text>SmartTime Version 11.8.0.26</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)</text>
+<text>Date: Fri Aug 11 12:30:18 2017
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>m2s010_som</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S060T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>325 FCSBGA</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>-40 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Min Operating Conditions</cell>
+ <cell>BEST - 1.26 V - -40 C</cell>
+</row>
+<row>
+ <cell>Max Operating Conditions</cell>
+ <cell>WORST - 1.14 V - 100 C</cell>
+</row>
+<row>
+ <cell>Scenario for Timing Analysis</cell>
+ <cell>Primary</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>CommsFPGA_top_0/BIT_CLK:CLK</cell>
+ <cell>CommsFPGA_top_0/BIT_CLK:D</cell>
+ <cell>0.384</cell>
+ <cell>-1.506</cell>
+ <cell>0.701</cell>
+ <cell>2.207</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>CommsFPGA_top_0/BIT_CLK:CLK</cell>
+ <cell>CommsFPGA_top_0/MANCHESTER_ENCODER_INST/MANCHESTER_OUT:D</cell>
+ <cell>0.450</cell>
+ <cell>-1.440</cell>
+ <cell>0.767</cell>
+ <cell>2.207</cell>
+</row>
+</table>
+<text></text>
+</doc>

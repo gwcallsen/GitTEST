@@ -1,0 +1,54 @@
+FlashPro
+Version: 11.6.1.6
+Release: v11.6 SP1
+
+Software Version: 11.6.1.6
+Driver : 3.0.0 build 1
+programmer '93036' : FlashPro4
+Opened
+'C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_5_Unified/designer/m2s0\
+10_som/m2s010_som_fp/m2s010_som.pro'
+The 'open_project' command succeeded.
+IPD file
+'C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_5_Unified/designer/m2s0\
+10_som/m2s010_som.ipd' has been loaded successfully.
+DESIGN : m2s010_som;  CHECKSUM : 760A;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S060T'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '93036' : Scan Chain...
+Warning: programmer '93036' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '93036' : Check Chain...
+programmer '93036' : Scan and Check Chain PASSED.
+programmer '93036' : device 'M2S060T' : Executing action PROGRAM
+programmer '93036' : device 'M2S060T' : Family: SmartFusion2
+programmer '93036' : device 'M2S060T' : Product:      M2S150
+programmer '93036' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 00776444
+programmer '93036' : device 'M2S060T' : EXPORT CRCERR: [1] = 0
+programmer '93036' : device 'M2S060T' : EXPORT EDCERR: [1] = 0
+programmer '93036' : device 'M2S060T' : TEMPGRADE: ROOM
+programmer '93036' : device 'M2S060T' : EXPORT VPPRANGE: [3] = 2
+programmer '93036' : device 'M2S060T' : VPPRANGE: HIGH
+programmer '93036' : device 'M2S060T' : EXPORT TEMP: [8] = 64
+programmer '93036' : device 'M2S060T' : EXPORT VPP: [8] = 77
+programmer '93036' : device 'M2S060T' : Programming FPGA Array and eNVM...
+programmer '93036' : device 'M2S060T' :
+===================================================================================
+programmer '93036' : device 'M2S060T' : EXPORT DSN[128] = 72a1f0c6e2f681c36aaee5b4655994d6
+programmer '93036' : device 'M2S060T' :
+===================================================================================
+programmer '93036' : device 'M2S060T' : Finished: Mon Mar 06 18:33:28 2017 (Elapsed time
+00:01:01)
+programmer '93036' : device 'M2S060T' : Executing action PROGRAM PASSED.
+programmer '93036' : Chain programming PASSED.
+Chain Programming Finished: Mon Mar 06 18:33:28 2017 (Elapsed time 00:01:01)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

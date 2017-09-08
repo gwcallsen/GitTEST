@@ -1,0 +1,559 @@
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 1  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 1  
+ Total paths eligible for improvement: 23      
+ Total paths improved: 21      
+-------------------------
+
+Path 1
+------------------------
+From: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/TX_IDLE_LINE_DETECTOR/idle_line:CLK
+  To: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/tx_idle_line_s:D
+------------------------
+Path min-delay slack:      -972 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/tx_idle_line_s:D
+-------------------------------------
+  Pin max-delay slack:     7462 ps
+  Min-delay inserted:      1022 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/tx_idle_line_s_CFG1C_TEST1
+      mdr_CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/tx_idle_line_s_CFG1C_TEST0
+      mdr_CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/tx_idle_line_s_CFG1C_TEST
+
+
+Path 2
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[6]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[6]:D
+------------------------
+Path min-delay slack:      -935 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[6]:D
+-------------------------------------
+  Pin max-delay slack:     4155 ps
+  Min-delay inserted:      1008 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[6]_CFG1D_TEST0
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[6]_CFG1D_TEST
+
+
+Path 3
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[7]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[7]:D
+------------------------
+Path min-delay slack:      -831 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[7]:D
+-------------------------------------
+  Pin max-delay slack:     3961 ps
+  Min-delay inserted:       915 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[7]_CFG1B_TEST
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[7]_CFG1C_TEST
+
+
+Path 4
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[4]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[4]:D
+------------------------
+Path min-delay slack:      -828 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[4]:D
+-------------------------------------
+  Pin max-delay slack:     3957 ps
+  Min-delay inserted:       808 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[4]_CFG1C_TEST1
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[4]_CFG1C_TEST0
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[4]_CFG1C_TEST
+
+
+Path 5
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[5]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[5]:D
+------------------------
+Path min-delay slack:      -824 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[5]:D
+-------------------------------------
+  Pin max-delay slack:     3944 ps
+  Min-delay inserted:       888 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[5]_CFG1A_TEST
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[5]_CFG1D_TEST
+
+
+Path 6
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[1]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[1]:D
+------------------------
+Path min-delay slack:      -818 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[1]:D
+-------------------------------------
+  Pin max-delay slack:     3935 ps
+  Min-delay inserted:       809 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[1]_CFG1C_TEST1
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[1]_CFG1C_TEST0
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[1]_CFG1C_TEST
+
+
+Path 7
+------------------------
+From: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/control_reg[5]:CLK
+  To: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/start_tx_FIFO_s:D
+------------------------
+Path min-delay slack:      -817 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/start_tx_FIFO_s:D
+-------------------------------------
+  Pin max-delay slack:     3931 ps
+  Min-delay inserted:       926 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/start_tx_FIFO_s_CFG1A_TEST
+      mdr_CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/start_tx_FIFO_s_CFG1D_TEST
+
+
+Path 8
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[11]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[11]:D
+------------------------
+Path min-delay slack:      -811 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[11]:D
+-------------------------------------
+  Pin max-delay slack:     3926 ps
+  Min-delay inserted:       880 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[11]_CFG1A_TEST
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[11]_CFG1C_TEST
+
+
+Path 9
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[9]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[9]:D
+------------------------
+Path min-delay slack:      -799 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[9]:D
+-------------------------------------
+  Pin max-delay slack:     3909 ps
+  Min-delay inserted:       809 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[9]_CFG1D_TEST
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[9]_CFG1C_TEST0
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[9]_CFG1C_TEST
+
+
+Path 10
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[10]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[10]:D
+------------------------
+Path min-delay slack:      -796 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[10]:D
+-------------------------------------
+  Pin max-delay slack:     3901 ps
+  Min-delay inserted:       878 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[10]_CFG1A_TEST
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[10]_CFG1D_TEST
+
+
+Path 11
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[8]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[8]:D
+------------------------
+Path min-delay slack:      -796 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[8]:D
+-------------------------------------
+  Pin max-delay slack:     3899 ps
+  Min-delay inserted:       812 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[8]_CFG1C_TEST0
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[8]_CFG1D_TEST
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[8]_CFG1C_TEST
+
+
+Path 12
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[0]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[0]:D
+------------------------
+Path min-delay slack:      -778 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[0]:D
+-------------------------------------
+  Pin max-delay slack:     3862 ps
+  Min-delay inserted:       809 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[0]_CFG1C_TEST
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[0]_CFG1D_TEST
+
+
+Path 13
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[2]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[2]:D
+------------------------
+Path min-delay slack:      -726 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[2]:D
+-------------------------------------
+  Pin max-delay slack:     3789 ps
+  Min-delay inserted:       859 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[2]_CFG1A_TEST
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[2]_CFG1D_TEST
+
+
+Path 14
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[3]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[3]:D
+------------------------
+Path min-delay slack:      -599 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[3]:D
+-------------------------------------
+  Pin max-delay slack:     3533 ps
+  Min-delay inserted:       703 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[3]_CFG1D_TEST
+
+
+Path 15
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RW1.UI_ram_wrapper_1/L1_asyncnonpipe/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0/INST_RAM1K18_IP:A_CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[6]:D
+------------------------
+Path min-delay slack:      -186 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[6]:D
+-------------------------------------
+  Pin max-delay slack:   195990 ps
+  Min-delay inserted:       569 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[6]_CFG1B_TEST
+
+
+Path 16
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RW1.UI_ram_wrapper_1/L1_asyncnonpipe/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0/INST_RAM1K18_IP:A_CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[7]:D
+------------------------
+Path min-delay slack:      -182 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[7]:D
+-------------------------------------
+  Pin max-delay slack:   195979 ps
+  Min-delay inserted:       566 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[7]_CFG1D_TEST
+
+
+Path 17
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RW1.UI_ram_wrapper_1/L1_asyncnonpipe/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0/INST_RAM1K18_IP:A_CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[3]:D
+------------------------
+Path min-delay slack:       -97 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[3]:D
+-------------------------------------
+  Pin max-delay slack:   195836 ps
+  Min-delay inserted:       489 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[3]_CFG1B_TEST
+
+
+Path 18
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RW1.UI_ram_wrapper_1/L1_asyncnonpipe/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0/INST_RAM1K18_IP:A_CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[2]:D
+------------------------
+Path min-delay slack:       -73 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[2]:D
+-------------------------------------
+  Pin max-delay slack:   195826 ps
+  Min-delay inserted:       466 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[2]_CFG1C_TEST
+
+
+Path 19
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RW1.UI_ram_wrapper_1/L1_asyncnonpipe/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0/INST_RAM1K18_IP:A_CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[0]:D
+------------------------
+Path min-delay slack:       -59 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[0]:D
+-------------------------------------
+  Pin max-delay slack:   195796 ps
+  Min-delay inserted:       476 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[0]_CFG1A_TEST
+
+
+Path 20
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RW1.UI_ram_wrapper_1/L1_asyncnonpipe/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0/INST_RAM1K18_IP:A_CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[4]:D
+------------------------
+Path min-delay slack:       -15 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[4]:D
+-------------------------------------
+  Pin max-delay slack:   195679 ps
+  Min-delay inserted:       439 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[4]_CFG1A_TEST
+
+
+Path 21
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RW1.UI_ram_wrapper_1/L1_asyncnonpipe/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0/INST_RAM1K18_IP:A_CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[5]:D
+------------------------
+Path min-delay slack:        -8 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[5]:D
+-------------------------------------
+  Pin max-delay slack:   195661 ps
+  Min-delay inserted:       396 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[5]_CFG1A_TEST
+
+
+Path 22
+------------------------
+From: CommsFPGA_top_0/BIT_CLK:CLK
+  To: CommsFPGA_top_0/BIT_CLK:D
+------------------------
+Path min-delay slack:     -1506 ps
+------------------------
+... None of the following nets could be modified:
+      CommsFPGA_top_0/BIT_CLK_i_i
+      CommsFPGA_top_0/BIT_CLK_0
+      CommsFPGA_CCC_0_GL1
+
+Path 23
+------------------------
+From: CommsFPGA_top_0/BIT_CLK:CLK
+  To: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/MANCHESTER_OUT:D
+------------------------
+Path min-delay slack:     -1440 ps
+------------------------
+... None of the following nets could be modified:
+      CommsFPGA_top_0/MANCHESTER_OUT_5
+      CommsFPGA_top_0/BIT_CLK_0
+      CommsFPGA_CCC_0_GL1
+
+
+
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 2  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 2  
+ Total paths eligible for improvement: 6       
+ Total paths improved: 4       
+-------------------------
+
+Path 1
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[5]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[5]:D
+------------------------
+Path min-delay slack:      -119 ps
+------------------------
+  On sink pin: mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[5]_CFG1A_TEST:A
+-------------------------------------
+  Pin max-delay slack:     2694 ps
+  Min-delay inserted:       408 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[5]_CFG1A_TEST_CFG1D_TEST
+
+
+Path 2
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/wptr_gray[10]:CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/Wr_corefifo_doubleSync/sync_int[10]:D
+------------------------
+Path min-delay slack:      -103 ps
+------------------------
+  On sink pin: mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[10]_CFG1A_TEST:A
+-------------------------------------
+  Pin max-delay slack:     2671 ps
+  Min-delay inserted:       466 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[10]_CFG1A_TEST_CFG1A_TEST
+      mdr_mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31_U_corefifo_async/Wr_corefifo_doubleSync/sync_int[10]_CFG1A_TEST_CFG1D_TEST
+
+
+Path 3
+------------------------
+From: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/control_reg[5]:CLK
+  To: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/start_tx_FIFO_s:D
+------------------------
+Path min-delay slack:       -49 ps
+------------------------
+  On sink pin: mdr_CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/start_tx_FIFO_s_CFG1A_TEST:A
+-------------------------------------
+  Pin max-delay slack:     2571 ps
+  Min-delay inserted:       466 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_mdr_CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/start_tx_FIFO_s_CFG1A_TEST_CFG1A_TEST
+      mdr_mdr_CommsFPGA_top_0/MANCHESTER_ENCODER_INST/TRANSMIT_SM/start_tx_FIFO_s_CFG1A_TEST_CFG1D_TEST
+
+
+Path 4
+------------------------
+From: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RW1.UI_ram_wrapper_1/L1_asyncnonpipe/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0/INST_RAM1K18_IP:A_CLK
+  To: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[1]:D
+------------------------
+Path min-delay slack:       -19 ps
+------------------------
+  On sink pin: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[1]:D
+-------------------------------------
+  Pin max-delay slack:   195680 ps
+  Min-delay inserted:       436 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/RDATA_r[1]_CFG1A_TEST
+
+
+Path 5
+------------------------
+From: CommsFPGA_top_0/BIT_CLK:CLK
+  To: CommsFPGA_top_0/BIT_CLK:D
+------------------------
+Path min-delay slack:     -1506 ps
+------------------------
+... None of the following nets could be modified:
+      CommsFPGA_top_0/BIT_CLK_0
+      CommsFPGA_top_0/BIT_CLK_i_i
+      CommsFPGA_CCC_0_GL1
+
+Path 6
+------------------------
+From: CommsFPGA_top_0/BIT_CLK:CLK
+  To: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/MANCHESTER_OUT:D
+------------------------
+Path min-delay slack:     -1440 ps
+------------------------
+... None of the following nets could be modified:
+      CommsFPGA_top_0/BIT_CLK_0
+      CommsFPGA_top_0/MANCHESTER_OUT_5
+      CommsFPGA_CCC_0_GL1
+
+
+
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 3  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 3  
+ Total paths eligible for improvement: 2       
+ Total paths improved: 0       
+-------------------------
+
+Path 1
+------------------------
+From: CommsFPGA_top_0/BIT_CLK:CLK
+  To: CommsFPGA_top_0/BIT_CLK:D
+------------------------
+Path min-delay slack:     -1506 ps
+------------------------
+... None of the following nets could be modified:
+      CommsFPGA_top_0/BIT_CLK_0
+      CommsFPGA_top_0/BIT_CLK_i_i
+      CommsFPGA_CCC_0_GL1
+
+Path 2
+------------------------
+From: CommsFPGA_top_0/BIT_CLK:CLK
+  To: CommsFPGA_top_0/MANCHESTER_ENCODER_INST/MANCHESTER_OUT:D
+------------------------
+Path min-delay slack:     -1440 ps
+------------------------
+... None of the following nets could be modified:
+      CommsFPGA_top_0/BIT_CLK_0
+      CommsFPGA_top_0/MANCHESTER_OUT_5
+      CommsFPGA_CCC_0_GL1
+
+
+Note:
+    [1]: A net cannot be modified for repair if:
+         - it is hardwired, preserved, or global;
+         - the sink pin is a clock pin;
+         - the sink pin has negative max-delay slack allowance;
+         - the sink and driving pins are placed in the same cluster.
+
+    [2]: A location is not feasible for inserting a delay buffer if the estimated minimum delay to be inserted might exceed the max-delay slack allowance of the sink pin.
+
+
+

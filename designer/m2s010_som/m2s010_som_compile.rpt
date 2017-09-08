@@ -1,0 +1,252 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Fri Jul 28 14:13:38 2017
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S060T        |
+| Package                        | 325 FCSBGA     |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+----------------------------------------------------------------------------------------------+
+| Topcell | m2s010_som                                                                                   |
+| Format  | EDIF                                                                                         |
+| Source  | C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\synthesis\m2s010_som.edn        |
+| Source  | C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\constraint\io\m2s010_som.io.pdc |
+| Source  | C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA\constraint\fp\m2s010_som.fp.pdc |
++---------+----------------------------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1400 | 56520 | 2.48       |
+| DFF                       | 1228 | 56520 | 2.17       |
+| I/O Register              | 0    | 594   | 0.00       |
+| User I/O                  | 123  | 198   | 62.12      |
+| -- Single-ended I/O       | 121  | 198   | 61.11      |
+| -- Differential I/O Pairs | 1    | 99    | 1.01       |
+| RAM64x18                  | 0    | 72    | 0.00       |
+| RAM1K18                   | 6    | 69    | 8.70       |
+| MACC                      | 0    | 72    | 0.00       |
+| Chip Globals              | 16   | 16    | 100.00     |
+| CCC                       | 2    | 6     | 33.33      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 1    | 1     | 100.00     |
+| SERDESIF Blocks           | 0    | 1     | 0.00       |
+| -- SERDESIF Lanes         | 0    | 2     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 1184 | 1012 |
+| RAM64x18 Interface Logic | 0    | 0    |
+| RAM1K18 Interface Logic  | 216  | 216  |
+| MACC Interface Logic     | 0    | 0    |
+| Total Used               | 1400 | 1228 |
++--------------------------+------+------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 2    | 2     |
+| I2C           | 1    | 2     |
+| UART          | 2    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 1    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 0    | 1     |
+| PDMA          | 0    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 14   |
+| 5      | 1    |
+| 7      | 2    |
+| 8      | 2    |
+| 9      | 2    |
+| 11     | 5    |
+| 12     | 4    |
+| 13     | 6    |
+| 14     | 4    |
+| 15     | 1    |
+| 16     | 3    |
+| Total  | 44   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 25           | 0           | 0               |
+| Output I/O                    | 53           | 0           | 0               |
+| Bidirectional I/O             | 43           | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 1            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++-----------------+--------+------+-------+--------+---------------+
+| I/O Standard    | Vddi   | Vref | Input | Output | Bidirectional |
++-----------------+--------+------+-------+--------+---------------+
+| LVCMOS33        |  3.30v |  N/A |  24   |  26    |  23           |
+| LVCMOS18        |  1.80v |  N/A |  1    |  27    |  20           |
+| LPDDRI (Output) |  1.80v |  N/A |  0    |  2     |  0            |
++-----------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  123  | 100.00%    |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  0    | 0.00%      |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                |
++--------+---------+-----------------------------------------------------------------------------------------------------+
+| 332    | INT_NET | Net   : m2s010_som_sb_0_CCC_71MHz                                                                   |
+|        |         | Driver: m2s010_som_sb_0/CCC_0/GL0_INST/U0_RGB1                                                      |
+|        |         | Source: NETLIST                                                                                     |
+| 314    | INT_NET | Net   : CommsFPGA_CCC_0_GL0                                                                         |
+|        |         | Driver: CommsFPGA_CCC_0/GL0_INST/U0_RGB1                                                            |
+|        |         | Source: NETLIST                                                                                     |
+| 258    | INT_NET | Net   : CommsFPGA_top_0/BIT_CLK                                                                     |
+|        |         | Driver: CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2/U0_RGB1                                      |
+|        |         | Source: NETLIST                                                                                     |
+| 228    | INT_NET | Net   : CommsFPGA_top_0/N_480                                                                       |
+|        |         | Driver: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNISH6E/U0_RGB1          |
+|        |         | Source: NETLIST                                                                                     |
+| 183    | INT_NET | Net   : CommsFPGA_top_0/FIFOS_INST/irx_fifo_rst_i                                                   |
+|        |         | Driver: CommsFPGA_top_0/FIFOS_INST/irx_fifo_rst_RNIS228/U0_RGB1                                     |
+|        |         | Source: NETLIST                                                                                     |
+| 158    | INT_NET | Net   : CommsFPGA_top_0/FIFOS_INST/itx_fifo_rst_i                                                   |
+|        |         | Driver: CommsFPGA_top_0/FIFOS_INST/itx_fifo_rst_RNIUMSA/U0_RGB1                                     |
+|        |         | Source: NETLIST                                                                                     |
+| 103    | INT_NET | Net   : CommsFPGA_top_0/long_reset                                                                  |
+|        |         | Driver: CommsFPGA_top_0/long_reset_RNIUA27/U0_RGB1                                                  |
+|        |         | Source: NETLIST                                                                                     |
+| 77     | INT_NET | Net   : m2s010_som_sb_0/CORECONFIGP_0_APB_S_PRESET_N                                                |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST_RNI1CJ7/U0_RGB1                          |
+|        |         | Source: NETLIST                                                                                     |
+| 75     | INT_NET | Net   : m2s010_som_sb_0/CORECONFIGP_0_APB_S_PCLK                                                    |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPG5/U0_RGB1          |
+|        |         | Source: NETLIST                                                                                     |
+| 49     | INT_NET | Net   : CommsFPGA_top_0/N_106_mux_i_i                                                               |
+|        |         | Driver: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/control_reg_RNIS9SH1_0[1]/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                                     |
+| 20     | INT_NET | Net   : m2s010_som_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F                                                 |
+|        |         | Driver: m2s010_som_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                                |
+|        |         | Source: NETLIST                                                                                     |
+| 19     | INT_NET | Net   : m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_clk_base                                          |
+|        |         | Driver: m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIEFM9/U0_RGB1                          |
+|        |         | Source: NETLIST                                                                                     |
+| 18     | INT_NET | Net   : m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_rcosc                                             |
+|        |         | Driver: m2s010_som_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIKFSA/U0_RGB1                             |
+|        |         | Source: NETLIST                                                                                     |
+| 16     | INT_NET | Net   : CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/rx_crc_reset_i               |
+|        |         | Driver: CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/rx_crc_reset_RNI34TD/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                     |
+| 16     | INT_NET | Net   : CommsFPGA_top_0/N_9_0_i_i                                                                   |
+|        |         | Driver: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNIC0QJ_0/U0_RGB1        |
+|        |         | Source: NETLIST                                                                                     |
+| 2      | INT_NET | Net   : CommsFPGA_CCC_0_GL1                                                                         |
+|        |         | Driver: CommsFPGA_CCC_0/GL1_INST/U0_RGB1                                                            |
+|        |         | Source: NETLIST                                                                                     |
++--------+---------+-----------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                        |
++--------+---------+---------------------------------------------------------------------------------------------+
+| 64     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[3]                                                      |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST                                  |
+| 58     | INT_NET | Net   : CommsFPGA_top_0/byte_clk_en                                                         |
+|        |         | Driver: CommsFPGA_top_0/byte_clk_en                                                         |
+| 54     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[2]                                                      |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST                                  |
+| 45     | INT_NET | Net   : CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/N_236_i              |
+|        |         | Driver: CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/SM_advance_i_RNIAH4K |
+| 33     | INT_NET | Net   : CommsFPGA_top_0/N_283_i                                                             |
+|        |         | Driver: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/iRX_FIFO_rd_en_RNI4O78_0                   |
+| 31     | INT_NET | Net   : m2s010_som_sb_0/CORECONFIGP_0/state_d[2]                                            |
+|        |         | Driver: m2s010_som_sb_0/CORECONFIGP_0/state_s0_0_a2                                         |
+| 27     | INT_NET | Net   : CFG0_GND_INST_NET                                                                   |
+|        |         | Driver: CFG0_GND_INST                                                                       |
+| 26     | INT_NET | Net   : CommsFPGA_top_0/fifo_MEMRE                                                          |
+|        |         | Driver: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/m1                                         |
+| 25     | INT_NET | Net   : m2s010_som_sb_0/CORECONFIGP_0/state[1]                                              |
+|        |         | Driver: m2s010_som_sb_0/CORECONFIGP_0/state[1]                                              |
+| 24     | INT_NET | Net   : CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/fifo_MEMWE                     |
+|        |         | Driver: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/memwe     |
++--------+---------+---------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                        |
++--------+---------+---------------------------------------------------------------------------------------------+
+| 64     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[3]                                                      |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST                                  |
+| 58     | INT_NET | Net   : CommsFPGA_top_0/byte_clk_en                                                         |
+|        |         | Driver: CommsFPGA_top_0/byte_clk_en                                                         |
+| 54     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[2]                                                      |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST                                  |
+| 45     | INT_NET | Net   : CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/N_236_i              |
+|        |         | Driver: CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/SM_advance_i_RNIAH4K |
+| 33     | INT_NET | Net   : CommsFPGA_top_0/N_283_i                                                             |
+|        |         | Driver: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/iRX_FIFO_rd_en_RNI4O78_0                   |
+| 31     | INT_NET | Net   : m2s010_som_sb_0/CORECONFIGP_0/state_d[2]                                            |
+|        |         | Driver: m2s010_som_sb_0/CORECONFIGP_0/state_s0_0_a2                                         |
+| 27     | INT_NET | Net   : CFG0_GND_INST_NET                                                                   |
+|        |         | Driver: CFG0_GND_INST                                                                       |
+| 26     | INT_NET | Net   : CommsFPGA_top_0/fifo_MEMRE                                                          |
+|        |         | Driver: CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/m1                                         |
+| 25     | INT_NET | Net   : m2s010_som_sb_0/CORECONFIGP_0/state[1]                                              |
+|        |         | Driver: m2s010_som_sb_0/CORECONFIGP_0/state[1]                                              |
+| 24     | INT_NET | Net   : CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/fifo_MEMWE                     |
+|        |         | Driver: CommsFPGA_top_0/FIFOS_INST/TRANSMIT_FIFO/FIFO_2Kx8_0/L31.U_corefifo_async/memwe     |
++--------+---------+---------------------------------------------------------------------------------------------+
+

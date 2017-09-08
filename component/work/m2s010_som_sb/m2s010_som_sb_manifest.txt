@@ -1,0 +1,31 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)
+
+Date      :  Thu Mar 02 16:36:07 2017
+Project   :  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_xCommon
+Component :  m2s010_som_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/CAM_SPI_1_CLK/m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/CAM_SPI_1_SS0/m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/GPIO_1/m2s010_som_sb_GPIO_1_IO.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/GPIO_6/m2s010_som_sb_GPIO_6_IO.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/GPIO_7/m2s010_som_sb_GPIO_7_IO.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/OTH_SPI_1_SS0/m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/m2s010_som_sb.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/SgCore/OSC/1.0.105/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/Actel/SgCore/OSC/1.0.105/osc_comps_pre.vhd
+
+Stimulus files for all Simulation tools:
+    C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_xCommon/component/work/m2s010_som_sb/subsystem.bfm
+

@@ -1,0 +1,52 @@
+Warning: CMPG4-007: Top level port GPIO_1_BIDI<0> is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       19 
+      Globals that cannot be demoted:      3 
+      Globals considered for demotion:     16 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    332    0      0      'm2s010_som_sb_0/CCC_0/GL0_INST' 
+    314    0      0      'CommsFPGA_CCC_0/GL0_INST' 
+    2      0      0      'CommsFPGA_CCC_0/GL1_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    258    0      3      'CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2' 
+    75     0      0      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPG5' 
+    20     0      0      'm2s010_som_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    3      225    17     'CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNISH6E' 
+    1      102    8      'CommsFPGA_top_0/long_reset_RNIUA27' 
+    0      183    0      'CommsFPGA_top_0/FIFOS_INST/irx_fifo_rst_RNIS228' 
+    0      158    0      'CommsFPGA_top_0/FIFOS_INST/itx_fifo_rst_RNIUMSA' 
+    0      77     0      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST_RNI1CJ7' 
+    0      49     0      'CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/control_reg_RNIS9SH1_0[1]' 
+    0      19     0      'm2s010_som_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIEFM9' 
+    0      18     0      'm2s010_som_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIKFSA' 
+    0      16     0      'CommsFPGA_top_0/MANCHESTER_DECODER_INST/ReadFIFO_Write_SM_PROC/rx_crc_reset_RNI34TD' 
+    0      16     0      'CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNIC0QJ_0' 
+    0      14     0      'CommsFPGA_top_0/bd_reset_RNIK1J6' 
+    0      13     0      'I_291' 
+    0      12     6      'CommsFPGA_top_0/MANCHESTER_DECODER_INST/AFE_RX_STATE_MACHINE/irx_packet_end_all_RNIB6KE_0' 
+
+Info: Demotion information: 
+      Disconnected 3 data pins from global 'CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2'. 
+      Disconnected 17 data pins from global 'CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RESET_i_a2_RNISH6E'. 
+      Disconnected 8 data pins from global 'CommsFPGA_top_0/long_reset_RNIUA27'. 
+      Disconnected 6 data pins from global 'CommsFPGA_top_0/MANCHESTER_DECODER_INST/AFE_RX_STATE_MACHINE/irx_packet_end_all_RNIB6KE_0'. 
+      Deleted global instance 'CommsFPGA_top_0/bd_reset_RNIK1J6'.
+      Deleted global instance 'I_291'.
+      Deleted global instance 'CommsFPGA_top_0/MANCHESTER_DECODER_INST/AFE_RX_STATE_MACHINE/irx_packet_end_all_RNIB6KE_0'.
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 3 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/constraint/io/m2s010_som.io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA/constraint/fp/m2s010_som.fp.pdc. 0 error(s) and 0 warning(s)
